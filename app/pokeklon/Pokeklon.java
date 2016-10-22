@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import pokeklon.controller.impl.PokeklonController;
 import pokeklon.view.gui.PokeklonFrame;
 import pokeklon.view.tui.TextUI;
 
@@ -12,10 +13,7 @@ import com.google.inject.Injector;
 
 import pokeklon.controller.IPokeklonController;
 
-import play.mvc.Controller;
-import play.mvc.Result;
-
- public class Pokeklon extends Controller {
+ public class Pokeklon {
 	
 	private Pokeklon() {}
 	
@@ -25,10 +23,10 @@ import play.mvc.Result;
 		//Dependency Injection
 		Injector injector = Guice.createInjector(new PokeklonModule());
 		//Build Application
-		IPokeklonController controller = injector.getInstance(IPokeklonController.class);
+		IPokeklonController controller = new PokeklonController();//injector.getInstance(IPokeklonController.class);
 			//GUI
 		@SuppressWarnings("unused")
-		PokeklonFrame gui = injector.getInstance(PokeklonFrame.class);
+		PokeklonFrame gui = new PokeklonFrame(controller);//injector.getInstance(PokeklonFrame.class);
 			//TUI
 		TextUI tui = injector.getInstance(TextUI.class);
 		
@@ -43,9 +41,4 @@ import play.mvc.Result;
 			tui.processInputLine(reader.readLine());
 		}
 	}
-
-	 public static Result index() {
-		 System.out.println("Console Pokeklon");
-		 return ok("Pokeklon started");
-	 }
 }

@@ -35,7 +35,7 @@ public final class AbsoluteTermsGUI {
 
 	public static final Dimension J_PROGRESS_BAR_SIZE = new Dimension((AbsoluteTermsGUI.WINDOW_WIDTH/2) - TEN, BUTTON_HEIGHT);
 	
-	public static final File LOGO_PATH = new File("src/pokeklon/data/logo.png");
+	public static final File LOGO_PATH = new File("app/pokeklon/data/logo.png");
 	
 	public static final int TWO = 2;
 	

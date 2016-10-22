@@ -12,8 +12,8 @@ import org.apache.log4j.Logger;
 
 public final class GetMonsterAndAttackList {
 	
-	private static final String MONSTER_PATH = "src/pokeklon/data/monster";
-	private static final String ATTACK_PATH = "src/pokeklon/data/attack";
+	private static final String MONSTER_PATH = "app/pokeklon/data/monster";
+	private static final String ATTACK_PATH = "app/pokeklon/data/attack";
 	
 	private static List<List<String>> monster = new LinkedList<List<String>>();
 	private static List<List<String>> attack = new LinkedList<List<String>>();
