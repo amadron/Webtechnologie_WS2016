@@ -4,11 +4,13 @@ version := "0.7.4-SNAPSHOT"
 
 scalaVersion := "2.11.1"
 
+
 libraryDependencies ++= Seq(
   javaCore, javaJdbc, javaEbean,
   "play2-crud" %% "play2-crud" % "0.7.4-SNAPSHOT",
   "play2-crud" %% "play2-crud" % "0.7.4-SNAPSHOT" classifier "assets"
 )
+libraryDependencies += "log4j" % "log4j" % "1.2.14"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
 

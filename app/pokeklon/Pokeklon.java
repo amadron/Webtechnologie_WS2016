@@ -15,7 +15,7 @@ import pokeklon.controller.IPokeklonController;
 import play.mvc.Controller;
 import play.mvc.Result;
 
- public class Pokeklon {
+ public class Pokeklon extends Controller {
 	
 	private Pokeklon() {}
 	
@@ -44,8 +44,7 @@ import play.mvc.Result;
 		}
 	}
 
-	public static Result playMain()
-	{
-		return ok("Pokeklon started");
-	}
+	 public static Result index() {
+		 return ok("Pokeklon started");
+	 }
 }

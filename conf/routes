@@ -3,4 +3,4 @@
 # ~~~~
 
 # Home page
-GET     /               pokeklon.Pokeklon.playMain()
+GET     /               pokeklon.Pokeklon.index()
