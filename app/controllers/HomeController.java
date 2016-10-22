@@ -2,7 +2,10 @@ package controllers;
 
 import play.mvc.*;
 
+import pokeklon.Pokeklon;
 import views.html.*;
+
+import java.io.IOException;
 
 /**
  * This controller contains an action to handle HTTP requests
@@ -18,7 +21,11 @@ public class HomeController extends Controller {
      */
     public Result index() {
         String[] args = {""};
-        Test.main(args);
+        try {
+            Pokeklon.main(args);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         return ok(index.render("Your new application is ready."));
     }
 

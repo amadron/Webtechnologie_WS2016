@@ -37,8 +37,8 @@ import pokeklon.controller.IPokeklonController;
 		boolean running = true;
 		InputStreamReader ips = new InputStreamReader(System.in);
 		reader = new BufferedReader(ips);
-		while(running){
+		/*while(running){
 			tui.processInputLine(reader.readLine());
-		}
+		}*/
 	}
 }
