@@ -45,6 +45,7 @@ import play.mvc.Result;
 	}
 
 	 public static Result index() {
+		 System.out.println("Console Pokeklon");
 		 return ok("Pokeklon started");
 	 }
 }
