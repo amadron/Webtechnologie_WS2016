@@ -16,17 +16,16 @@ import pokeklon.controller.IPokeklonController;
  public class Pokeklon {
 	
 	private Pokeklon() {}
-	
 	private static BufferedReader reader;
 	
 	public static void main(String[] args) throws IOException{
 		//Dependency Injection
 		Injector injector = Guice.createInjector(new PokeklonModule());
 		//Build Application
-		IPokeklonController controller = new PokeklonController();//injector.getInstance(IPokeklonController.class);
+		IPokeklonController controller = injector.getInstance(IPokeklonController.class);
 			//GUI
 		@SuppressWarnings("unused")
-		PokeklonFrame gui = new PokeklonFrame(controller);//injector.getInstance(PokeklonFrame.class);
+		PokeklonFrame gui = injector.getInstance(PokeklonFrame.class);
 			//TUI
 		TextUI tui = injector.getInstance(TextUI.class);
 		
@@ -37,8 +36,8 @@ import pokeklon.controller.IPokeklonController;
 		boolean running = true;
 		InputStreamReader ips = new InputStreamReader(System.in);
 		reader = new BufferedReader(ips);
-		/*while(running){
+		while(running){
 			tui.processInputLine(reader.readLine());
-		}*/
+		}
 	}
 }

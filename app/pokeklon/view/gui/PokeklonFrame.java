@@ -66,53 +66,53 @@ public class PokeklonFrame extends JFrame implements IObserver {
 	@Override
 	public void update(Event e) {
 		String stat = controller.getGameStat();
-		switch (stat) {
-		case "menu":
+		if(stat == "menu")
+		{
 			current = new MainMenu(controller);
 			rebuildWindow();
-			break;
-		case "monP1":
-		case "monP2":
+		}
+		else if(stat == "monP1" || stat == "monP2")
+		{
 			change = new ChoiceMenu(controller);
 			change.getMonsterPanel();
 			current = change;
 			rebuildWindow();
-			break;
-		case "battle":
+		}
+		else if(stat == "battle")
+		{
 			battle = new Battle(controller);
 			battle.getFightPane();
 			current = battle;
 			rebuildWindow();
-			break;
-		case "attack":
+		}
+		else if(stat == "attack")
+		{
 			battle = new Battle(controller);
 			battle.showAttackButtons();
 			current = battle;
 			rebuildWindow();
-			break;
-		case "itemCh":
+		}
+		else if(stat == "itemCh")
+		{
 			battle = new Battle(controller);
 			battle.showItemChange();
 			current = battle;
 			rebuildWindow();
-			break;
-		case "changeMon":
+		}
+		else if(stat == "changeMon")
+		{
 			battle = new Battle(controller);
 			battle.showMonsterChange();
 			current = battle;
 			rebuildWindow();
-			break;
-		case "end":
+		}
+		else if(stat == "end")
+		{
 			battle.getFightPane();
 			current = battle;
 			rebuildWindow();
 			new ExitScreen(controller);
-			break;
-
-		default:
-			break;
 		}
-		
 	}
 
 	private void rebuildWindow() {

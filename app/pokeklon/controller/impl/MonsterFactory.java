@@ -69,21 +69,14 @@ public class MonsterFactory implements IMonsterFactory{
 	
 	private IType getType(String type) {
 		IType tmp;
-		switch (type) {
-		case "Pflanze":
+		if(type == "Pflanze")
 			tmp = new TypePlant();
-			break;
-		case "Feuer":
+		else if(type == "Feuer")
 			tmp = new TypeFire();
-			break;
-		case "Wasser":
+		else if(type == "Wasser")
 			tmp = new TypeWater();
-			break;
-
-		default:
+		else
 			tmp = new TypeNormal();
-			break;
-		}
 		return tmp;
 	}
 
@@ -117,7 +110,7 @@ public class MonsterFactory implements IMonsterFactory{
 				break;
 			}
 		}
-		return "src/pokeklon/data/MonsterPics/" + new DecimalFormat("00").format(i) + ".jpg";
+		return "app/pokeklon/data/MonsterPics/" + new DecimalFormat("00").format(i) + ".jpg";
 	}
 	
 	@Override
@@ -129,7 +122,7 @@ public class MonsterFactory implements IMonsterFactory{
 				break;
 			}
 		}
-		return "src/pokeklon/data/MonsterPics/" + new DecimalFormat("00").format(i) + s + ".jpg";
+		return "app/pokeklon/data/MonsterPics/" + new DecimalFormat("00").format(i) + s + ".jpg";
 	}
 	
 	
