@@ -16,28 +16,45 @@ import pokeklon.controller.IPokeklonController;
  public class Pokeklon {
 	
 	private Pokeklon() {}
-	private static BufferedReader reader;
+	public static BufferedReader reader;
+	public static IPokeklonController controller;
+	public static TextUI tui;
 	
-	public static void main(String[] args) throws IOException{
-		//Dependency Injection
-		Injector injector = Guice.createInjector(new PokeklonModule());
-		//Build Application
-		IPokeklonController controller = injector.getInstance(IPokeklonController.class);
-			//GUI
-		@SuppressWarnings("unused")
-		PokeklonFrame gui = injector.getInstance(PokeklonFrame.class);
-			//TUI
-		TextUI tui = injector.getInstance(TextUI.class);
-		
-		//Create game
-		controller.getMain();
-		
-		//read input from tui
-		boolean running = true;
-		InputStreamReader ips = new InputStreamReader(System.in);
-		reader = new BufferedReader(ips);
-		while(running){
-			tui.processInputLine(reader.readLine());
-		}
+	public static void main(String[] args) throws IOException
+	{
+		Runnable runnable = new Runnable()
+		{
+			public void run()
+			{
+				//Dependency Injection
+				Injector injector = Guice.createInjector(new PokeklonModule());
+				//Build Application
+				
+				Pokeklon.controller = injector.getInstance(IPokeklonController.class);
+					//GUI
+				@SuppressWarnings("unused")
+				PokeklonFrame gui = injector.getInstance(PokeklonFrame.class);
+					//TUI
+				Pokeklon.tui = injector.getInstance(TextUI.class);
+				
+				//Create game
+				Pokeklon.controller.getMain();
+				
+				//read input from tui
+				boolean running = true;
+				InputStreamReader ips = new InputStreamReader(System.in);
+				reader = new BufferedReader(ips);
+				while(running){
+					try {
+						tui.processInputLine(Pokeklon.reader.readLine());
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			}
+		};
+		Thread thread = new Thread(runnable);
+		thread.start();
 	}
 }

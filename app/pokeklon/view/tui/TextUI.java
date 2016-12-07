@@ -23,7 +23,7 @@ public class TextUI implements IObserver{
 	private String battle = "battle";
 	private String stat;
 	private String tmpStatus = "";
-	private String output;
+	public String output;
 	private String gameStat;
 	
 	@Inject
