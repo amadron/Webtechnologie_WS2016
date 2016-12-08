@@ -1,5 +1,6 @@
 package pokeklon.view.tui;
 
+import pokeklon.Pokeklon;
 import pokeklon.controller.IPokeklonController;
 import pokeklon.model.IAttack;
 import pokeklon.model.IItem;
@@ -36,7 +37,10 @@ public class TextUI implements IObserver{
 	@Override
 	public void update(Event e) {
 		printTUI();
-		
+		if(Pokeklon.outSocket != null)
+		{
+			Pokeklon.outSocket.write((output + "\n" + Pokeklon.controller.getStatusLine()).replace("\n", "<br>"));
+		}
 	}
 	
 	public void monsterAdd(String line){

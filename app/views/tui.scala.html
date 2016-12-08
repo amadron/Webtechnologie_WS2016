@@ -1,9 +1,20 @@
 @(tuitext: String)
 <h1>TUI</h1>
-<p>@Html(tuitext)</p>
+<p id="tui_text"></p>
 <input id="inp" name="inp" />
+<button id="bttn" type="button">Send</button>
 <script>
-    window.setInterval(function () {
-        location.reload();
-    }, 200);
+    var connection = new WebSocket('ws://localhost:9000/tui_socket');
+    connection.onopen = function ()
+    {
+        
+    };
+    connection.onmessage = function (e) {
+        document.getElementById('tui_text').innerHTML = e.data;
+    };
+    document.getElementById('bttn').onclick = function()
+    {
+        var text = document.getElementById('inp').value;
+        connection.send(text);
+    }
 </script>

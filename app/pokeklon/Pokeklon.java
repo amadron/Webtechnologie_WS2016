@@ -11,6 +11,7 @@ import pokeklon.view.tui.TextUI;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 
+import play.mvc.WebSocket;
 import pokeklon.controller.IPokeklonController;
 
  public class Pokeklon {
@@ -19,6 +20,8 @@ import pokeklon.controller.IPokeklonController;
 	public static BufferedReader reader;
 	public static IPokeklonController controller;
 	public static TextUI tui;
+	public static WebSocket.In<String> inSocket = null;
+	public static WebSocket.Out<String> outSocket = null;
 	
 	public static void main(String[] args) throws IOException
 	{
