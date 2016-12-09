@@ -481,3 +481,61 @@ Rankenhieb	NORMAL
 Bodycheck	NORMAL
 Rasierblatt	NORMAL
 (0) Back to Battle Menu
+2016-12-09 11:42:34 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-09 11:42:34 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-09 11:42:54 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-09 11:42:54 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-09 11:42:55 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-09 11:42:55 INFO  TextUI:324 - Battle: 
+Player1 Monster: Raupy	Life: 45.0
+Player2 Monster: Quapsel	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-09 11:43:01 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-09 11:43:01 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Käferbiss	NORMAL
+(0) Back to Battle Menu
+2016-12-09 11:43:14 INFO  TextUI:322 -  #################### Raupy uses Tackle and made 5 damage #################### 
+
+2016-12-09 11:43:14 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Käferbiss	NORMAL
+(0) Back to Battle Menu
+2016-12-09 11:44:31 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-09 11:44:31 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-09 11:51:31 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-09 11:51:31 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-09 11:53:40 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-09 11:53:40 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit

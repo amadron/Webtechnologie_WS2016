@@ -1,5 +1,5 @@
-New log file opened at Fri Dec 09 00:31:31 CET 2016 by 7004@DESKTOP-80HM3MF
-jvm 7004@DESKTOP-80HM3MF
+New log file opened at Fri Dec 09 11:49:36 CET 2016 by 8988@DESKTOP-80HM3MF
+jvm 8988@DESKTOP-80HM3MF
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.101-b13
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in D:\Documents\Studium\Webtech\Webtechnologie_WS2016\project, returning: (webtechnologie_ws2016-build)
 Loading project definition from D:\Documents\Studium\Webtech\Webtechnologie_WS2016\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@9100459, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@3d982be5, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -67,64 +67,9 @@ Set current project to pokePlay (in build file:/D:/Documents/Studium/Webtech/Web
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1c7bbff2, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-
-Read from stdout: Compiling 1 Scala source and 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Compiling 1 Scala source and 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 23897ba2, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Progra~1\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\classes;C:\Users\bened\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\aopalliance.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\guice-3.0.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\guice-assistedinject-3.0.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\javax.inject.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\log4j-1.2.17.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\bened\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\bened\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.4.jar;C:\Users\bened\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\bened\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\bened\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\bened\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\bundles\ssl-config-akka_2.11-0.2.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\bened\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bened\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bened\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bened\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\bened\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\bened\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\bened\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\bened\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\bened\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bened\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\bened\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\bened\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\bened\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\bened\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\bened\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\bened\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\bened\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\bened\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bened\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\bened\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\bened\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\bened\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\bened\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\bened\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\bened\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\bened\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\bened\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\bened\.ivy2\cache\log4j\log4j\jars\log4j-1.2.14.jar
-Scala compilation took 4.760939708 s
-Attempting to call com.sun.tools.javac.api.JavacTool@4459f6c9 directly...
-Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java uses or overrides a deprecated API.
-D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java uses or overrides a deprecated API.
-Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java: Recompile with -Xlint:deprecation for details.
-D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java: Recompile with -Xlint:deprecation for details.
-Java compilation took 0.833648242 s
-Java analysis took 0.244305977 s
-Java compile + analysis took 1.127684658 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 8 s, completed 09.12.2016 00:31:47
-> server-post-command-cleanup
-> server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@33af0375, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@61c349d4, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -141,18 +86,18 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed 09.12.2016 00:31:48
+Total time: 1 s, completed 09.12.2016 11:49:44
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@21c87b83, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:31:48
+Running task... Cancel: sbt.server.ServerTaskCancellation@1bf66a78, check cycles: false
+Total time: 0 s, completed 09.12.2016 11:49:44
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@2559e6e1, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@20d9c505, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -169,30 +114,36 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 0 s, completed 09.12.2016 00:31:48
+Total time: 1 s, completed 09.12.2016 11:49:45
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@5dcc5bb0, check cycles: false
+Total time: 0 s, completed 09.12.2016 11:49:45
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@6f70cd08, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:31:50
+Running task... Cancel: sbt.server.ServerTaskCancellation@28ca7da4, check cycles: false
+Total time: 0 s, completed 09.12.2016 11:51:19
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@18b5d80, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:31:54
+Running task... Cancel: sbt.server.ServerTaskCancellation@3388a3e6, check cycles: false
+Total time: 1 s, completed 09.12.2016 11:51:22
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@5e731485, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:31:56
+Running task... Cancel: sbt.server.ServerTaskCancellation@46ad88b5, check cycles: false
+Total time: 0 s, completed 09.12.2016 11:51:24
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@73762219, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@7f3cde40, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -214,761 +165,13 @@ Copy resource mappings:
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 2 s, completed 09.12.2016 00:31:59
+Total time: 2 s, completed 09.12.2016 11:51:28
 > server-post-command-cleanup
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@5ff02cb2, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-
-Read from stdout: Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@7605e94b directly...
-Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java:28: ';' expected
-D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java:28: ';' expected
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 1 s, completed 09.12.2016 00:32:32
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 1
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@7dbc1b9, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:32:32
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@49c24351, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-
-Read from stdout: Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@68487613 directly...
-Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java:28: ';' expected
-D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java:28: ';' expected
-Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
-(compile:compileIncremental) javac returned nonzero exit code
-Total time: 1 s, completed 09.12.2016 00:32:37
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@ae51c6d, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-
-Read from stdout: Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@7622fea9 directly...
-Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java uses or overrides a deprecated API.
-D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java uses or overrides a deprecated API.
-Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java: Recompile with -Xlint:deprecation for details.
-D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java: Recompile with -Xlint:deprecation for details.
-Java compilation took 0.198237816 s
-Java analysis took 0.135358641 s
-Java compile + analysis took 0.368521038 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 1 s, completed 09.12.2016 00:32:50
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@3269fdac, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:33:02
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@471cb5a3, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:33:05
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@480ed955, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:33:07
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@67c8e55d, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 2 s, completed 09.12.2016 00:33:10
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@73d0da24, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala)
-
-Read from stdout: Compiling 1 Scala source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Compiling 1 Scala source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 7691acf9, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Progra~1\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\classes;C:\Users\bened\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\aopalliance.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\guice-3.0.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\guice-assistedinject-3.0.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\javax.inject.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\log4j-1.2.17.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\bened\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\bened\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.4.jar;C:\Users\bened\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\bened\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\bened\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\bened\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\bundles\ssl-config-akka_2.11-0.2.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\bened\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bened\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bened\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bened\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\bened\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\bened\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\bened\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\bened\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\bened\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bened\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\bened\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\bened\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\bened\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\bened\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\bened\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\bened\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\bened\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\bened\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bened\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\bened\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\bened\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\bened\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\bened\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\bened\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\bened\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\bened\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\bened\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\bened\.ivy2\cache\log4j\log4j\jars\log4j-1.2.14.jar
-Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\views\tui.scala.html:14: not found: value e
-D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\views\tui.scala.html:14: not found: value e
-Read from stdout: };
-    };
-Read from stdout: ^
-   ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 2 s, completed 09.12.2016 00:34:22
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@714aa617, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala)
-
-Read from stdout: Compiling 1 Scala source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Compiling 1 Scala source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 3ff94525, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Progra~1\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\classes;C:\Users\bened\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\aopalliance.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\guice-3.0.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\guice-assistedinject-3.0.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\javax.inject.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\log4j-1.2.17.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\bened\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\bened\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.4.jar;C:\Users\bened\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\bened\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\bened\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\bened\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\bundles\ssl-config-akka_2.11-0.2.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\bened\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bened\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bened\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bened\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\bened\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\bened\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\bened\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\bened\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\bened\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bened\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\bened\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\bened\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\bened\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\bened\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\bened\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\bened\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\bened\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\bened\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bened\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\bened\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\bened\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\bened\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\bened\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\bened\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\bened\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\bened\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\bened\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\bened\.ivy2\cache\log4j\log4j\jars\log4j-1.2.14.jar
-Scala compilation took 2.005550797 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 3 s, completed 09.12.2016 00:37:30
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@627c73c0, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:37:34
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@5acff3da, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:37:37
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@514e77a4, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:37:39
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@43f12fef, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 2 s, completed 09.12.2016 00:37:43
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 3
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@62b04d8b, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:38:29
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@45284e79, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:38:40
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@265e7058, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:38:43
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@7c1c46c3, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:38:45
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@17d06971, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala)
-
-Read from stdout: Compiling 1 Scala source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Compiling 1 Scala source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 62db9188, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Progra~1\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\classes;C:\Users\bened\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\aopalliance.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\guice-3.0.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\guice-assistedinject-3.0.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\javax.inject.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\log4j-1.2.17.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\bened\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\bened\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.4.jar;C:\Users\bened\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\bened\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\bened\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\bened\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\bundles\ssl-config-akka_2.11-0.2.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\bened\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bened\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bened\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bened\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\bened\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\bened\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\bened\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\bened\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\bened\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bened\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\bened\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\bened\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\bened\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\bened\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\bened\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\bened\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\bened\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\bened\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bened\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\bened\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\bened\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\bened\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\bened\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\bened\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\bened\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\bened\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\bened\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\bened\.ivy2\cache\log4j\log4j\jars\log4j-1.2.14.jar
-Scala compilation took 2.038756674 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 3 s, completed 09.12.2016 00:38:51
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@4c062fd9, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\tui.template.scala, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java)
-
-Read from stdout: Compiling 1 Scala source and 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Compiling 1 Scala source and 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 764b95b1, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Progra~1\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\classes;C:\Users\bened\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\aopalliance.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\guice-3.0.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\guice-assistedinject-3.0.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\javax.inject.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\log4j-1.2.17.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\bened\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\bened\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.4.jar;C:\Users\bened\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\bened\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\bened\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\bened\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\bundles\ssl-config-akka_2.11-0.2.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\bened\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bened\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bened\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bened\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\bened\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\bened\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\bened\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\bened\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\bened\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bened\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\bened\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\bened\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\bened\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\bened\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\bened\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\bened\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\bened\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\bened\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bened\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\bened\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\bened\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\bened\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\bened\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\bened\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\bened\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\bened\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\bened\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\bened\.ivy2\cache\log4j\log4j\jars\log4j-1.2.14.jar
-Scala compilation took 1.324022756 s
-Attempting to call com.sun.tools.javac.api.JavacTool@21e3238e directly...
-Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java uses or overrides a deprecated API.
-D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java uses or overrides a deprecated API.
-Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java: Recompile with -Xlint:deprecation for details.
-D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java: Recompile with -Xlint:deprecation for details.
-Java compilation took 0.222813784 s
-Java analysis took 0.16194863 s
-Java compile + analysis took 0.425548035 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed 09.12.2016 00:39:56
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@61340262, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 0 s, completed 09.12.2016 00:39:57
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@4df632e, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 0 s, completed 09.12.2016 00:39:59
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@116b2fb, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:40:02
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@10563302, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:40:05
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@737d881, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:40:07
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@cad8501, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 2 s, completed 09.12.2016 00:40:10
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@585ac0f2, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\tui\TextUI.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\tui\TextUI.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\tui\TextUI.java)
-
-Read from stdout: Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@503b485a directly...
-Java compilation took 0.313707734 s
-Java analysis took 0.069183887 s
-Java compile + analysis took 0.41450709 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 1 s, completed 09.12.2016 00:41:00
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@219105d4, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 0 s, completed 09.12.2016 00:41:03
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@12847f4e, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:41:05
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@6783fe19, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:41:08
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@5c3e75d0, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:41:10
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@1c0c6078, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 2 s, completed 09.12.2016 00:41:12
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@3502766e, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\tui\TextUI.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\tui\TextUI.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\tui\TextUI.java)
-
-Read from stdout: Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@6dd08b7a directly...
-Java compilation took 0.253549842 s
-Java analysis took 0.062003027 s
-Java compile + analysis took 0.345622251 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 1 s, completed 09.12.2016 00:42:15
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@a19663f, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\tui\TextUI.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\tui\TextUI.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\tui\TextUI.java)
-
-Read from stdout: Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@5022455b directly...
-Java compilation took 0.288895234 s
-Java analysis took 0.066548914 s
-Java compile + analysis took 0.39096449 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 1 s, completed 09.12.2016 00:42:23
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 6
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@58204eb1, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:42:30
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@684b1a, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 0 s, completed 09.12.2016 00:42:35
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@5adc0ead, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:42:37
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@3c64ea6, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:42:40
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@29e459ed, check cycles: false
-Total time: 0 s, completed 09.12.2016 00:42:42
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@608392fc, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 2 s, completed 09.12.2016 00:42:45
-> server-post-command-cleanup
-> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 8988@DESKTOP-80HM3MF logs at Fri Dec 09 11:54:21 CET 2016, goodbye.
