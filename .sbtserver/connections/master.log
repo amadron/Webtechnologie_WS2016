@@ -1,13 +1,13 @@
-New log file opened at Fri Dec 09 11:49:36 CET 2016 by 8988@DESKTOP-80HM3MF
-Taking next connection to: 58923
-New client attempting to connect on port: 58924-58923
-  Address = /172.20.131.27:58923
-This client on port 58924 has uuid 656eaa4f-f6df-4c1b-95b2-fcc76bf4dae9 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-656eaa4f-f6df-4c1b-95b2-fcc76bf4dae9
-Taking next connection to: 58923
-New client attempting to connect on port: 58929-58923
-  Address = /172.20.131.27:58923
-Handshake exception on socket: 58929
+New log file opened at Sat Dec 10 00:54:14 CET 2016 by 6544@DESKTOP-80HM3MF
+Taking next connection to: 63727
+New client attempting to connect on port: 63728-63727
+  Address = /192.168.1.4:63727
+This client on port 63728 has uuid f14fc038-392f-4b32-98e1-1f63d6145c06 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-f14fc038-392f-4b32-98e1-1f63d6145c06
+Taking next connection to: 63727
+New client attempting to connect on port: 63732-63727
+  Address = /192.168.1.4:63727
+Handshake exception on socket: 63732
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -23,15 +23,12 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 58923
-New client attempting to connect on port: 58930-58923
-  Address = /172.20.131.27:58923
-This client on port 58930 has uuid 09738dc0-30d9-49dc-9080-3b915fb712b8 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-656eaa4f-f6df-4c1b-95b2-fcc76bf4dae9, play-fork-run-09738dc0-30d9-49dc-9080-3b915fb712b8
-Taking next connection to: 58923
+Taking next connection to: 63727
+New client attempting to connect on port: 63733-63727
+  Address = /192.168.1.4:63727
+This client on port 63733 has uuid 648b007b-46da-48bc-b142-1304dbf681cb configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-f14fc038-392f-4b32-98e1-1f63d6145c06, play-fork-run-648b007b-46da-48bc-b142-1304dbf681cb
+Taking next connection to: 63727
 Checking to see if clients are empty...
-No non-daemon clients connected after 3 min. Shutting down.
-Server socket thread exiting.
-0 clients open, will close them...
-All client sockets have been closed.
-Closing the 8988@DESKTOP-80HM3MF logs at Fri Dec 09 11:54:21 CET 2016, goodbye.
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 63727
