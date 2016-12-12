@@ -22,29 +22,14 @@
         
         var monImage1 = new Image();
         var monImage2 = new Image();
-
-        function processJson(json)
+        
+        function updateCanvas()
         {
-            var monster = JSON.parse(json);
-            monsterName1 = monster[0].name;
-            monsterName2 = monster[1].name;
-            maxHealthMon1 = monster[0].maxHealth;
-            maxHealthMon2 = monster[1].maxHealth;
-            currHealthMon1 = monster[0].health;
-            currHealthMon2 = monster[1].health;
-            monPic1 = getNumber(monster[0].image);
-            monPic2 = getNumber(monster[1].image);
-            console.log("Monster pic1: " + monPic1);
-            console.log("Monster pic2: " + monPic2);
+
         }
 
-        function getNumber(no)
+        function processMonster(json)
         {
-            no = no + 1;
-            if (no < 10)
-                return "0" + no;
-            else
-                return no;
 
         }
 
@@ -71,16 +56,17 @@
                 context.fillStyle = "grey";
                 context.fillRect(barLeftDist, barHeightDist * 2, barWidth, barHeight);
                 
-                var currHealtBar1 = (barWidth / maxHealthMon1) * currHealthMon1;
+                var currHealtBar = (barWidth / maxHealthMon1) * currHealthMon1;
                 context.fillStyle = "#007399";
-                context.fillRect(barLeftDist, barHeightDist * 2, currHealtBar1, barHeight);
+                context.fillRect(barLeftDist, barHeightDist * 2, currHealtBar, barHeight);
 
                 context.fillStyle = "grey";
                 context.fillRect(rightPos, barHeightDist * 2, barWidth, barHeight);
 
-                var currHealtBar2 = (barWidth / maxHealthMon2) * currHealthMon2;
+                var currHealtBar = (barWidth / maxHealthMon1) * currHealthMon1;
                 context.fillStyle = "#007399";
-                context.fillRect(rightPos, barHeightDist * 2, currHealtBar2, barHeight);
+                context.fillRect(rightPos, barHeightDist * 2, currHealtBar, barHeight);
+
                 monImage1.src = monPicPath + monPic1 + monPicEnding;
                 monImage1.onload = function () {
                     var ratio1 = monImage1.heigh / monImage1.width;
@@ -109,16 +95,9 @@
             currHealthMon1 = $("#newHealth").val();
             draw(width, width * 0.45);
         }
-        console.log('try open socket!');
-        var connection = new WebSocket('ws://localhost:9000/gui_socket');
-        connection.onopen = function()
-        {
-            console.log('hello!');
-        }
+        var connection = new WebSocket('ws://localhost:9000/gui_Socket');
         connection.onmessage = function (s) {
             console.log(s.data);
-            processJson(s.data);
-            draw(width, width * 0.45);
             console.log("opened socket");
         };
     </script>

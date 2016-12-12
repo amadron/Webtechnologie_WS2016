@@ -553,3 +553,839 @@ Käferbiss	NORMAL
 (2) Two Monster fight 
 (3) Four Monster fight 
 (4) Exit
+2016-12-12 22:27:04 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 22:27:04 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 22:27:10 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 22:27:10 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 22:27:10 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 22:27:10 INFO  TextUI:324 - Battle: 
+Player1 Monster: Taubsi	Life: 40.0
+Player2 Monster: Bisasam	Life: 45.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 22:33:41 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-12 22:33:41 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-12 22:37:41 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 22:37:41 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 22:37:51 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 22:37:51 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 22:37:51 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 22:37:51 INFO  TextUI:324 - Battle: 
+Player1 Monster: Bisasam	Life: 45.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 22:40:51 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 22:40:51 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 22:40:55 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 22:40:55 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 22:40:55 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 22:40:55 INFO  TextUI:324 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Ratfatz	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 22:45:39 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 22:45:39 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 22:45:45 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 22:45:45 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 22:45:45 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 22:45:45 INFO  TextUI:324 - Battle: 
+Player1 Monster: Schiggy	Life: 44.0
+Player2 Monster: Ratfatz	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 22:55:35 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 22:55:35 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 22:55:41 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 22:55:41 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 22:55:41 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 22:55:41 INFO  TextUI:324 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Raupy	Life: 45.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 23:01:36 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 23:01:36 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:01:40 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 23:01:40 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:01:40 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 23:01:40 INFO  TextUI:324 - Battle: 
+Player1 Monster: Quapsel	Life: 40.0
+Player2 Monster: Schiggy	Life: 44.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 23:04:46 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 23:04:46 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:04:51 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 23:04:51 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:04:51 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 23:04:51 INFO  TextUI:324 - Battle: 
+Player1 Monster: Schiggy	Life: 44.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 23:06:51 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 23:06:51 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:06:56 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 23:06:56 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:06:56 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 23:06:56 INFO  TextUI:324 - Battle: 
+Player1 Monster: Ratfatz	Life: 30.0
+Player2 Monster: Bisasam	Life: 45.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 23:10:07 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 23:10:07 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:10:17 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 23:10:17 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:10:17 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 23:10:17 INFO  TextUI:324 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Taubsi	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 23:13:23 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 23:13:23 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:13:26 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 23:13:26 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:13:26 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 23:13:26 INFO  TextUI:324 - Battle: 
+Player1 Monster: Quapsel	Life: 40.0
+Player2 Monster: Ratfatz	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 23:22:24 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 23:22:24 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:22:26 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 23:22:26 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:22:26 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 23:22:26 INFO  TextUI:324 - Battle: 
+Player1 Monster: Schiggy	Life: 44.0
+Player2 Monster: Ratfatz	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 23:25:43 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 23:25:43 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:25:48 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 23:25:48 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:25:48 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 23:25:48 INFO  TextUI:324 - Battle: 
+Player1 Monster: Glumand	Life: 39.0
+Player2 Monster: Ratfatz	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 23:27:04 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-12 23:27:04 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:27:07 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-12 23:27:07 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-12 23:27:07 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-12 23:27:07 INFO  TextUI:324 - Battle: 
+Player1 Monster: Taubsi	Life: 40.0
+Player2 Monster: Seeper	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-12 23:42:28 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-12 23:42:28 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:42:29 INFO  TextUI:322 -  #################### Taubsi uses Tackle and made 5 damage #################### 
+
+2016-12-12 23:42:29 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:42:48 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-12 23:42:48 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:42:49 INFO  TextUI:322 -  ################ Seeper uses Blubberstrahl and made 7 damage ################ 
+
+2016-12-12 23:42:49 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:42:59 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-12 23:42:59 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:01 INFO  TextUI:322 -  ################### Taubsi uses Widstoß and made 4 damage ################### 
+
+2016-12-12 23:43:01 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:22 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-12 23:43:22 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:23 INFO  TextUI:322 -  ################ Seeper uses Blubberstrahl and made 7 damage ################ 
+
+2016-12-12 23:43:23 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:26 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-12 23:43:26 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:27 INFO  TextUI:322 -  ################### Taubsi uses Widstoß and made 4 damage ################### 
+
+2016-12-12 23:43:27 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:29 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-12 23:43:29 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:30 INFO  TextUI:322 -  ################ Seeper uses Blubberstrahl and made 7 damage ################ 
+
+2016-12-12 23:43:30 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:31 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-12 23:43:31 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:32 INFO  TextUI:322 -  #################### Taubsi uses Tackle and made 5 damage #################### 
+
+2016-12-12 23:43:32 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:34 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-12 23:43:34 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:35 INFO  TextUI:322 -  ################### Seeper uses Blubber and made 5 damage ################### 
+
+2016-12-12 23:43:35 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:37 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-12 23:43:37 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:38 INFO  TextUI:322 -  ################# Taubsi uses Ruckzuckhieb and made 4 damage ################# 
+
+2016-12-12 23:43:38 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:40 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-12 23:43:40 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:41 INFO  TextUI:322 -  ################### Seeper uses Blubber and made 5 damage ################### 
+
+2016-12-12 23:43:41 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:42 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-12 23:43:42 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-12 23:43:43 INFO  TextUI:322 -  ################# Taubsi uses Ruckzuckhieb and made 4 damage ################# 
+
+2016-12-12 23:43:43 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:05:02 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-13 00:05:02 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-13 00:05:05 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-13 00:05:05 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-13 00:05:05 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-13 00:05:05 INFO  TextUI:324 - Battle: 
+Player1 Monster: Vulpix	Life: 38.0
+Player2 Monster: Ratfatz	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-13 00:05:22 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:05:22 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:05:25 INFO  TextUI:322 -  ################# Vulpix uses Ruckzuckhieb and made 6 damage ################# 
+
+2016-12-13 00:05:25 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:05:27 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:05:27 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Ruckzuckhieb	NORMAL
+Biss	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:05:27 INFO  TextUI:322 -  ################### Ratfatz uses Tackle and made 6 damage ################### 
+
+2016-12-13 00:05:27 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Ruckzuckhieb	NORMAL
+Biss	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:05:29 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:05:29 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:05:30 INFO  TextUI:322 -  ################# Vulpix uses Feuerwirbel and made 5 damage ################# 
+
+2016-12-13 00:05:30 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:05:32 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:05:32 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Ruckzuckhieb	NORMAL
+Biss	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:05:33 INFO  TextUI:322 -  ################ Ratfatz uses Ruckzuckhieb and made 6 damage ################ 
+
+2016-12-13 00:05:33 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Ruckzuckhieb	NORMAL
+Biss	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:07:30 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-13 00:07:30 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-13 00:07:31 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-13 00:07:31 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-13 00:07:31 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-13 00:07:31 INFO  TextUI:324 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Seeper	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-13 00:07:34 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:07:34 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Giftstachel	NORMAL
+Käferbiss	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:07:35 INFO  TextUI:322 -  ############################### Attack failed! ############################### 
+
+2016-12-13 00:07:35 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Giftstachel	NORMAL
+Käferbiss	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:07:37 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:07:37 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:07:38 INFO  TextUI:322 -  ################ Seeper uses Blubberstrahl and made 8 damage ################ 
+
+2016-12-13 00:07:38 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:07:48 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:07:48 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Giftstachel	NORMAL
+Käferbiss	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:07:49 INFO  TextUI:322 -  ################## Hornliu uses Käferbiss and made 4 damage ################## 
+
+2016-12-13 00:07:49 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Giftstachel	NORMAL
+Käferbiss	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:07:52 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:07:52 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:07:52 INFO  TextUI:322 -  ################## Seeper uses Aquaknarre and made 6 damage ################## 
+
+2016-12-13 00:07:52 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Blubberstrahl	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:09:40 INFO  TextUI:322 -  #################################### Menu #################################### 
+
+2016-12-13 00:09:40 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-13 00:09:42 INFO  TextUI:322 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2016-12-13 00:09:42 INFO  TextUI:324 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2016-12-13 00:09:42 INFO  TextUI:322 -  ############################### Battle begins! ############################### 
+
+2016-12-13 00:09:42 INFO  TextUI:324 - Battle: 
+Player1 Monster: Vulpix	Life: 38.0
+Player2 Monster: Quapsel	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2016-12-13 00:10:03 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:10:03 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:10:04 INFO  TextUI:322 -  ################# Vulpix uses Ruckzuckhieb and made 5 damage ################# 
+
+2016-12-13 00:10:04 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:23 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:17:23 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Duplexhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:24 INFO  TextUI:322 -  ############################### Attack failed! ############################### 
+
+2016-12-13 00:17:24 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Duplexhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:28 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:17:28 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:29 INFO  TextUI:322 -  ################# Vulpix uses Feuerwirbel and made 5 damage ################# 
+
+2016-12-13 00:17:29 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:30 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:17:30 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Duplexhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:31 INFO  TextUI:322 -  ################# Quapsel uses Aquaknarre and made 5 damage ################# 
+
+2016-12-13 00:17:31 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Duplexhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:35 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:17:35 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:36 INFO  TextUI:322 -  ############################### Attack failed! ############################### 
+
+2016-12-13 00:17:36 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:37 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:17:37 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Duplexhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:38 INFO  TextUI:322 -  ############################### Attack failed! ############################### 
+
+2016-12-13 00:17:38 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Duplexhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:39 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:17:39 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:40 INFO  TextUI:322 -  ##################### Vulpix uses Glut and made 5 damage ##################### 
+
+2016-12-13 00:17:40 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:42 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:17:42 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Duplexhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:42 INFO  TextUI:322 -  ################# Quapsel uses Duplexhieb and made 4 damage ################# 
+
+2016-12-13 00:17:42 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Duplexhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:43 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:17:43 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:44 INFO  TextUI:322 -  ################# Vulpix uses Ruckzuckhieb and made 5 damage ################# 
+
+2016-12-13 00:17:44 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Glut	NORMAL
+Ruckzuckhieb	NORMAL
+Feuerwirbel	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:45 INFO  TextUI:322 -  ################################### Attack ################################### 
+
+2016-12-13 00:17:45 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Duplexhieb	NORMAL
+(0) Back to Battle Menu
+2016-12-13 00:17:46 INFO  TextUI:322 -  ################# Quapsel uses Duplexhieb and made 4 damage ################# 
+
+2016-12-13 00:17:46 INFO  TextUI:324 - Attack: 
+Name 	Type 
+Aquaknarre	NORMAL
+Blubber	NORMAL
+Duplexhieb	NORMAL
+(0) Back to Battle Menu

@@ -13,6 +13,7 @@ import pokeklon.controller.IPokeklonController;
 import pokeklon.view.gui.helper.CloseMenu;
 import util.observer.Event;
 import util.observer.IObserver;
+import pokeklon.PlayFunctions;
 
 public class PokeklonFrame extends JFrame implements IObserver {
 
@@ -112,6 +113,10 @@ public class PokeklonFrame extends JFrame implements IObserver {
 			current = battle;
 			rebuildWindow();
 			new ExitScreen(controller);
+		}
+		if(PlayFunctions.guiSocketOut != null)
+		{
+			PlayFunctions.guiSocketOut.write(PlayFunctions.getCurrentMonster());
 		}
 	}
 

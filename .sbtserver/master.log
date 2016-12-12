@@ -1,5 +1,5 @@
-New log file opened at Sat Dec 10 00:54:14 CET 2016 by 6544@DESKTOP-80HM3MF
-jvm 6544@DESKTOP-80HM3MF
+New log file opened at Tue Dec 13 00:01:29 CET 2016 by 1128@DESKTOP-80HM3MF
+jvm 1128@DESKTOP-80HM3MF
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.101-b13
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in D:\Documents\Studium\Webtech\Webtechnologie_WS2016\project, returning: (webtechnologie_ws2016-build)
 Loading project definition from D:\Documents\Studium\Webtech\Webtechnologie_WS2016\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@4901a4e3, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2826b0b2, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -67,31 +67,9 @@ Set current project to pokePlay (in build file:/D:/Documents/Studium/Webtech/Web
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@f3cb237, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 16 s, completed 10.12.2016 00:55:34
-> server-post-command-cleanup
-> server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@3ad6f4fb, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@53a0204b, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -108,18 +86,18 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed 10.12.2016 00:55:36
+Total time: 18 s, completed 13.12.2016 00:01:56
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@50f26ce6, check cycles: false
-Total time: 0 s, completed 10.12.2016 00:55:36
+Running task... Cancel: sbt.server.ServerTaskCancellation@6b9f943d, check cycles: false
+Total time: 0 s, completed 13.12.2016 00:01:56
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@31907e09, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@4614cca6, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -136,30 +114,42 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed 10.12.2016 00:55:37
+Total time: 1 s, completed 13.12.2016 00:01:57
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@df4fc9f, check cycles: false
+Total time: 0 s, completed 13.12.2016 00:01:57
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@5990775c, check cycles: false
-Total time: 1 s, completed 10.12.2016 00:55:42
+Running task... Cancel: sbt.server.ServerTaskCancellation@1e4d67dd, check cycles: false
+Total time: 0 s, completed 13.12.2016 00:03:48
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@562e0de1, check cycles: false
-Total time: 1 s, completed 10.12.2016 00:55:57
+Running task... Cancel: sbt.server.ServerTaskCancellation@10aeb1c6, check cycles: false
+Total time: 1 s, completed 13.12.2016 00:03:53
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@b427421, check cycles: false
-Total time: 0 s, completed 10.12.2016 00:56:05
+Running task... Cancel: sbt.server.ServerTaskCancellation@47f05d62, check cycles: false
+Total time: 0 s, completed 13.12.2016 00:04:04
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@45541c6d, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@7a21eac9, check cycles: false
+SLF4J: The following set of substitute loggers may have been accessed
+SLF4J: during the initialization phase. Logging calls during this
+SLF4J: phase were not honored. However, subsequent logging calls to these
+SLF4J: loggers will work as normally expected.
+SLF4J: See also http://www.slf4j.org/codes.html#substituteLogger
+SLF4J: org.webjars.WebJarExtractor
 
 Initial source changes: 
 	removed:Set()
@@ -181,12 +171,30 @@ Copy resource mappings:
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 4 s, completed 10.12.2016 00:56:11
+Total time: 24 s, completed 13.12.2016 00:04:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@7033bc6d, check cycles: false
+Total time: 0 s, completed 13.12.2016 00:06:52
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@71d98372, check cycles: false
+Total time: 1 s, completed 13.12.2016 00:06:56
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@77e239f3, check cycles: false
+Total time: 0 s, completed 13.12.2016 00:07:03
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@309c2e18, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@2ddacacb, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -208,12 +216,30 @@ Copy resource mappings:
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 3 s, completed 10.12.2016 00:58:20
+Total time: 22 s, completed 13.12.2016 00:07:27
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@e2ba85, check cycles: false
+Total time: 0 s, completed 13.12.2016 00:08:48
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@1c148cc9, check cycles: false
+Total time: 0 s, completed 13.12.2016 00:08:52
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@17b5b5a4, check cycles: false
+Total time: 0 s, completed 13.12.2016 00:08:59
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@47fb08c2, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@4c3cc261, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -235,6 +261,114 @@ Copy resource mappings:
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 2 s, completed 10.12.2016 00:58:48
+Total time: 22 s, completed 13.12.2016 00:09:37
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@6790d98, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
+Total time: 21 s, completed 13.12.2016 00:13:24
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@5ce4176e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
+Total time: 21 s, completed 13.12.2016 00:14:42
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@66de113c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
+Total time: 21 s, completed 13.12.2016 00:15:07
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@1af4c1b5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
+Total time: 24 s, completed 13.12.2016 00:17:11
 > server-post-command-cleanup
 > server-handle-next-server-request
