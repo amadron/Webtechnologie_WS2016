@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular QuickStart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+
+    <!-- Button functions -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+
+        $("#startButton").click(function(){
+            $("#startButton").hide();
+            $("#AngularJS_Button").fadeIn(1000);
+            $("#Polymer_Button").fadeIn(1000);
+        });
+
+        $("#AngularJS_Button").click(function(){
+            $(".AngularJS_Window").fadeIn();
+            $(".Polymer_Window").hide();
+            $("#AngularJS_Button").fadeTo("fast", 0.5);
+            $("#Polymer_Button").fadeTo("fast", 1);
+            $(".AngularJS_Logo").fadeIn();
+            $(".Polymer_Logo").hide();
+        });
+
+        $("#Polymer_Button").click(function(){
+            $(".AngularJS_Window").hide();
+            $(".Polymer_Window").fadeIn();
+            $("#Polymer_Button").fadeTo("fast", 0.5);
+            $("#AngularJS_Button").fadeTo("fast", 1);
+            $(".AngularJS_Logo").hide();
+            $(".Polymer_Logo").fadeIn();
+        });
+
+    });
+    </script>
+
+    <!-- Audio (main song) functions -->
+    <script>
+      $(document).ready(function(){
+
+          $("#song1").click(function(){
+              $("#song1").hide();
+              $("#song2").show();
+              document.getElementById('player').play();
+          });
+          $("#song2").click(function(){
+              $("#song2").hide();
+              $("#song1").show();
+              document.getElementById('player').pause();
+          });
+      });
+    </script>
+
+    </head>
+
+
+    <!-- Small Logo right -->
+    <body style="background:url('/images/mainPage/pokemon-wallpaper-legendary-HD1.jpg')no-repeat;">
+
+      <!-- Navigation -->
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Pokeclon v1.0.1</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+              <!-- Audio (main song)-->
+              <audio loop id="player" src="/audio/pokeclon_song.m4a"> </audio>
+              <img id="song1" style="height: 35px;width: 35px;margin-top: 8px;margin-left:14px;" src="/images/mainPage/switch_off.svg" ></img></li>
+              <img id="song2" style="height: 35px;width: 35px;margin-top: 8px;margin-left:14px;display:none;" src="/images/mainPage/switch_on.svg" ></img></li>
+          </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <img class="img-responsive " style="height: 35px;width: 114px;margin-top: 8px;margin-right: 11px;margin-left: 11px;" src="/images/mainPage/logo.png" alt="logo"></img>
+            </ul>
+        </div>
+      </nav>
+
+      <!-- Start Button -->
+      <div class="row" style="margin-top: 20px;margin-right: 0px;margin-left: 0px;">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4" style="text-align: center;">
+          <button id="startButton" type="button" class="btn btn-primary btn-lg">Start Game</button>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+
+      <!-- Choose Buttons & Logos -->
+      <div class="row" style="margin-top: 100px;margin-right: 0px;margin-left: 0px;">
+        <div class="col-sm-4">
+          <img class="img-responsive AngularJS_Logo" style="height: 173px;width: 173px;margin-top: -120px;margin-right: 0px;margin-left:11px;display:none;" src="/images/mainPage/angular.png" alt="Chania"></img>
+          <img class="img-responsive Polymer_Logo" style="height: 173px;width: 250px;margin-top: -120px;margin-right: 0px;margin-left:11px;display:none;" src="/images/mainPage/p-logo.png" alt="Chania"></img>
+        </div>
+        <div class="col-sm-4" style="text-align: center;">
+          <button id="AngularJS_Button" style="text-align: center;display:none;" type="button" class="btn btn-primary btn-lg">AngularJS</button>
+          <button id="Polymer_Button" style="text-align: center;display:none;" type="button" class="btn btn-primary btn-lg">Polymer</button>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+
+      <!-- Angular Window -->
+      <div class="row AngularJS_Window" style="margin-top: 30px;margin-right: 0px;margin-left: 0px;display:none;">
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-4" style="text-align: center;background:url('/images/mainPage/dark_embroidery.png')repeat;">
+          <my-app><p  class="bg-warning" style="margin-top: 10px;">Loading AppComponent content here ...</p></my-app>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+
+     <!-- Polymer Window -->
+      <div class="row Polymer_Window" style="margin-top: 30px;margin-right: 0px;margin-left: 0px;display:none;">
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-4" style="text-align: center;background:url('/images/mainPage/dark_embroidery.png')repeat;">
+          <p  class="bg-warning" style="margin-top: 10px;">Loading AppComponent content here ...</p>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+
+    </body>
+</html>
+
+
+    <!-- Audio (main song) functions 
+    <script>
+      $(document).ready(function() {
+          var playing = false;
+
+          $('img#song').click(function() {
+              $(this).toggleClass("down");
+
+              if (playing == false) {
+                  document.getElementById('player').play();
+                  playing = true;
+                  $(this).text("stop sound");
+                  //$(this).attr('src',"/images/mainPage/switch_off.svg");
+
+              } else {
+                  document.getElementById('player').pause();
+                  playing = false;
+                  $(this).text("restart sound");
+                  //$(this).attr('src',"/images/mainPage/switch_on.svg");
+              }
+          });
+      });
+    </script> -->
