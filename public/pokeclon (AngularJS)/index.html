@@ -1,67 +1,137 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Angular QuickStart</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+<!--
+  
+  Index
+  1. Head
+     |
+     -> 1.1 Meta things
+     -> 1.2 Favicon
+     -> 1.3 CSS
+        |
+        -> 1.3.1 Class declarations
+        -> 1.3.2 Responsiveness width
+        -> 1.3.3 Responsiveness height
+-->
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<head>
+  <!-- Meta things -->
+  <title>Pokeclon</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Favicon -->
+  <head profile="hkp://www.w3.org/2005/10/profile">	
+  <link	rel="icon"	type="image/png"	href="/images/mainPage/pokeball.png">	
+  <!-- CSS -->
+  <style title="pokeball">
+    /* Class declarations */
+    .glow-button:hover {color: rgba(248,248,255, 1); box-shadow: 0px 0px 265px 24px rgba(224,224,224,1);}
+    .pokeball_big { height: 250px; width: 250px; border: none; padding: 0.8em; float:left;transform: scale(1); filter:alpha(opacity=75); -moz-opacity: 0.75; opacity: 0.75;position: relative;padding: 0.5em;}
+    .pokeball_small { width: 150px; height: 150px; padding: 0.5em; border: 0;}
+    .pokeball_tiny {width: 100px; height: 100px; padding: 0.5em; border: 0;}
+    .pokeball_button {height: 300px; width: 300px;}
+    .window_old {border-radius: 10px; border-color: #ffffff;box-shadow: 0 0 10px #ffffff;filter:alpha(opacity=90); -moz-opacity: 0.90; opacity: 0.90;}
+    .window {border-radius: 10px; border-color: rgb(26, 26, 26);border-width: 3px;border-style: solid;filter:alpha(opacity=90); -moz-opacity: 0.90; opacity: 0.90;text-align: center;background:url('/images/mainPage/dark_embroidery.png')repeat;}
     
+    .ball_1{} .ball_2{} .ball_3{} .ball_4{} .ball_5{} .ball_6{} .ball_7{} .ball_8{} .ball_9{} .ball_10{} .ball_11{} .ball_12{} .ball_13{} .ball_14{} .ball_15{} .ball_16{} .ball_17{} 
+    .logo_responsive{} 
+     /* Responsiveness width */
+    @media only screen and (max-width: 1919px) {
+      .ball_17 {display: none;}
+    }
+    @media only screen and (max-width: 1885px) {
+      .ball_16 { display: none;}
+    }
+    @media only screen and (max-width: 1620px) {
+      .ball_15 {display: none;} .ball_14 {display: none;}
+    }
+    @media only screen and (max-width: 1520px) {
+      .ball_13 {display: none;} .ball_12 {display: none;} .ball_11 {display: none;} .ball_10 {display: none;}
+    }
+    @media only screen and (max-width: 1200px) {
+      .ball_9 {display: none;}
+    }
+    @media only screen and (max-width: 900px) {
+      .ball_8 {display: none;} .ball_7 {display: none;} .ball_6 {display: none;} .ball_5 {display: none;} .ball_4 {display: none;} .ball_3 {display: none;} .ball_2 {display: none;} .ball_1 {display: none;} 
+      .logo_responsiv{display: none;}
+    }
+    /* Responsiveness height */
+    @media only screen and (max-height: 920px) {
+      .ball_16 {display: none;} .ball_14 {display: none;} .ball_11 {display: none;} .ball_7 {display: none;} .ball_4 {display: none;} .ball_2 {display: none;}
+    }
+    @media only screen and (max-height: 700px) {
+      .ball_17 {display: none;} .ball_15 {display: none;} .ball_13 {display: none;} .ball_12 {display: none;} .ball_10 {display: none;} .ball_9 {display: none;}
+      .ball_8 {display: none;} .ball_6 {display: none;} .ball_5 {display: none;} .ball_3 {display: none;} .ball_1 {display: none;}
+    }
+  </style>
 
-    <!-- Polyfill(s) for older browsers -->
-    <script src="node_modules/core-js/client/shim.min.js"></script>
+  <!-- Latest Bootstrap version-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <script src="node_modules/zone.js/dist/zone.js"></script>
-    <script src="node_modules/reflect-metadata/Reflect.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
+  <!-- Latest jQuery version -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-    <script src="systemjs.config.js"></script>
-    <script>
+  <!-- Latest jQuery user interface version -->
+  <!--<link href="/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet">
+  <script src="/jquery-ui-1.12.1.custom/jquery-ui.css"></script>-->
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/dot-luv/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+  <!-- NodeJS & AngularJS Scripts -->
+  <script src="node_modules/core-js/client/shim.min.js"></script>
+  <script src="node_modules/zone.js/dist/zone.js"></script>
+  <script src="node_modules/reflect-metadata/Reflect.js"></script>
+  <script src="node_modules/systemjs/dist/system.src.js"></script>
+  <script src="systemjs.config.js"></script>
+  <script>
       System.import('app').catch(function(err){ console.error(err); });
-    </script>
+  </script>
 
-    <!-- Button functions -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script>
+  <!-- Button functions -->
+  <script>
     $(document).ready(function(){
 
         $("#startButton").click(function(){
+            document.getElementById('player_button').play();
             $("#startButton").hide();
-            $("#AngularJS_Button").fadeIn(1000);
-            $("#Polymer_Button").fadeIn(1000);
+            $("#AngularJS_Button").fadeIn();
+            $("#Polymer_Button").fadeIn();
         });
 
         $("#AngularJS_Button").click(function(){
+            document.getElementById('player_button').play();
             $(".AngularJS_Window").fadeIn();
             $(".Polymer_Window").hide();
-            $("#AngularJS_Button").fadeTo("fast", 0.5);
+            $("#AngularJS_Button").fadeTo("fast", 0.6);
             $("#Polymer_Button").fadeTo("fast", 1);
             $(".AngularJS_Logo").fadeIn();
             $(".Polymer_Logo").hide();
+            $("#AngularJS_Button").removeClass("btn-primary btn-danger btn-success").addClass("btn-danger");
+            $("#Polymer_Button").removeClass("btn-primary btn-danger btn-success").addClass("btn-success");
         });
 
         $("#Polymer_Button").click(function(){
+            document.getElementById('player_button').play();
             $(".AngularJS_Window").hide();
             $(".Polymer_Window").fadeIn();
-            $("#Polymer_Button").fadeTo("fast", 0.5);
+            $("#Polymer_Button").fadeTo("fast", 0.6);
             $("#AngularJS_Button").fadeTo("fast", 1);
             $(".AngularJS_Logo").hide();
             $(".Polymer_Logo").fadeIn();
+            $("#Polymer_Button").removeClass("btn-primary btn-danger btn-success").addClass("btn-danger");
+            $("#AngularJS_Button").removeClass("btn-primary btn-danger btn-success").addClass("btn-success");
         });
 
     });
     </script>
 
-    <!-- Audio (main song) functions -->
-    <script>
+  <!-- Audio (main song) functions -->
+  <script>
       $(document).ready(function(){
 
           $("#song1").click(function(){
@@ -77,82 +147,432 @@
       });
     </script>
 
-    </head>
+  <!-- Drag function -->
+  <script>
+    $( function() {
+      $( ".draggable" ).draggable();
+    } );
+  </script>
 
 
-    <!-- Small Logo right -->
-    <body style="background:url('/images/mainPage/pokemon-wallpaper-legendary-HD1.jpg')no-repeat;">
 
-      <!-- Navigation -->
-      <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Pokeclon v1.0.1</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li>
-              <!-- Audio (main song)-->
-              <audio loop id="player" src="/audio/pokeclon_song.m4a"> </audio>
-              <img id="song1" style="height: 35px;width: 35px;margin-top: 8px;margin-left:14px;" src="/images/mainPage/switch_off.svg" ></img></li>
-              <img id="song2" style="height: 35px;width: 35px;margin-top: 8px;margin-left:14px;display:none;" src="/images/mainPage/switch_on.svg" ></img></li>
-          </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <img class="img-responsive " style="height: 35px;width: 114px;margin-top: 8px;margin-right: 11px;margin-left: 11px;" src="/images/mainPage/logo.png" alt="logo"></img>
-            </ul>
-        </div>
-      </nav>
+  <script>
+    var SplitText = "Title"
+    var $dialog = $('<div></div>')
+        .html(SplitText )
+        .dialog({
+            height: 500,
+            width: 600,
+            title: 'Title'});
 
-      <!-- Start Button -->
-      <div class="row" style="margin-top: 20px;margin-right: 0px;margin-left: 0px;">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4" style="text-align: center;">
-          <button id="startButton" type="button" class="btn btn-primary btn-lg">Start Game</button>
-        </div>
-        <div class="col-sm-4"></div>
+    $dialog.dialog('open');
+
+    $dialog.html('Some text');
+  </script>
+
+
+  <!-- Dialog -->
+  <!--<style>
+        .ui-dialog.success-dialog {
+            font-family: Verdana,Arial,sans-serif;
+            font-size: .8em;
+        }
+        .ui-dialog .ui-dialog-content
+        {
+            /*position: relative;
+            border: 0;
+            padding: .5em 1em;
+            background: none;
+            overflow: auto;
+            zoom: 1;
+            background-color: #ffd;
+            border: solid 1px #ea7;*/
+            background-color: rgb(34, 34, 34);
+        }
+        .ui-dialog .ui-dialog-titlebar
+        {
+            /*display:true;*/
+            
+            background-color: rgb(34, 34, 34);
+        }
+        .ui-widget-content
+        {
+            /*border:true;*/
+            color: #d9d9d9;
+            background: rgb(34, 34, 34);
+            background-color: rgb(34, 34, 34);
+
+        }
+        /* Title border*/
+        .ui-corner-all
+        {
+            border-color: rgb(17, 17, 17);
+        }
+        .ui-dialog
+         {
+            border-color: rgb(17, 17, 17);
+        }
+        .ui-resizable
+        {
+          border-color: rgb(17, 17, 17);
+        }
+        .ui-widget.ui-widget-content {
+    border: 1px solid rgb(17, 17, 17);
+    
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+    display: block;
+    margin: 1px;
+}
+  </style>-->
+  <script>
+    $( function() {
+      // $( "#dialog" ).dialog().prev(".ui-dialog-titlebar").css("background","red");  $( "#dialog" ).dialog({modal:true, height: 500, width:600, title: 'Title', resizable: true, dialogClass: ''}).html('Some text').on('dialogclose', function(event) {
+      $( "#dialog" ).dialog({modal:true, height: 615, width:600,  dialogClass: ''}).on('dialogclose', function(event) {
+        document.getElementById('player_dialog').play();
+        if(!$('#AngularJS_Button').is(':visible'), !$('#Polymer_Button').is(':visible')){
+          $(".show_startbutton").show();
+        }
+      });;
+    } );
+  </script>
+
+  <!-- Effect pokeball -->
+  <script>
+    $( function() {
+    $( ".ball_1, .ball_2, .ball_3, .ball_4, .ball_5, .ball_6, .ball_7, .ball_8, .ball_9, .ball_10, .ball_11, .ball_12, .ball_13, .ball_14, .ball_15, .ball_16, .ball_17" ).dblclick(function() {
+      $(this).effect( "bounce", "slow" );
+      document.getElementById('player_pokeball').play();
+    });
+        } );
+  </script>
+
+  <!-- Effect logo -->
+    <script>
+    $( function() {
+    $( ".logo" ).dblclick(function() {
+      $( ".logo" ).effect( "pulsate", "slow" );
+      document.getElementById('player_logo').play();
+    });
+        } );
+  </script>
+
+  <!-- show Dialog after click "about" in the navbar -->
+    <script>
+    $( function(){
+        $("#show_dialog").click(function(){
+            document.getElementById('player_dialog').play();
+            $( "#dialog" ).dialog({modal:true});
+        });
+    });
+    </script>
+
+    <!-- Effect Angular & Polymer Logo 
+    <script>
+    $( function(){
+        $(".AngularJS_Logo, .Polymer_Logo").click(function(){
+            $(this).effect( "puff", "slow" );
+        });
+    });
+    </script>-->
+
+	<!-- loader -->
+	<link rel="stylesheet" href="loader/css/normalize.css">
+	<link rel="stylesheet" href="loader/css/main.css">
+	<script src="loader/js/vendor/modernizr-2.6.2.min.js"></script>
+  <script>
+  $( document ).ready(function() {
+    setTimeout(
+    function() 
+    {
+          $( "#loader-wrapper" ).remove();
+    }, 3000);
+  });
+  </script>
+
+
+
+<script>
+  $( document ).ready(function() {
+$( "#startButton, #AngularJS_Button, #Polymer_Button" ).mouseover(function() {
+  document.getElementById('player_button').play();
+});  });
+</script>
+
+
+
+</head>
+
+
+<!-- Small Logo right -->
+<body style="background:url('/images/mainPage/pokemon-wallpaper-legendary-HD1.jpg')no-repeat;  -webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;">
+
+    <!-- loader -->
+    <audio autoplay id="player_loader" src="/audio/loader_sound.mp3"> </audio>
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+			<div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+	  </div>
+
+
+
+  <!-- Navigation -->
+  <style>
+  	.active a{background: #4CAF50 !important;}
+    .navbar {background: rgb(34, 34, 34) !important;}
+  </style>
+  <audio  id="player_button" src="/audio/dialog_sound2.mp3"> </audio>
+  <nav class="navbar navbar-inverse ">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">v1.0.1</a>
       </div>
+      <ul class="nav navbar-nav">
+        <li class="active" style="background-color: #4CAF50;"><a href="#">Home</a></li>
+        <li><a id="show_dialog" style=" outline:none !important;" href="#">About</a></li>
+        <li>
+          <!-- Audio (main song)-->
+          <audio loop id="player" src="/audio/pokeclon_song.m4a"> </audio>
+          <img id="song1" style="height: 35px;width: 35px;margin-top: 8px;margin-left:14px;" src="/images/mainPage/switch_off.svg"></img>
+        </li>
+        <img id="song2" style="height: 35px;width: 35px;margin-top: 8px;margin-left:14px;display:none;" src="/images/mainPage/switch_on.svg"></img>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <img class="img-responsive logo" style="height: 35px;width: 114px;margin-top: 8px;margin-right: 11px;margin-left: 11px;" src="/images/mainPage/logo.png"
+          alt="logo"></img>
+      </ul>
+    </div>
+  </nav>
 
-      <!-- Choose Buttons & Logos -->
-      <div class="row" style="margin-top: 100px;margin-right: 0px;margin-left: 0px;">
-        <div class="col-sm-4">
-          <img class="img-responsive AngularJS_Logo" style="height: 173px;width: 173px;margin-top: -120px;margin-right: 0px;margin-left:11px;display:none;" src="/images/mainPage/angular.png" alt="Chania"></img>
-          <img class="img-responsive Polymer_Logo" style="height: 173px;width: 250px;margin-top: -120px;margin-right: 0px;margin-left:11px;display:none;" src="/images/mainPage/p-logo.png" alt="Chania"></img>
-        </div>
-        <div class="col-sm-4" style="text-align: center;">
-          <button id="AngularJS_Button" style="text-align: center;display:none;" type="button" class="btn btn-primary btn-lg">AngularJS</button>
-          <button id="Polymer_Button" style="text-align: center;display:none;" type="button" class="btn btn-primary btn-lg">Polymer</button>
-        </div>
-        <div class="col-sm-4"></div>
-      </div>
+  <div class="row"  style="margin-top: 20px;margin-right: 0px;margin-left: 0px;height: 0;width: 0;">
 
-      <!-- Angular Window -->
-      <div class="row AngularJS_Window" style="margin-top: 30px;margin-right: 0px;margin-left: 0px;display:none;">
-        <div class="col-sm-4">
+    <!-- logo audio -->
+      <audio id="player_logo" src="/audio/pokemon_logo.mp3"> </audio>
 
-        </div>
-        <div class="col-sm-4" style="text-align: center;background:url('/images/mainPage/dark_embroidery.png')repeat;">
-          <my-app><p  class="bg-warning" style="margin-top: 10px;">Loading AppComponent content here ...</p></my-app>
-        </div>
-        <div class="col-sm-4"></div>
-      </div>
+    <!-- pokeball audio -->
+      <audio id="player_pokeball" src="/audio/pokeball_effect.mp3"> </audio>
 
-     <!-- Polymer Window -->
-      <div class="row Polymer_Window" style="margin-top: 30px;margin-right: 0px;margin-left: 0px;display:none;">
-        <div class="col-sm-4">
+    <!-- pokeballs in the middle -->
+      <!-- green balls -->
+      <img class="draggable pokeball_big ball_9"   style="position: absolute;left: 840px;top: 450px;"  src="/images/mainPage/pokeball_green.svg" ></img>
+      <img class="draggable pokeball_small ball_8" style="position: absolute;left: 650px;top: 150px;"  src="/images/mainPage/pokeball_green.svg" ></img>
+      <img class="draggable pokeball_tiny ball_10"  style="position: absolute;left: 1100px;top: 260px;"  src="/images/mainPage/pokeball_green.svg" ></img>
 
-        </div>
-        <div class="col-sm-4" style="text-align: center;background:url('/images/mainPage/dark_embroidery.png')repeat;">
-          <p  class="bg-warning" style="margin-top: 10px;">Loading AppComponent content here ...</p>
-        </div>
-        <div class="col-sm-4"></div>
-      </div>
+    <!-- pokeballs on the right side-->
+      <!-- red balls -->
+      <img class="draggable pokeball_big ball_14"   style="position: absolute;left: 1340px;top: 600px;"  src="/images/mainPage/pokeball.svg" ></img>
+      <img class="draggable pokeball_small ball_12" style="position: absolute;left: 1240px;top: 390px;"  src="/images/mainPage/pokeball.svg" ></img>
+      <img class="draggable pokeball_small ball_13" style="position: absolute;left: 1300px;top: 62px;"  src="/images/mainPage/pokeball.svg" ></img>
+      <!-- orange balls -->
+      <img class="draggable pokeball_big ball_17"   style="position: absolute;left: 1650px;top: 100px;"  src="/images/mainPage/pokeball_orange.svg" ></img>
+      <img class="draggable pokeball_small ball_11" style="position: absolute;left: 1140px;top: 710px;"  src="/images/mainPage/pokeball_orange.svg" ></img>
+      <img class="draggable pokeball_small ball_16" style="position: absolute;left: 1640px;top: 760px;"  src="/images/mainPage/pokeball_orange.svg" ></img>
+      <img class="draggable pokeball_tiny ball_15"  style="position: absolute;left: 1500px;top: 420px;"  src="/images/mainPage/pokeball_orange.svg" ></img>
 
-    </body>
+
+    <!-- pokeballs on the left side-->
+      <!-- red balls -->
+      <img class="draggable pokeball_big ball_4"   style="position: absolute;left: 340px;top: 600px;"  src="/images/mainPage/pokeball.svg" ></img>
+      <img class="draggable pokeball_small ball_1"  style="position: absolute;left: 110px;top: 440px;"  src="/images/mainPage/pokeball.svg" ></img>
+      <img class="draggable pokeball_small ball_6" style="position: absolute;left: 570px;top: 400px;"  src="/images/mainPage/pokeball.svg" ></img>
+      <!-- blue balls -->
+      <img class="draggable pokeball_big ball_3"   style="position: absolute;left: 240px;top: 150px;"  src="/images/mainPage/pokeball_blue.svg" ></img>       
+      <img class="draggable pokeball_small ball_2" style="position: absolute;left: 140px;top: 710px;"  src="/images/mainPage/pokeball_blue.svg" ></img>
+      <img class="draggable pokeball_small ball_7" style="position: absolute;left: 640px;top: 760px;"  src="/images/mainPage/pokeball_blue.svg" ></img>
+      <img class="draggable pokeball_tiny ball_5"  style="position: absolute;left: 400px;top: 420px;"  src="/images/mainPage/pokeball_blue.svg" ></img>
+  </div>
+
+  <!-- Dialog -->
+  <audio  id="player_dialog" src="/audio/dialog_sound1.mp3"> </audio>
+  <style>
+    .legend {border: 1px !important; border: ghostwhite !important; color: ghostwhite !important;}
+    .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+     /*background-color: #1D4C7A*/
+     background-color: rgb(34, 34, 34)
+    }
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        border-top: ghostwhite;
+        
+    }
+    .table>thead>tr>th {
+        border-bottom: 0px solid #ddd;
+    }
+    th {
+        /*background-color: blue;*/
+        color: #f6f6f6;
+    } 
+    
+  </style>
+  <div id="dialog" title="System" >
+    </br><legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Frameworks & Features</legend>
+<table class="table table-striped table-responsive">
+	<thead>
+		<tr>
+			<th>
+				Name
+			</th>
+			<th>
+				Last updated
+			</th>
+			<th>
+				Version
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+    <tr>
+			<td>
+      <img class="" style="height: 25px; width: 25px;"  src="/images/logos/bootstrap-original-logo.svg" ></img> Bootstrap
+			</td>
+			<td>
+				05.12.2016
+			</td>
+			<td>
+				3.3.7
+			</td>
+		</tr>
+		<tr>
+			<td>
+      <img class="" style="height: 25px; width: 25px;"  src="/images/logos/jquery.svg" ></img> jQuery
+			</td>
+			<td>
+				01.12.2016
+			</td>
+			<td>
+				3.1.1
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img class="" style="height: 28px; width: 25px;"  src="/images/logos/jqueryui.png" ></img> jQuery UI
+			</td>
+			<td>
+				05.12.2016
+			</td>
+			<td>
+				1.12.1
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img class="" style="height: 17px; width: 25px;"  src="/images/logos/modernizr.svg" ></img> Modernizr
+			</td>
+			<td>
+				10.12.2016
+			</td>
+			<td>
+				2.6.2
+			</td>
+		</tr>
+    		<tr>
+			<td>
+				[CONTENT]
+			</td>
+			<td>
+				[CONTENT]
+			</td>
+			<td>
+				[CONTENT]
+			</td>
+		</tr>
+    		<tr>
+			<td>
+				[CONTENT]
+			</td>
+			<td>
+				[CONTENT]
+			</td>
+			<td>
+				[CONTENT]
+			</td>
+		</tr>
+	</tbody>
+</table>
+    <legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Developer</legend>
+<table class="table">
+	<tbody>
+		<tr>
+			<td>
+				Benedict Roth
+			</td>
+			<td>
+				[CONTENT]
+			</td>
+			<td>
+				[CONTENT]
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Daniel Franze
+			</td>
+			<td>
+				daniel.franze.office@gmail.com
+			</td>
+			<td>
+				[CONTENT]
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+  </div>
+
+  <!-- Start Button -->
+  <div class="row" style="margin-top: 20px;margin-right: 0px;margin-left: 0px;">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4" style="text-align: center;">
+      <button id="startButton" type="button" class="btn btn-primary btn-lg show_startbutton glow-button" style="display:none;">Start Game</button>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+
+  <!-- Choose Buttons & Logos -->
+  <div class="row" style="margin-top: 100px;margin-right: 0px;margin-left: 0px;">
+    <div class="col-sm-4">
+      <img class="img-responsive AngularJS_Logo" style="height: 173px;width: 173px;margin-top: -120px;margin-right: 0px;margin-left:11px;display:none;"
+        src="/images/mainPage/angular.png" alt="Chania"></img>
+      <img class="img-responsive Polymer_Logo" style="height: 173px;width: 250px;margin-top: -120px;margin-right: 0px;margin-left:11px;display:none;"
+        src="/images/mainPage/p-logo.png" alt="Chania"></img>
+    </div>
+    <div class="col-sm-4" style="text-align: center;">
+        <button id="AngularJS_Button" style="text-align: center;display:none;" type="button" class="btn btn-success btn-lg glow-button">AngularJS</button>
+        <button id="Polymer_Button" style="text-align: center;display:none;" type="button" class="btn btn-success btn-lg glow-button">Polymer</button>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+
+  <!-- Angular Window -->
+  <div class="row AngularJS_Window" style="margin-top: 30px;margin-right: 0px;margin-left: 0px;display:none;">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 window">
+      <my-app>
+        <p class="bg-warning" style="margin-top: 10px;">Loading AppComponent content here ...</p>
+      </my-app>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+
+  <!-- Polymer Window -->
+  <div class="row Polymer_Window" style="margin-top: 30px;margin-right: 0px;margin-left: 0px;display:none;">
+    <div class="col-sm-4">
+
+    </div>
+    <div class="col-sm-4 window">
+      <p class="bg-warning" style="margin-top: 10px;">Loading AppComponent content here ...</p>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+
+
+</body>
+
 </html>
 
 
-    <!-- Audio (main song) functions 
+<!-- Audio (main song) functions 
     <script>
       $(document).ready(function() {
           var playing = false;
