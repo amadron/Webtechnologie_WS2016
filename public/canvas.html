@@ -15,7 +15,7 @@
         var currHealthMon1 = 90;
         var currHealthMon2 = 90;
         var monPicPath = "images/MonsterPics/";
-        var monPicEnding = "_big.jpg";
+        var monPicEnding = "_big.png";
         var monPic1 = "01";
         var monPic2 = "02";
         backgroundImage = new Image();
@@ -86,6 +86,7 @@
                     var ratio1 = monImage1.heigh / monImage1.width;
                     context.drawImage(monImage1, barLeftDist, barHeightDist * 3 + barHeight, barWidth, barWidth);
                 }
+
                 monImage2.src = monPicPath + monPic2 + monPicEnding;
                 monImage2.onload = function()
                 {

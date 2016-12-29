@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokeklon 3D</title>
+    <script src="three.min.js"></script>
+    <script src="OBJLoader.js"></script>
+    <script src="MTLLoader.js"></script>
+    <script src="ColladaLoader.js"></script>
+    
+</head>
+<body>
+    <div id="container"></div>
+    <script>
+        // Set the scene size.
+        const WIDTH = 640;
+        const HEIGHT = 480;
+
+        // Set some camera attributes.
+        const VIEW_ANGLE = 45;
+        const ASPECT = WIDTH / HEIGHT;
+        const NEAR = 0.1;
+        const FAR = 10000;
+
+        // Get the DOM element to attach to
+        const container =
+            document.querySelector('#container');
+
+        // Create a WebGL renderer, camera
+        // and a scene
+        const renderer = new THREE.WebGLRenderer();
+        const camera =
+            new THREE.PerspectiveCamera(
+                VIEW_ANGLE,
+                ASPECT,
+                NEAR,
+                FAR
+            );
+
+        const scene = new THREE.Scene();
+
+        // Add the camera to the scene.
+        scene.add(camera);
+
+        // Start the renderer.
+        renderer.setSize(WIDTH, HEIGHT);
+
+        // Attach the renderer-supplied
+        // DOM element.
+        container.appendChild(renderer.domElement);
+
+        // Finally, add the sphere to the scene.
+        camera.position.z = 300;
+        camera.position.y = 60;
+        camera.rotation.x = -0.2;
+        // create a point light
+        const pointLight =
+          new THREE.PointLight(0xFFFFFF);
+        pointLight.intensity = 5;
+        // set its position
+        pointLight.position.x = 2;
+        pointLight.position.y = 2;
+        pointLight.position.z = 2;
+
+        // add to the scene
+        scene.add(pointLight);
+        var manager = new THREE.LoadingManager();
+        manager.onProgress = function (item, loaded, total) {
+            console.log(item, loaded, total);
+        };
+        var loader = new THREE.OBJLoader();
+        var mtlLoader = new THREE.MTLLoader();
+        var colladaLoader = new THREE.ColladaLoader();
+        var pkm;
+        loadDaePokemon('Bulbasaur', 200);
+         <!--loadDaePokemon('Charmander', -200);-->
+            var yrot = 1;
+            var clock = new THREE.Clock();
+            function update()
+            {
+                // Draw!
+                renderer.render(scene, camera);
+                // Schedule the next frame.
+                requestAnimationFrame(update);
+            }
+
+            // Schedule the first frame.
+            requestAnimationFrame(update);
+            function loadDaePokemon(monster, pos)
+            {
+                var url = "3D/" + monster + "/";
+                var modelurl = url + monster + "_ColladaMax.DAE";
+                colladaLoader.load(modelurl, function(collada)
+                {
+                    collada.scene.scale.set(2, 2, 2);
+                    
+                    scene.add(collada.scene);
+                    return renderer.render(scene, camera);
+                    
+                });
+            }
+            
+            function loadObjPokemon(monster, pos)
+            {
+                var url = "3D/" + monster + "/";
+                var modelurl = url + 'DR_' + monster + '.obj';
+                var obj;
+                mtlLoader.setPath(url);
+                    loader.load(modelurl, function (object) {
+                        scene.add(object);
+                        object.position.z = -300;
+                        object.position.x = pos;
+                        object.position.y = -100;
+                        var material = new THREE.MeshLambertMaterial({color: 0xff0000});
+                        object.traverse(function(child)
+                        {
+                            var counter = 0;
+                            if (child instanceof THREE.Mesh)
+                            {
+                                console.log("Child found!: " + child.name);
+                                if(counter == 0)
+                                {
+                                    child.material = material;
+                                }
+                                else
+                                {
+                                    var mato = new THREE.MeshLambertMaterial({color:0x00ffee});
+                                    child.material = mato
+                                }
+                                counter++;
+                            }
+                        }
+                        );
+                        object.rotateX(90);
+                        if (pos > 0)
+                            object.rotateZ(90);
+                        else
+                            object.rotateZ(-90);
+                        object.scale.set(20, 20, 20);
+                        obj = object;
+                    });
+            }
+    </script>
+
+</body>
+</html>

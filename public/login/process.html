@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Process</title>
+    <script>
+        var url = window.location.href;
+        var token = getToken(url);
+        var req = new XMLHttpRequest();
+        var reqURL = "https://www.googleapis.com/userinfo/v2/me";
+        var login;
+        function getToken(url)
+        {
+            var spl = url.split("#");
+            if (spl.length > 1) {
+                var parameters = spl[1];
+                var params = parameters.split("&");
+                for (i = 0; i < params.length; i++) {
+                    if (params[i].indexOf("token") != -1) {
+                        var token = params[i].split("=");
+                        return token[1];
+                    }
+                }
+            }
+            return "";
+        }
+    </script>
+</head>
+<body>
+    <h1>Success</h1>
+    <div id="main">
+        hello
+    </div>
+    <script>
+        req.open("GET", reqURL);
+        req.setRequestHeader("Authorization", "Bearer " + token);
+        req.addEventListener("load", function (event) {
+            if (req.status == 200) {
+                login = JSON.parse(req.responseText);
+                document.getElementById("main").innerHTML = login["name"];
+                if (window.opener != null) {
+                    window.opener.document.getElementById("main").innerHTML = "Now logged in! <br> Hello " + login["name"];
+                }
+            }
+            else
+            {
+                window.opener.document.getElementById("main").innerHTML = "Error on login";
+            }
+            window.close();
+        }
+        )
+        req.send();
+    </script>
+</body>
+</html>

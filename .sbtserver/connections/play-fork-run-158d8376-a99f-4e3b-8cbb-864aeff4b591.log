@@ -1,0 +1,42 @@
+New log file opened at Thu Dec 29 14:22:51 CET 2016 by 10684@DESKTOP-80HM3MF
+Sending msg to client play-fork-run-158d8376-a99f-4e3b-8cbb-864aeff4b591: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\.sbtserver\connections\master.log))
+Sending msg to client play-fork-run-158d8376-a99f-4e3b-8cbb-864aeff4b591: DetachedLogEvent(LogMessage(debug,sbt client logs are in: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\.sbtserver\connections\play-fork-run-158d8376-a99f-4e3b-8cbb-864aeff4b591.log))
+Sending msg to client play-fork-run-158d8376-a99f-4e3b-8cbb-864aeff4b591: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\.sbtserver\master.log))
+Dropping message DetachedLogEvent(LogMessage(debug,sbt client logs are in: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\.sbtserver\connections\play-fork-run-158d8376-a99f-4e3b-8cbb-864aeff4b591.log)) because client play-fork-run-158d8376-a99f-4e3b-8cbb-864aeff4b591 of an exception serializing and sending: java.net.SocketException: Software caused connection abort: socket write error
+Dropping message DetachedLogEvent(LogMessage(debug,sbt general server logs are in: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\.sbtserver\master.log)) because client play-fork-run-158d8376-a99f-4e3b-8cbb-864aeff4b591 of an exception serializing and sending: java.net.SocketException: Software caused connection abort: socket write error
+stack trace sending message was 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at sbt.impl.ipc.Peer.send(IPC.scala:79)
+	at sbt.impl.ipc.Peer.send(IPC.scala:83)
+	at sbt.impl.ipc.Peer.sendString(IPC.scala:106)
+	at sbt.impl.ipc.Peer.sendJson(IPC.scala:119)
+	at sbt.server.SbtClientHandler$$anonfun$send$1.apply$mcV$sp(SbtClientHandler.scala:128)
+	at sbt.server.SbtClientHandler.wrappedSend(SbtClientHandler.scala:113)
+	at sbt.server.SbtClientHandler.send(SbtClientHandler.scala:128)
+	at sbt.server.SbtClientHandler$clientThread$.run(SbtClientHandler.scala:42)
+stack trace sending message was 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at sbt.impl.ipc.Peer.send(IPC.scala:79)
+	at sbt.impl.ipc.Peer.send(IPC.scala:83)
+	at sbt.impl.ipc.Peer.sendString(IPC.scala:106)
+	at sbt.impl.ipc.Peer.sendJson(IPC.scala:119)
+	at sbt.server.SbtClientHandler$$anonfun$send$1.apply$mcV$sp(SbtClientHandler.scala:128)
+	at sbt.server.SbtClientHandler.wrappedSend(SbtClientHandler.scala:113)
+	at sbt.server.SbtClientHandler.send(SbtClientHandler.scala:128)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:92)
+Reading next message from client.
+Client play-fork-run-158d8376-a99f-4e3b-8cbb-864aeff4b591 closed, java.net.SocketException: socket is closed, shutting down
+Dropping message (0,ReceivedResponse()) to dead client play-fork-run-158d8376-a99f-4e3b-8cbb-864aeff4b591
+Client play-fork-run-158d8376-a99f-4e3b-8cbb-864aeff4b591 thread exiting.
