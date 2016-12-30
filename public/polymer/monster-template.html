@@ -1,0 +1,88 @@
+﻿<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../bower_components/paper-checkbox/paper-checkbox.html">
+
+<dom-module id="monster-template">
+    <template>
+        <style is="custom-style">
+            paper-card.rate {
+                @apply(--layout-horizontal);
+            }
+
+            .rate-image {
+                width: 128px;
+                height: 128px;
+                background: url('./01_big.png');
+                background-size: cover;
+            }
+
+            .monster-content {
+                @apply(--layout-flex);
+                float: left;
+            }
+
+            .monster-header {
+                @apply(--paper-font-headline);
+                font-family: Arial;
+                font-size: 130;
+                padding-left: 10%;
+                letter-spacing: 10px;
+            }
+
+            #checkbox {
+                margin-left: 40%;
+            }
+            .horizontal-justified {
+                font-size: 100%;
+                display: inline-block;
+                color: var(--paper-grey-600);
+                letter-spacing: 4px;
+                margin: 10px 0;
+            }
+            
+            .stat {
+                padding-top: 10px;
+                padding-right: 50px;
+            }
+
+            paper-icon-button.rate-icon {
+                --iron-icon-fill-color: white;
+                --iron-icon-stroke-color: var(--paper-grey-600);
+            }
+        </style>
+        <paper-card class="rate">
+            <div class="monster-content">
+                <div class="card-content">
+                    <div class="monster-header">[[monName]]</div>
+                    <div class="horizontal-justified">
+                        <div class="stat">Life: [[life]]</div>
+                        <div class="stat">Type: [[monType]]</div>
+                    </div>
+                    <div class="horizontal-justified">
+                        <div class="stat">Attack: [[attack]]</div>
+                        <div class="stat">Defence: [[defence]]</div>
+                    </div>
+                </div>
+                <div class="card-actions">
+                    <paper-checkbox id="checkbox">Select</paper-checkbox>
+                </div>
+            </div>
+            <div class="rate-image"></div>
+        </paper-card>
+    </template>
+    <script>
+    Polymer({
+
+      is: 'monster-template',
+
+      properties: {
+          monName: String,
+          life: Number,
+          monType: String,
+          attack: Number,
+          defence: Number
+      },
+
+    });
+    </script>
+</dom-module>

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body id="body">
+
+</body>
+<script>
+    var req = new XMLHttpRequest();
+    req.open('GET', 'http://localhost:9000/assets/polymer/index.html');
+    req.addEventListener('load', function(event)
+    {
+        document.body.innerHTML = req.responseText;
+    }
+    )
+    req.send();
+</script>
+</html>

@@ -1,4 +1,7 @@
 import com.google.inject.AbstractModule;
+
+import play.Logger;
+
 import java.time.Clock;
 
 import services.ApplicationTimer;

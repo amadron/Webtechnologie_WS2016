@@ -8,12 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
   <!-- Favicon -->
-  <link	rel="icon"	type="image/png"	href="assets/pokeclonWUI/images/mainPage/pokeball.png">	
-  <!-- preload audio (reason: performance improvement) -->
-  <!--<script>
-      var audio = new Audio('/audio/loader_sound.mp3');
-      audio.play();
-  </script>-->
+  <link	rel="icon"	type="image/png"	href="assets/pokeclonWUI/images/mainPage/pokeball.png">
+  
   <!-- CSS -->
   <style title="pokeball">
     /* Class declarations */
@@ -119,14 +115,10 @@
   <script>
       System.import('app').catch(function(err){ console.error(err); });
   </script>
-
-  <!-- Latest nanoScroller.js version -->
-  <!--<link rel="stylesheet" href="https://raw.githubusercontent.com/jamesflorentino/nanoScrollerJS/master/bin/css/nanoscroller.css">
-  <script src="https://raw.githubusercontent.com/jamesflorentino/nanoScrollerJS/master/bin/javascripts/jquery.nanoscroller.min.js"></script>
-  <script>
-    $(".nano").nanoScroller();
-    
-  </script>-->
+  
+  <!--Polymer-->
+  <script src="assets/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="assets/polymer/main-menu.html"/>	
 
   <!-- Button functions -->
   <script>
@@ -136,16 +128,18 @@
             $("#alert").fadeTo('fast', 0);
         });
         $("#startButton").click(function () {
-            if (user != null) {
-                document.getElementById('player_button').play();
-                $("#startButton").hide();
-                $("#AngularJS_Button").fadeIn();
-                $("#Polymer_Button").fadeIn();
-            }
-            else
-            {
-                $('#alert').fadeTo('fast', 1);
-            }
+            document.getElementById('player_button').play();
+            $("#startButton").hide();
+            $("#AngularJS_Button").fadeIn();
+            $("#Polymer_Button").fadeIn();
+            //
+            //if (user != null) {
+                
+            //}
+            //else
+            //{
+            //    $('#alert').fadeTo('fast', 1);
+            //}
         });
 
         $("#AngularJS_Button").click(function(){
@@ -311,6 +305,15 @@
           $('#nav-user').hide();
           $('#nav-login').show();
           user = null;
+      }
+  </script>
+
+  //Menulogic
+  <script>
+      var noOfMonsters;
+      function monsterChooseScreen()
+      {
+          
       }
   </script>
 </head>
@@ -592,7 +595,7 @@
 
     </div>
     <div class="col-sm-4 window">
-      <p class="bg-warning" style="margin-top: 10px;">Loading AppComponent content here ...</p>
+      <p class="bg-warning" id="polymer-content" style="margin-top: 10px;"><main-menu></main-menu></p>
     </div>
     <div class="col-sm-4"></div>
   </div>
