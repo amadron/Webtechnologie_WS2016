@@ -13,6 +13,7 @@
                 -moz-user-select:none;
                 -ms-user-select:none;
                 user-select:none;
+                border: 2px solid black;
             }
             paper-card.rate {
                 @apply(--layout-horizontal);
@@ -87,6 +88,7 @@
           montype: {
               type: String,
               notify: true,
+              observer: 'updateColor',
           },
           attack: Number,
           img: String,
@@ -100,21 +102,17 @@
               value: false
           },
       },
-      
-      //listeners: {
-      //    'montype-changed' : 'updateColor'
-      //},
 
       updateColor: function (e, detail) {
           console.log('Update!');
           if (this.montype == "Water") {
-              this.color = '#80bfff';
+              this.color = '#b3c6ff';
           }
           else if (this.montype == "Plant") {
               this.color = '#aaff80';
           }
           else if (this.montype == "Fire") {
-              this.color = '#ff6666';
+              this.color = '#ffb3b3';
           }
           else {
               this.color = '#ffffff';
