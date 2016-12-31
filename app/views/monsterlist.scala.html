@@ -1,0 +1,7 @@
+@import java.math.BigInteger; var i=1
+@(monsters: List[pokeklon.model.IMonster])
+@(i=1)
+@for(mon <- monsters) {
+    <monster-template number=@i mon-name="@mon.getName()" life="@mon.getMaxLife()" attack="@mon.getAttack()" defence="@mon.getDefence()" img="../images/MonsterPics/@if(i < 10){0}@(i)_big.png"></monster-template>            
+	@(i+=1)
+}

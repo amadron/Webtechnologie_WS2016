@@ -10,10 +10,11 @@
 </body>
 <script>
     var req = new XMLHttpRequest();
-    req.open('GET', 'http://localhost:9000/assets/polymer/index.html');
+    req.open('GET', 'http://localhost:9000/monsterlist');
     req.addEventListener('load', function(event)
     {
         document.body.innerHTML = req.responseText;
+        console.log("Loaded!");
     }
     )
     req.send();

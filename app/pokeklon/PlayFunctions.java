@@ -1,26 +1,38 @@
 package pokeklon;
 
 import play.mvc.*;
+
 import play.mvc.Result;
 import play.mvc.WebSocket;
 
 import pokeklon.Pokeklon;
+import pokeklon.controller.impl.MonsterFactory;
 import pokeklon.model.IMonster;
 import views.html.*;
 import javax.json.*;
 
 import java.io.IOException;
+import java.util.List;
 
 public class PlayFunctions extends Controller{
 	
 	public static WebSocket.In<String> guiSocketIn = null;
 	public static WebSocket.Out<String> guiSocketOut = null;
 	
+	MonsterFactory factory = new MonsterFactory();
+	
 	public Result getTuiState()
 	{
 		String tuiText = Pokeklon.tui.output;
 		tuiText = tuiText.replace("\n", "<br>");
 		return ok(views.html.tui.render(tuiText));
+	}
+	
+	public Result getMonsterList()
+	{
+		List<IMonster> monList = factory.getMonsterListFull();
+		return ok(views.html.monsterlist.render(monList));
+		
 	}
 	
 	public Result getGuiState()

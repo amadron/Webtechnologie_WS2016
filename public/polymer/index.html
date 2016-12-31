@@ -8,9 +8,17 @@
     <link rel="import" href="monster-template.html">
 </head>
 <body>
-    <monster-template id="mon"></monster-template>
-    <script>
-        document.getElementById("mon").monName = "bisasam";
-    </script>
+    <div id="list"></div>
 </body>
+<script>
+    var req = new XMLHttpRequest();
+    req.open("GET", "http://localhost:9000/monsterlist");
+    req.addEventListener("load", function(event) {
+        document.getElementById("list").innerHTML = req.responseText;
+        console.log("Loaded!");
+        console.log(req.responseText);
+    }
+    );
+    req.send();
+</script>
 </html>
