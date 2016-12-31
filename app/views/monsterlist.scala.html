@@ -1,7 +1,9 @@
 @import java.math.BigInteger; var i=1
 @(monsters: List[pokeklon.model.IMonster])
 @(i=1)
+<div>
 @for(mon <- monsters) {
-    <monster-template number=@i mon-name="@mon.getName()" life="@mon.getMaxLife()" attack="@mon.getAttack()" defence="@mon.getDefence()" img="../images/MonsterPics/@if(i < 10){0}@(i)_big.png"></monster-template>            
+    <monster-template number=@i monname="@mon.getName()" life="@mon.getMaxLife()" montype="@mon.getType().getName()" attack="@mon.getAttack()" defence="@mon.getDefence()" img="../images/MonsterPics/@if(i < 10){0}@(i)_big.png"></monster-template>            
 	@(i+=1)
 }
+</div>

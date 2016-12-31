@@ -13,6 +13,6 @@ libraryDependencies ++= Seq(
 )
 libraryDependencies += "log4j" % "log4j" % "1.2.14"
 
+parallelExecution in run := true
 fork in run := false
 
-fork in run := true

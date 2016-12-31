@@ -69,14 +69,15 @@ public class MonsterFactory implements IMonsterFactory{
 	
 	private IType getType(String type) {
 		IType tmp;
-		if(type == "Pflanze")
+		if(type.equalsIgnoreCase("Pflanze"))
 			tmp = new TypePlant();
-		else if(type == "Feuer")
+		else if(type.equalsIgnoreCase("Feuer"))
 			tmp = new TypeFire();
-		else if(type == "Wasser")
+		else if(type.equalsIgnoreCase("Wasser"))
 			tmp = new TypeWater();
 		else
 			tmp = new TypeNormal();
+		System.out.println("Got type: " + type + ", set type: " + tmp.getName());
 		return tmp;
 	}
 
@@ -132,7 +133,7 @@ public class MonsterFactory implements IMonsterFactory{
 	public List<String> getAllImagePaths(List<List<String>> monster) {
 		List<String> tmpLst = new LinkedList<String>();
 		for (int i = 0; i < monster.size(); i++) {
-			String tmp = "src/pokeklon/data/MonsterPics/" + new DecimalFormat("00").format(i) + ".jpg";
+			String tmp = "app/pokeklon/data/MonsterPics/" + new DecimalFormat("00").format(i) + ".jpg";
 			tmpLst.add(tmp);
 		}
 		return tmpLst;

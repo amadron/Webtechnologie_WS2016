@@ -5,6 +5,15 @@
 <dom-module id="monster-template">
     <template>
         <style is="custom-style">
+            #card {
+                cursor: default;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select:none;
+                -moz-user-select:none;
+                -ms-user-select:none;
+                user-select:none;
+            }
             paper-card.rate {
                 @apply(--layout-horizontal);
             }
@@ -49,24 +58,21 @@
                 --iron-icon-stroke-color: var(--paper-grey-600);
             }
         </style>
-        <paper-card class="rate">
+        <paper-card id="card" style$="background: [[color]];" on-click="templateClick" class="rate">
             <div class="monster-content">
                 <div class="card-content">
-                    <div class="monster-header">[[mon-name]]</div>
+                    <div class="monster-header">[[monname]]</div>
                     <div class="horizontal-justified">
                         <div class="stat">Life: [[life]]</div>
-                        <div class="stat">Type: [[mont-ype]]</div>
+                        <div class="stat">Type: [[montype]]</div>
                     </div>
                     <div class="horizontal-justified">
                         <div class="stat">Attack: [[attack]]</div>
                         <div class="stat">Defence: [[defence]]</div>
                     </div>
                 </div>
-                <div class="card-actions">
-                    <paper-checkbox id="checkbox">Select</paper-checkbox>
-                </div>
             </div>
-            <div class="rate-image" style$="background: url('[[img]]')"></div>
+            <div class="rate-image" style$="background: url('[[img]]'); background-size: 160px; background-position: left center -20%;"></div>
         </paper-card>
     </template>
     <script>
@@ -78,12 +84,55 @@
           number: Number,
           monname: String,
           life: Number,
-          montype: String,
+          montype: {
+              type: String,
+              notify: true,
+          },
           attack: Number,
           img: String,
-          defence: Number
+          defence: Number,
+          color: {
+              type: String,
+              value: '#ffffff'
+          },
+          selected: {
+              type: String,
+              value: false
+          },
       },
+      
+      //listeners: {
+      //    'montype-changed' : 'updateColor'
+      //},
 
+      updateColor: function (e, detail) {
+          console.log('Update!');
+          if (this.montype == "Water") {
+              this.color = '#80bfff';
+          }
+          else if (this.montype == "Plant") {
+              this.color = '#aaff80';
+          }
+          else if (this.montype == "Fire") {
+              this.color = '#ff6666';
+          }
+          else {
+              this.color = '#ffffff';
+          }
+      },
+      
+      templateClick: function (e, detail) {
+          if (!this.selected) {
+              this.selected = true;
+              this.$.card.style.background = '#ccccb3';
+          }
+          else 
+          {
+              this.selected = false;
+              this.$.card.style.background = this.color;
+          }
+      }
+      
     });
     </script>
 </dom-module>

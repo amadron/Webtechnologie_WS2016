@@ -6,9 +6,15 @@
     <title>test-element</title>
     <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="monster-template.html">
+    <link rel="import" href="../bower_components/paper-button/paper-button.html" />
+    <link rel="import" href="../bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html" />
 </head>
 <body>
-    <div id="list"></div>
+    <div style="position: fixed; height:100px; width: 100%; top:0 ; right: 0; z-index: 3; background: #359ca5;">
+       <div style="margin-left: 35vw; margin-top: 20px; font-size: 4vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Select Monster|s</div>
+    </div>
+    <div id="list" style="padding-top: 130px; padding-bottom: 12%;"></div>
+    <paper-button id="btn" style="display:none; position: fixed; bottom:0; width:100%; height: 15%; background: #808080;"> Disabled </paper-button>
 </body>
 <script>
     var req = new XMLHttpRequest();
@@ -20,5 +26,7 @@
     }
     );
     req.send();
+    document.getElementById('btn').disabled = false;
+    document.getElementById('btn').raised = true;
 </script>
 </html>
