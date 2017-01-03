@@ -1,0 +1,6 @@
+@(attacks: List[pokeklon.model.IAttack])
+<div>
+@for(attack <- attacks) {
+	<paper-button raised>@attack.getName()</paper-button>
+}
+</div>

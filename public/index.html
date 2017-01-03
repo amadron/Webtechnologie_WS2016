@@ -116,9 +116,10 @@
       System.import('app').catch(function(err){ console.error(err); });
   </script>
   
-  <!--Polymer-->
-  <script src="assets/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-  <link rel="import" href="assets/polymer/main-menu.html"/>	
+    <!--Polymer-->
+    <script src="assets/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="assets/polymer/main-menu.html" />	
+    <link rel="import" href="assets/polymer/battle-menu.html" />	
 
   <!-- Button functions -->
   <script>
@@ -310,10 +311,52 @@
 
   //Menulogic
   <script>
+      var conn = new WebSocket('ws://localhost:9000/getSocket');
+      conn.onmessage = function() 
+      {
+
+      }
+
       var noOfMonsters;
+      function getView(url)
+      {
+          var req = new XMLHttpRequest();
+          req.open('GET', url);
+          req.addEventListener('load', function () {
+              $('#polymer-content').html(req.responseText);
+          }
+          )
+          req.send();
+      }
+
+      function startGame()
+      {
+          conn.send("Start Game");
+      }
+
       function monsterChooseScreen()
       {
-          
+          getView('localhost:9000/monsterlist');
+      }
+
+      function startScreen()
+      {
+          $('#polymer-content').html("<main-menu></main-menu>");
+      }
+
+      function battleScreen()
+      {
+          $('#polymer-content').html("<battle-menu></battle-menu>");
+      }
+
+      function itemScreen()
+      {
+          getView('localhost:9000/itemlist');
+      }
+
+      function attackScreen()
+      {
+          getView('localhost:9000/attacklist');
       }
   </script>
 </head>
@@ -595,7 +638,7 @@
 
     </div>
     <div class="col-sm-4 window">
-      <p class="bg-warning" id="polymer-content" style="margin-top: 10px;"><main-menu></main-menu></p>
+      <p class="bg-warning" id="polymer-content" style="margin-top: 10px;"></p>
     </div>
     <div class="col-sm-4"></div>
   </div>

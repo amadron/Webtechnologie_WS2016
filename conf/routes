@@ -14,7 +14,11 @@ GET     /tui_state                  pokeklon.PlayFunctions.getTuiState()
 GET	/tui_socket		    pokeklon.PlayFunctions.tuiSocket()
 GET	/gui_state		    pokeklon.PlayFunctions.getGuiState()
 GET	/gui_socket		    pokeklon.PlayFunctions.guiSocket()
+GET	/socket			    pokeklon.PlayFunctions.getSocket()
 GET     /monsterlist		    pokeklon.PlayFunctions.getMonsterList()
+GET	/itemlist		    pokeklon.PlayFunctions.getItemList()
+GET	/attacklist		    pokeklon.PlayFunctions.getAttackList()
+GET 	/currmonsterlist	    pokeklon.PlayFunctions.getCurrMonsterList()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

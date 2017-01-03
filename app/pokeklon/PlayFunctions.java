@@ -18,6 +18,8 @@ public class PlayFunctions extends Controller{
 	
 	public static WebSocket.In<String> guiSocketIn = null;
 	public static WebSocket.Out<String> guiSocketOut = null;
+	public static WebSocket.In<String> webSocketIn = null;
+	public static WebSocket.Out<String> webSocketOut = null;
 	
 	MonsterFactory factory = new MonsterFactory();
 	
@@ -31,8 +33,18 @@ public class PlayFunctions extends Controller{
 	public Result getMonsterList()
 	{
 		List<IMonster> monList = factory.getMonsterListFull();
-		return ok(views.html.monsterlist.render(monList));
+		return ok(views.html.monsterlist.render(Pokeklon.controller.getCurrentMonster().getAttackList()));
 		
+	}
+	
+	public Result getItemList()
+	{
+		return ok(views.html.attacklist.render(Pokeklon.controller.getCurrentPlayer().getItemList()));
+	}
+	
+	public Result getAttackList()
+	{
+		return ok(views.html.atack)
 	}
 	
 	public Result getGuiState()
@@ -60,6 +72,25 @@ public class PlayFunctions extends Controller{
 		return WebSocket.whenReady((in, out) -> {
 			guiSocketOut = out;
 			guiSocketIn = in;
+			out.write(getCurrentMonster());
+		});
+	}
+	
+	public LegacyWebSocket<String> getSocket()
+	{
+		System.out.println("Open Socket!");
+		return WebSocket.whenReady((in, out) -> {
+			webSocketOut = out;
+			webSocketIn = in;
+			in.onMessage(con ->
+		    {
+		    	String mes = (String) con;
+		    	if(mes.equals("Start Game"))
+		    	{
+		    		
+		    	}
+		    }
+		    );
 			out.write(getCurrentMonster());
 		});
 	}

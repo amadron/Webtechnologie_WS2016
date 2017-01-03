@@ -26,6 +26,7 @@ public class Observable implements IObservable {
 
 	@Override
 	public void notifyObservers(Event e) {
+		
 		for ( Iterator<IObserver> iter = subscribers.iterator(); iter.hasNext();) {
 			IObserver observer = iter.next();
 			observer.update(e);

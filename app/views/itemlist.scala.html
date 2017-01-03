@@ -1,0 +1,6 @@
+@(items: List[pokeklon.model.IItem])
+<div>
+@for(item <- items) {
+	<paper-button raised>@item.getName()</paper-button>
+}
+</div>
