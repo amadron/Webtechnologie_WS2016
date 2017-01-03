@@ -173,7 +173,8 @@ public class Battle extends JPanel implements ItemListener {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				changeMonster();
+				controller.changeMonsterMenu();
+				//changeMonster();
 				
 			}
 		});
@@ -184,7 +185,8 @@ public class Battle extends JPanel implements ItemListener {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				getItemButtons();
+				controller.itemMenu();
+				//getItemButtons();
 				
 			}
 		});

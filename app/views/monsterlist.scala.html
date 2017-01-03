@@ -1,12 +1,12 @@
 @import java.math.BigInteger; var i=1
 @(monsters: List[pokeklon.model.IMonster])
 @(i=1)
-<div style="position: fixed; height:100px; width: 100%; top:0 ; right: 0; z-index: 3; background: #359ca5;">
-    <div style="margin-left: 35vw; margin-top: 20px; font-size: 4vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">Select Monster|s</div>
+<div style=" height:100px; width: 100%; top:0 ; right: 0; z-index: 3; background: #359ca5;">
+    <div style="margin-left: 35%; margin-top: 20px; font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Select Monster|s</div>
 </div>
 <div>
 @for(mon <- monsters) {
-    <monster-template number=@i monname="@mon.getName()" life="@mon.getMaxLife()" montype="@mon.getType().getName()" attack="@mon.getAttack()" defence="@mon.getDefence()" img="../images/MonsterPics/@if(i < 10){0}@(i)_big.png"></monster-template>            
+    <monster-template number=@i monname="@mon.getName()" life="@mon.getMaxLife()" montype="@mon.getType().getName()" attack="@mon.getAttack()" defence="@mon.getDefence()" img="assets/images/MonsterPics/@if(i < 10){0}@(i)_big.png"></monster-template>            
 	@(i+=1)
 }
 </div>
