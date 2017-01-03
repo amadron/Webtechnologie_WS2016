@@ -77,7 +77,6 @@ public class MonsterFactory implements IMonsterFactory{
 			tmp = new TypeWater();
 		else
 			tmp = new TypeNormal();
-		System.out.println("Got type: " + type + ", set type: " + tmp.getName());
 		return tmp;
 	}
 

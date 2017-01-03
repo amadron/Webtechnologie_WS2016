@@ -1,6 +1,9 @@
 package pokeklon.view.gui.helper;
 
 import java.awt.Container;
+import java.awt.event.WindowAdapter;
+
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 public class CloseMenu {
@@ -13,7 +16,7 @@ public class CloseMenu {
             JOptionPane.YES_NO_OPTION);
 
         if (result == JOptionPane.YES_OPTION){
-            System.exit(0);
+           System.exit(0);
         }
 	}
 

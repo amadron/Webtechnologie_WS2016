@@ -33,18 +33,23 @@ public class PlayFunctions extends Controller{
 	public Result getMonsterList()
 	{
 		List<IMonster> monList = factory.getMonsterListFull();
-		return ok(views.html.monsterlist.render(Pokeklon.controller.getCurrentMonster().getAttackList()));
+		return ok(views.html.monsterlist.render(monList));
 		
+	}
+	
+	public Result getCurrMonsterList()
+	{
+		return ok(views.html.monsterlist.render(Pokeklon.controller.getCurrentPlayerMonsterList()));
 	}
 	
 	public Result getItemList()
 	{
-		return ok(views.html.attacklist.render(Pokeklon.controller.getCurrentPlayer().getItemList()));
+		return ok(views.html.itemlist.render(Pokeklon.controller.getItemList()));
 	}
 	
 	public Result getAttackList()
 	{
-		return ok(views.html.atack)
+		return ok(views.html.attacklist.render(Pokeklon.controller.getCurrentAttackList()));
 	}
 	
 	public Result getGuiState()
@@ -85,13 +90,16 @@ public class PlayFunctions extends Controller{
 			in.onMessage(con ->
 		    {
 		    	String mes = (String) con;
-		    	if(mes.equals("Start Game"))
+		    	if(mes.equals("start game"))
 		    	{
-		    		
+		    		if(Pokeklon.controller == null)
+		    		{
+		    			PokeklonThread thread = new PokeklonThread();
+		    			thread.start();
+		    		}
 		    	}
 		    }
 		    );
-			out.write(getCurrentMonster());
 		});
 	}
 	

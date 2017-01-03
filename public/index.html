@@ -119,7 +119,8 @@
     <!--Polymer-->
     <script src="assets/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="assets/polymer/main-menu.html" />	
-    <link rel="import" href="assets/polymer/battle-menu.html" />	
+    <link rel="import" href="assets/polymer/battle-menu.html" />
+    <link rel="import" href="assets/polymer/monster-template.html" />	
 
   <!-- Button functions -->
   <script>
@@ -133,6 +134,7 @@
             $("#startButton").hide();
             $("#AngularJS_Button").fadeIn();
             $("#Polymer_Button").fadeIn();
+            startGame();
             //
             //if (user != null) {
                 
@@ -311,10 +313,50 @@
 
   //Menulogic
   <script>
-      var conn = new WebSocket('ws://localhost:9000/getSocket');
-      conn.onmessage = function() 
+      var conn = new WebSocket('ws://localhost:9000/socket');
+      conn.onopen = function()
       {
+          console.log("WebSocketOpened!");
+      }
+      conn.onmessage = function(event) 
+      {
+          console.log("Got data: " + event.data);
+          processMessage(event.data);
+      }
 
+      function processMessage(message)
+      {
+          var split = message.split(':');
+          if(split[0] == 'update')
+          {
+              processState(split[1]);
+          }
+      }
+
+      function processState(state)
+      {
+          switch(state)
+          {
+              case 'menu':
+                  startScreen();
+                  break;
+              case 'monP1':
+              case 'monP2':
+                  monsterChooseScreen();
+                  break;
+              case 'battle':
+                  battleScreen();
+                  break;
+              case 'attack':
+                  attackScreen();
+                  break;
+              case 'itemCh':
+                  itemScreen();
+                  break;
+              case 'end':
+
+                  break;
+          }
       }
 
       var noOfMonsters;
@@ -331,12 +373,12 @@
 
       function startGame()
       {
-          conn.send("Start Game");
+          conn.send("start game");
       }
 
       function monsterChooseScreen()
       {
-          getView('localhost:9000/monsterlist');
+          getView('http://localhost:9000/monsterlist');
       }
 
       function startScreen()
@@ -351,12 +393,12 @@
 
       function itemScreen()
       {
-          getView('localhost:9000/itemlist');
+          getView('http://localhost:9000/itemlist');
       }
 
       function attackScreen()
       {
-          getView('localhost:9000/attacklist');
+          getView('http://localhost:9000/attacklist');
       }
   </script>
 </head>

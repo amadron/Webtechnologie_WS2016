@@ -37,10 +37,6 @@ public class TextUI implements IObserver{
 	@Override
 	public void update(Event e) {
 		printTUI();
-		if(Pokeklon.outSocket != null)
-		{
-			Pokeklon.outSocket.write((output + "\n" + Pokeklon.controller.getStatusLine()).replace("\n", "<br>"));
-		}
 	}
 	
 	public void monsterAdd(String line){

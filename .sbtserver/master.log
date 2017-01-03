@@ -1,5 +1,5 @@
-New log file opened at Sat Dec 31 13:51:30 CET 2016 by 5180@DESKTOP-80HM3MF
-jvm 5180@DESKTOP-80HM3MF
+New log file opened at Tue Jan 03 19:28:27 CET 2017 by 9352@DESKTOP-80HM3MF
+jvm 9352@DESKTOP-80HM3MF
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.111-b14
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in D:\Documents\Studium\Webtech\Webtechnologie_WS2016\project, returning: (webtechnologie_ws2016-build)
 Loading project definition from D:\Documents\Studium\Webtech\Webtechnologie_WS2016\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@4f58b890, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@14536595, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -67,37 +67,15 @@ Set current project to pokePlay (in build file:/D:/Documents/Studium/Webtech/Web
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@6c44fae7, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 1 s, completed 31.12.2016 13:51:36
-> server-post-command-cleanup
-> server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@2f91e808, check cycles: false
-Total time: 0 s, completed 31.12.2016 13:51:36
+Running task... Cancel: sbt.server.ServerTaskCancellation@215b6513, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:28:36
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@64645d5d, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@4371d1b5, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -114,18 +92,18 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed 31.12.2016 13:51:36
+Total time: 1 s, completed 03.01.2017 19:28:37
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@3581ea85, check cycles: false
-Total time: 0 s, completed 31.12.2016 13:51:37
+Running task... Cancel: sbt.server.ServerTaskCancellation@72ba070e, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:28:37
 > server-post-command-cleanup
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@3e6f0e03, check cycles: false
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@25f40b27, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -142,52 +120,30 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 0 s, completed 31.12.2016 13:53:31
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@77676bf5, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 0 s, completed 31.12.2016 13:53:34
+Total time: 1 s, completed 03.01.2017 19:28:38
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@2e412339, check cycles: false
-Total time: 0 s, completed 31.12.2016 13:53:37
+Running task... Cancel: sbt.server.ServerTaskCancellation@55cefe29, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:28:44
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@4179b605, check cycles: false
-Total time: 0 s, completed 31.12.2016 13:53:40
+Running task... Cancel: sbt.server.ServerTaskCancellation@7af39141, check cycles: false
+Total time: 1 s, completed 03.01.2017 19:28:47
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@28e66ce2, check cycles: false
-Total time: 0 s, completed 31.12.2016 13:53:42
+Running task... Cancel: sbt.server.ServerTaskCancellation@754100d9, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:28:49
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@5c20080c, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@3cdc7699, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -209,12 +165,30 @@ Copy resource mappings:
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 7 s, completed 31.12.2016 13:53:54
+Total time: 6 s, completed 03.01.2017 19:28:58
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@34065788, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:31:16
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@82d00d3, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:31:19
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@27f2cf26, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:31:22
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@38ea5c9a, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@7f3fb3f0, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -236,415 +210,69 @@ Copy resource mappings:
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 6 s, completed 31.12.2016 13:55:42
+Total time: 6 s, completed 03.01.2017 19:31:37
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@62c4657f, check cycles: false
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@5a3bb5b0, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:34:32
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@569a5896, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set()
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\controller\impl\MonsterFactory.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\controller\impl\MonsterFactory.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\controller\impl\MonsterFactory.java)
 
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 6 s, completed 31.12.2016 14:02:18
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@1fd5e247, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 7 s, completed 31.12.2016 14:03:01
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@1121e6d4, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 6 s, completed 31.12.2016 14:04:08
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@83fbb03, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 6 s, completed 31.12.2016 14:04:31
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@4374d5e4, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 6 s, completed 31.12.2016 14:04:49
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@3cc4d75, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 6 s, completed 31.12.2016 14:06:05
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@5b5480f8, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 6 s, completed 31.12.2016 14:07:19
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@6dd8288f, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 6 s, completed 31.12.2016 14:07:57
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@25ed2436, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 5 s, completed 31.12.2016 14:09:24
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@6d862c15, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 6 s, completed 31.12.2016 14:10:43
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@3b74abc4, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 5 s, completed 31.12.2016 14:11:29
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@32889c05, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 6 s, completed 31.12.2016 14:12:26
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@1e8538e0, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 5 s, completed 31.12.2016 14:12:55
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@e9265ae, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\monsterlist.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\monsterlist.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\twirl\main\views\html\monsterlist.template.scala)
-
-Read from stdout: Compiling 1 Scala source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Compiling 1 Scala source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 5d23a4d5, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Program Files\Java\jre1.8.0_111\lib\resources.jar;C:\Program Files\Java\jre1.8.0_111\lib\rt.jar;C:\Program Files\Java\jre1.8.0_111\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_111\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_111\lib\jce.jar;C:\Program Files\Java\jre1.8.0_111\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_111\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_111\classes;C:\Users\bened\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\aopalliance.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\guice-3.0.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\guice-assistedinject-3.0.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\javax.inject.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\javax.json-1.0.4.jar;D:\Documents\Studium\Webtech\Webtechnologie_WS2016\lib\log4j-1.2.17.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\bened\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\bened\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.4.jar;C:\Users\bened\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\bened\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.6.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\bened\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\bened\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\bundles\ssl-config-akka_2.11-0.2.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\bened\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\bened\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.10.jar;C:\Users\bened\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\bened\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\bened\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\bened\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\bened\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\bened\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\bened\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\bened\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\bened\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\bened\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\bened\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\bened\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\bened\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\bened\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\bened\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\bened\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\bened\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\bened\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\bened\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\bened\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\bened\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\bened\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\bened\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\bened\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\bened\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.9.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\bened\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\bened\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\bened\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\bened\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\bened\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\bened\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\bened\.ivy2\cache\log4j\log4j\jars\log4j-1.2.14.jar
-Scala compilation took 5.008830038 s
+Read from stdout: Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Java compilation took 2.251152451 s
+Java analysis took 0.116369447 s
+Java compile + analysis took 2.388775236 s
 New invalidations:
 	Set()
 Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 11 s, completed 31.12.2016 14:16:57
+Total time: 3 s, completed 03.01.2017 19:40:33
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@7200f14d, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:40:39
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@2b803c6e, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:40:42
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@461df311, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:40:45
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@1be1202f, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@56926b3d, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -666,13 +294,789 @@ Copy resource mappings:
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
 	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 6 s, completed 31.12.2016 14:19:35
+Total time: 7 s, completed 03.01.2017 19:40:55
 > server-post-command-cleanup
 > server-handle-next-server-request
-Done executing sbt server engine, result Right(Exit(0))
-Closing listening server socket
-Waiting for socket thread
-Waiting for request processor thread
-Waiting for command engine result
-Returning control to sbt launcher with result Exit(0)
-Closing the 5180@DESKTOP-80HM3MF logs at Sat Dec 31 16:37:05 CET 2016, goodbye.
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@336aed46, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:44:49
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@3a7f986d, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:44:53
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@1cb24f31, check cycles: false
+Total time: 0 s, completed 03.01.2017 19:44:56
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@cf885d5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
+Total time: 8 s, completed 03.01.2017 19:45:10
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@761aafad, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+
+Read from stdout: Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Read from stdout: Note: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java uses or overrides a deprecated API.
+Note: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java uses or overrides a deprecated API.
+Read from stdout: Note: Recompile with -Xlint:deprecation for details.
+Note: Recompile with -Xlint:deprecation for details.
+Java compilation took 1.153190497 s
+Java analysis took 0.02093563 s
+Java compile + analysis took 1.188178076 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed 03.01.2017 19:49:16
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@853d80, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+
+Read from stdout: Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Java compilation took 0.91162015 s
+Java analysis took 0.016468585 s
+Java compile + analysis took 0.940690235 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed 03.01.2017 19:51:43
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@456ceded, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
+Total time: 6 s, completed 03.01.2017 19:51:57
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@11944122, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
+Total time: 7 s, completed 03.01.2017 20:02:26
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6ef4989b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+
+Read from stdout: Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 1 Java source to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Java compilation took 0.968191838 s
+Java analysis took 0.016170938 s
+Java compile + analysis took 0.99804663 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed 03.01.2017 20:05:19
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3851d7ab, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+
+Read from stdout: Compiling 2 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 2 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java:41:  error: incompatible types: <anonymous WindowAdapter> cannot be converted to JFrame
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java:41:  error: incompatible types: <anonymous WindowAdapter> cannot be converted to JFrame
+Read from stdout: 	new CloseMenu(current, this);
+Read from stdout: 	                       ^
+            	new CloseMenu(current, this);
+            	                       ^
+Read from stdout: Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed 03.01.2017 20:09:10
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@433ea5c5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+
+Read from stdout: Compiling 2 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 2 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java:41:  error: incompatible types: <anonymous WindowAdapter> cannot be converted to JFrame
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java:41:  error: incompatible types: <anonymous WindowAdapter> cannot be converted to JFrame
+Read from stdout: 	new CloseMenu(current, this);
+Read from stdout: 	                       ^
+            	new CloseMenu(current, this);
+            	                       ^
+Read from stdout: Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed 03.01.2017 20:11:05
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2a9180b2, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseListener.java)
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseListener.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseListener.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+
+Read from stdout: Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java:41:  error: incompatible types: <anonymous WindowAdapter> cannot be converted to JFrame
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java:41:  error: incompatible types: <anonymous WindowAdapter> cannot be converted to JFrame
+Read from stdout: 	new CloseMenu(current, this);
+Read from stdout: 	                       ^
+            	new CloseMenu(current, this);
+            	                       ^
+Read from stdout: Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 03.01.2017 20:12:19
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@11dc7728, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Read from stdout: Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java:3:  error: cannot find symbol
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java:3:  error: cannot find symbol
+Read from stdout: public class CloseAdapter extends WindowListener {
+Read from stdout: ^
+public class CloseAdapter extends WindowListener {
+                                  ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed 03.01.2017 20:13:11
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@538cfdb5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Read from stdout: Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java:3:  error: cannot find symbol
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java:3:  error: cannot find symbol
+Read from stdout: public class CloseAdapter extends WindowListener {
+Read from stdout: ^
+public class CloseAdapter extends WindowListener {
+                                  ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed 03.01.2017 20:13:13
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@14d65e82, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Read from stdout: Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java:38:  error: ')' expected
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java:38:  error: ')' expected
+Read from stdout: 		this.addWindowListener(new WindowAdapter(JFrame frame) {
+Read from stdout: 		                                               ^
+		this.addWindowListener(new WindowAdapter(JFrame frame) {
+		                                               ^
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java:38:  error: ';' expected
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java:38:  error: ';' expected
+Read from stdout: 		this.addWindowListener(new WindowAdapter(JFrame frame) {
+Read from stdout: 		                                                     ^
+		this.addWindowListener(new WindowAdapter(JFrame frame) {
+		                                                     ^
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java:40:  error: illegal start of expression
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java:40:  error: illegal start of expression
+Read from stdout: });
+Read from stdout: ^
+    });
+     ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed 03.01.2017 20:15:31
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4e9d61b5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Read from stdout: Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Java compilation took 1.069232438 s
+Java analysis took 0.116478615 s
+Java compile + analysis took 1.200717527 s
+Invalidating D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java...
+Invalidating (transitively) by inheritance from D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java...
+Initial set of included nodes: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java)
+Invalidated by transitive inheritance dependency: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java)
+The D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java source file has the following regular definitions changed:
+	access$000.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PokeklonThread.java
+Invalidating D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java...
+Invalidating (transitively) by inheritance from D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java...
+Initial set of included nodes: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Invalidated by transitive inheritance dependency: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+The D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java source file has the following regular definitions changed:
+	<init>.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\Battle.java
+Invalidating D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java...
+Invalidating (transitively) by inheritance from D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java...
+Initial set of included nodes: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+Invalidated by transitive inheritance dependency: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+The D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java source file has the following regular definitions changed:
+	notify, wait, CloseAdapter, windowDeactivated, equals, windowOpened, windowDeiconified, notifyAll, frame, <init>, windowGainedFocus, windowClosed, windowActivated, windowClosing, toString, windowStateChanged, c, getClass, windowLostFocus, hashCode, windowIconified.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java
+New invalidations:
+	Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PokeklonThread.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\Battle.java)
+Initial set of included nodes: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PokeklonThread.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\Battle.java)
+Including D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java by D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PokeklonThread.java
+Including D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java by D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java
+Including D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayObserver.java by D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java
+Including D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\Pokeklon.java by D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayObserver.java
+Including D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\routes\main\router\Routes.scala by D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java)
+All newly invalidated sources after taking into account (previously) recompiled sources:Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PokeklonThread.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\Battle.java)
+Read from stdout: Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\Battle.java:199:  error: constructor CloseMenu in class CloseMenu cannot be applied to given types;
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\Battle.java:199:  error: constructor CloseMenu in class CloseMenu cannot be applied to given types;
+Read from stdout: 				new CloseMenu(fightPane);
+Read from stdout: 				^
+				new CloseMenu(fightPane);
+				^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 3 s, completed 03.01.2017 20:16:04
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 4
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@6b492474, check cycles: false
+Total time: 0 s, completed 03.01.2017 20:16:42
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 4
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@4d0b6be8, check cycles: false
+Exception in thread "sbt-bg-threads-4" java.lang.Error: java.lang.InterruptedException: sleep interrupted
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at play.sbt.forkrun.PlayForkProcess$.timedWaitFor(PlayForkProcess.scala:80)
+	at play.sbt.forkrun.PlayForkProcess$.play$sbt$forkrun$PlayForkProcess$$stop$1(PlayForkProcess.scala:54)
+	at play.sbt.forkrun.PlayForkProcess$.run(PlayForkProcess.scala:70)
+	at play.sbt.forkrun.PlayForkProcess$.apply(PlayForkProcess.scala:35)
+	at play.sbt.forkrun.PlayForkRun$$anonfun$backgroundForkRunTask$1$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.apply(PlayForkRun.scala:108)
+	at play.sbt.forkrun.PlayForkRun$$anonfun$backgroundForkRunTask$1$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.apply(PlayForkRun.scala:107)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	... 3 more
+Total time: 0 s, completed 03.01.2017 20:16:49
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@67a5f73c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Read from stdout: Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Java compilation took 0.895514993 s
+Java analysis took 0.056648667 s
+Java compile + analysis took 0.962523006 s
+Invalidating D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java...
+Invalidating (transitively) by inheritance from D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java...
+Initial set of included nodes: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java)
+Invalidated by transitive inheritance dependency: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java)
+The D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java source file has the following regular definitions changed:
+	access$000.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PokeklonThread.java
+Invalidating D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java...
+Invalidating (transitively) by inheritance from D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java...
+Initial set of included nodes: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Invalidated by transitive inheritance dependency: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+The D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java source file has the following regular definitions changed:
+	<init>.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\Battle.java
+Invalidating D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java...
+Invalidating (transitively) by inheritance from D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java...
+Initial set of included nodes: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+Invalidated by transitive inheritance dependency: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+The D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java source file has the following regular definitions changed:
+	notify, wait, CloseAdapter, windowDeactivated, equals, windowOpened, windowDeiconified, notifyAll, frame, <init>, windowGainedFocus, windowClosed, windowActivated, windowClosing, toString, windowStateChanged, c, getClass, windowLostFocus, hashCode, windowIconified.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java
+Name hashing optimization doesn't apply to non-Scala dependency: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java
+New invalidations:
+	Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PokeklonThread.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\Battle.java)
+Initial set of included nodes: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PokeklonThread.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\Battle.java)
+Including D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java by D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PokeklonThread.java
+Including D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java by D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java
+Including D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayObserver.java by D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java
+Including D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\Pokeklon.java by D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayObserver.java
+Including D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\routes\main\router\Routes.scala by D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PlayFunctions.java
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java)
+All newly invalidated sources after taking into account (previously) recompiled sources:Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\PokeklonThread.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\Battle.java)
+Read from stdout: Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\Battle.java:199:  error: constructor CloseMenu in class CloseMenu cannot be applied to given types;
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\Battle.java:199:  error: constructor CloseMenu in class CloseMenu cannot be applied to given types;
+Read from stdout: 				new CloseMenu(fightPane);
+Read from stdout: 				^
+				new CloseMenu(fightPane);
+				^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 03.01.2017 20:16:59
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@38e95374, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Read from stdout: Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java:21:  error: constructor CloseMenu in class CloseMenu cannot be applied to given types;
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java:21:  error: constructor CloseMenu in class CloseMenu cannot be applied to given types;
+Read from stdout: 	new CloseMenu(c, frame);
+Read from stdout: 	^
+    	new CloseMenu(c, frame);
+    	^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed 03.01.2017 20:18:40
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2de7eaf9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Read from stdout: Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java:19:  error: cannot find symbol
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java:19:  error: cannot find symbol
+Read from stdout: parent.setVisible(false);
+Read from stdout: ^
+           parent.setVisible(false);
+           ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 03.01.2017 20:21:12
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7cf78e85, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Read from stdout: Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Read from stdout: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java:19:  error: cannot find symbol
+D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java:19:  error: cannot find symbol
+Read from stdout: parent.setVisible(false);
+Read from stdout: ^
+           parent.setVisible(false);
+           ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed 03.01.2017 20:21:19
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@24245342, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+	modified: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\PokeklonFrame.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseMenu.java, D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+
+Read from stdout: Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Compiling 3 Java sources to D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes...
+Java compilation took 1.071979379 s
+Java analysis took 0.043024527 s
+Java compile + analysis took 1.125936155 s
+Invalidating D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java...
+Invalidating (transitively) by inheritance from D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java...
+Initial set of included nodes: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+Invalidated by transitive inheritance dependency: Set(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java)
+The D:\Documents\Studium\Webtech\Webtechnologie_WS2016\app\pokeklon\view\gui\helper\CloseAdapter.java source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed 03.01.2017 20:21:43
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@38aecf38, check cycles: false
+Total time: 0 s, completed 03.01.2017 20:21:51
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@21757585, check cycles: false
+Total time: 0 s, completed 03.01.2017 20:21:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@2dd9f291, check cycles: false
+Total time: 0 s, completed 03.01.2017 20:21:57
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2690df5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
+	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
+Total time: 6 s, completed 03.01.2017 20:22:05
+> server-post-command-cleanup
+> server-handle-next-server-request
