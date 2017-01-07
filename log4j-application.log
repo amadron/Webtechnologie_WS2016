@@ -2050,3 +2050,1466 @@ Player2 Monster: Raupy	Life: 45.0
 (1) Attack 	 (2) Change Monster 
 (3) Item 	(4) Exit
 
+2017-01-03 21:19:46 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-03 21:19:46 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-03 21:19:58 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-03 21:19:58 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-03 21:19:58 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-03 21:19:58 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-03 21:19:58 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-03 21:19:58 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Hornliu	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-03 21:19:58 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-03 21:19:58 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-03 21:35:14 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-03 21:35:14 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-03 21:35:40 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-03 21:35:40 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-03 21:35:45 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-03 21:35:45 INFO  TextUI:320 - Battle: 
+Player1 Monster: Taubsi	Life: 40.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-03 21:35:48 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-03 21:35:48 INFO  TextUI:320 - Battle: 
+Player1 Monster: Taubsi	Life: 40.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-03 21:38:04 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-03 21:38:04 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-03 21:38:08 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-03 21:38:08 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-03 21:38:08 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-03 21:38:08 INFO  TextUI:320 - Battle: 
+Player1 Monster: Bisasam	Life: 45.0
+Player2 Monster: Quapsel	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-03 21:40:04 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-03 21:40:04 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-03 21:42:15 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-03 21:42:15 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-03 21:42:15 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-03 21:42:15 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 44.0
+Player2 Monster: Ratfatz	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-03 21:42:32 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-03 21:42:32 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-03 21:42:59 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-03 21:42:59 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-03 21:44:12 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-03 21:44:12 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-03 21:44:16 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-03 21:44:16 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-03 21:44:16 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-03 21:44:16 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Bisasam	Life: 45.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-03 21:44:26 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-03 21:44:26 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-03 21:44:39 INFO  TextUI:318 -  ############################### Item selection ############################### 
+
+2017-01-03 21:44:39 INFO  TextUI:320 - Items: 
+HP Trank
+HP Trank
+X-Attack
+X-Defence
+(0) Back to Battle Menu
+
+2017-01-03 21:44:42 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-03 21:44:42 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-03 21:44:45 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-03 21:44:45 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Bisasam	Life: 45.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-03 21:44:46 INFO  TextUI:318 -  ############################### Item selection ############################### 
+
+2017-01-03 21:44:46 INFO  TextUI:320 - Items: 
+HP Trank
+HP Trank
+X-Attack
+X-Defence
+(0) Back to Battle Menu
+
+2017-01-07 15:48:06 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 15:48:06 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 16:42:30 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 16:42:30 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 16:42:51 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-07 16:42:51 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 16:42:51 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 16:42:51 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 44.0
+Player2 Monster: Ratfatz	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 16:43:41 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 16:43:41 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 16:43:42 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-07 16:43:42 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 16:43:43 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 16:43:43 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Ratfatz	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 16:44:42 INFO  TextUI:318 -  ############################### Item selection ############################### 
+
+2017-01-07 16:44:42 INFO  TextUI:320 - Items: 
+HP Trank
+HP Trank
+X-Attack
+X-Defence
+(0) Back to Battle Menu
+
+2017-01-07 16:44:48 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-07 16:44:48 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Biss	NORMAL
+Glut	FIRE
+Flammenrad	FIRE
+(0) Back to Battle Menu
+2017-01-07 16:44:52 INFO  TextUI:318 -  ############################### Item selection ############################### 
+
+2017-01-07 16:44:52 INFO  TextUI:320 - Items: 
+HP Trank
+HP Trank
+X-Attack
+X-Defence
+(0) Back to Battle Menu
+
+2017-01-07 16:44:53 INFO  TextUI:318 -  ############################### X-Defence used ############################### 
+
+2017-01-07 16:44:53 INFO  TextUI:320 - Items: 
+HP Trank
+HP Trank
+X-Attack
+(0) Back to Battle Menu
+
+2017-01-07 16:45:07 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-07 16:45:07 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Biss	NORMAL
+Glut	FIRE
+Flammenrad	FIRE
+(0) Back to Battle Menu
+2017-01-07 16:45:13 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 16:45:13 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Ratfatz	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 16:45:14 INFO  TextUI:318 -  ############################### Item selection ############################### 
+
+2017-01-07 16:45:14 INFO  TextUI:320 - Items: 
+HP Trank
+HP Trank
+X-Attack
+(0) Back to Battle Menu
+
+2017-01-07 16:45:16 INFO  TextUI:318 -  ############################### HP Trank used ############################### 
+
+2017-01-07 16:45:16 INFO  TextUI:320 - Items: 
+HP Trank
+X-Attack
+(0) Back to Battle Menu
+
+2017-01-07 16:45:17 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-07 16:45:17 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Biss	NORMAL
+Glut	FIRE
+Flammenrad	FIRE
+(0) Back to Battle Menu
+2017-01-07 16:45:19 INFO  TextUI:318 -  ##################### Fukano uses Biss and made 6 damage ##################### 
+
+2017-01-07 16:45:19 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Biss	NORMAL
+Glut	FIRE
+Flammenrad	FIRE
+(0) Back to Battle Menu
+2017-01-07 16:46:06 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 16:46:06 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 16:46:11 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-07 16:46:11 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 16:46:11 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 16:46:11 INFO  TextUI:320 - Battle: 
+Player1 Monster: Glumand	Life: 39.0
+Player2 Monster: Seeper	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 16:59:37 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 16:59:37 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 17:04:50 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 17:04:50 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 17:06:13 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 17:06:13 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 17:06:19 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 17:06:19 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 44.0
+Player2 Monster: Schiggy	Life: 44.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:06:24 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-07 17:06:24 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-07 17:06:27 INFO  TextUI:318 -  ############################### Attack failed! ############################### 
+
+2017-01-07 17:06:27 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-07 17:07:14 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-07 17:07:14 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-07 17:07:16 INFO  TextUI:318 -  ################### Schiggy uses Blubber and made 4 damage ################### 
+
+2017-01-07 17:07:16 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-07 17:07:43 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-07 17:07:43 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-07 17:10:50 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 17:10:50 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 17:10:52 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 17:10:52 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 17:10:59 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 17:10:59 INFO  TextUI:320 - Battle: 
+Player1 Monster: Glumand	Life: 39.0
+Player2 Monster: Glumand	Life: 39.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:11:04 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-07 17:11:04 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Kratzer	NORMAL
+Glut	FIRE
+Schlitzer	NORMAL
+Feuerbiss	FIRE
+(0) Back to Battle Menu
+2017-01-07 17:11:06 INFO  TextUI:318 -  #################### Glumand uses Glut and made 6 damage #################### 
+
+2017-01-07 17:11:06 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Kratzer	NORMAL
+Glut	FIRE
+Schlitzer	NORMAL
+Feuerbiss	FIRE
+(0) Back to Battle Menu
+2017-01-07 17:11:14 INFO  TextUI:318 -  ############################### Item selection ############################### 
+
+2017-01-07 17:11:14 INFO  TextUI:320 - Items: 
+HP Trank
+HP Trank
+X-Attack
+X-Defence
+(0) Back to Battle Menu
+
+2017-01-07 17:24:57 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 17:24:57 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 17:25:00 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-07 17:25:00 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 17:25:00 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 17:25:00 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:25:02 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-07 17:25:02 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-07 17:25:04 INFO  TextUI:318 -  ############################### Attack failed! ############################### 
+
+2017-01-07 17:25:04 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-07 17:25:20 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 17:25:20 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:25:22 INFO  TextUI:318 -  ############################### Item selection ############################### 
+
+2017-01-07 17:25:22 INFO  TextUI:320 - Items: 
+HP Trank
+HP Trank
+X-Attack
+X-Defence
+(0) Back to Battle Menu
+
+2017-01-07 17:25:26 INFO  TextUI:318 -  ############################### HP Trank used ############################### 
+
+2017-01-07 17:25:26 INFO  TextUI:320 - Items: 
+HP Trank
+X-Attack
+X-Defence
+(0) Back to Battle Menu
+
+2017-01-07 17:26:35 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 17:26:35 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 17:26:50 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 17:26:50 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 17:26:54 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 17:26:54 INFO  TextUI:320 - Battle: 
+Player1 Monster: Vulpix	Life: 38.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:30:17 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 17:30:17 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 17:30:23 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 17:30:23 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 17:30:26 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 17:30:26 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:32:11 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 17:32:11 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 17:32:13 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 17:32:13 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 17:32:23 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 17:32:23 INFO  TextUI:320 - Battle: 
+Player1 Monster: Glumand	Life: 39.0
+Player2 Monster: Hornliu	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:36:14 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 17:36:14 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 17:36:17 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 17:36:17 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 17:36:22 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 17:36:22 INFO  TextUI:320 - Battle: 
+Player1 Monster: Taubsi	Life: 40.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:41:35 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 17:41:35 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 17:41:38 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 17:41:38 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 17:41:43 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 17:41:43 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Hornliu	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:47:19 INFO  TextUI:316 -  #################################### Menu #################################### 
+
+2017-01-07 17:47:19 INFO  TextUI:318 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 17:47:28 INFO  TextUI:316 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 17:47:28 INFO  TextUI:318 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 17:47:33 INFO  TextUI:316 -  ############################### Battle begins! ############################### 
+
+2017-01-07 17:47:33 INFO  TextUI:318 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:47:34 INFO  TextUI:316 -  ############################### Change Monster ############################### 
+
+2017-01-07 17:47:34 INFO  TextUI:318 - Change Monster: 
+Current Monster Hornliu 
+Taubsi	40.0	45.0	40.0
+(0) Back to Battle 
+
+2017-01-07 17:47:49 INFO  TextUI:316 -  ################################### Attack ################################### 
+
+2017-01-07 17:47:49 INFO  TextUI:318 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-07 17:47:50 INFO  TextUI:316 -  ############################### Attack failed! ############################### 
+
+2017-01-07 17:47:50 INFO  TextUI:318 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-07 17:47:51 INFO  TextUI:316 -  ############################### Change Monster ############################### 
+
+2017-01-07 17:47:51 INFO  TextUI:318 - Change Monster: 
+Current Monster Habitak 
+Vulpix	38.0	41.0	40.0
+(0) Back to Battle 
+
+2017-01-07 17:47:56 INFO  TextUI:316 -  ################################### Attack ################################### 
+
+2017-01-07 17:47:56 INFO  TextUI:318 - Attack: 
+Name 	Type 
+Schnabel	NORMAL
+Furienschlag	NORMAL
+(0) Back to Battle Menu
+2017-01-07 17:47:57 INFO  TextUI:316 -  ############################### Attack failed! ############################### 
+
+2017-01-07 17:47:57 INFO  TextUI:318 - Attack: 
+Name 	Type 
+Schnabel	NORMAL
+Furienschlag	NORMAL
+(0) Back to Battle Menu
+2017-01-07 17:47:58 INFO  TextUI:316 -  ################################### Attack ################################### 
+
+2017-01-07 17:47:58 INFO  TextUI:318 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-07 17:48:00 INFO  TextUI:316 -  ############################### Change Monster ############################### 
+
+2017-01-07 17:48:00 INFO  TextUI:318 - Change Monster: 
+Current Monster Hornliu 
+Taubsi	40.0	45.0	40.0
+(0) Back to Battle 
+
+2017-01-07 17:48:07 INFO  TextUI:316 -  ######################### Raplaced Hornliu by Taubsi ######################### 
+
+2017-01-07 17:48:07 INFO  TextUI:318 - Battle: 
+Player1 Monster: Taubsi	Life: 40.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:48:08 INFO  TextUI:316 -  ############################### Change Monster ############################### 
+
+2017-01-07 17:48:08 INFO  TextUI:318 - Change Monster: 
+Current Monster Habitak 
+Vulpix	38.0	41.0	40.0
+(0) Back to Battle 
+
+2017-01-07 17:48:13 INFO  TextUI:316 -  ################################### Attack ################################### 
+
+2017-01-07 17:48:13 INFO  TextUI:318 - Attack: 
+Name 	Type 
+Schnabel	NORMAL
+Furienschlag	NORMAL
+(0) Back to Battle Menu
+2017-01-07 17:48:14 INFO  TextUI:316 -  ################ Habitak uses Furienschlag and made 4 damage ################ 
+
+2017-01-07 17:48:14 INFO  TextUI:318 - Attack: 
+Name 	Type 
+Schnabel	NORMAL
+Furienschlag	NORMAL
+(0) Back to Battle Menu
+2017-01-07 17:48:15 INFO  TextUI:316 -  ############################### Change Monster ############################### 
+
+2017-01-07 17:48:15 INFO  TextUI:318 - Change Monster: 
+Current Monster Taubsi 
+(0) Back to Battle 
+
+2017-01-07 17:48:17 INFO  TextUI:316 -  ################################### Attack ################################### 
+
+2017-01-07 17:48:17 INFO  TextUI:318 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2017-01-07 17:48:19 INFO  TextUI:316 -  ############################### Change Monster ############################### 
+
+2017-01-07 17:48:19 INFO  TextUI:318 - Change Monster: 
+Current Monster Taubsi 
+(0) Back to Battle 
+
+2017-01-07 17:49:31 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 17:49:31 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 17:49:33 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 17:49:33 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 17:49:39 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 17:49:39 INFO  TextUI:320 - Battle: 
+Player1 Monster: Taubsi	Life: 40.0
+Player2 Monster: Glumand	Life: 39.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:49:41 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 17:49:41 INFO  TextUI:320 - Battle: 
+Player1 Monster: Taubsi	Life: 40.0
+Player2 Monster: Glumand	Life: 39.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 17:49:47 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-07 17:49:47 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2017-01-07 17:49:49 INFO  TextUI:318 -  ################### Taubsi uses Widstoß and made 5 damage ################### 
+
+2017-01-07 17:49:49 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2017-01-07 17:49:52 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 17:49:52 INFO  TextUI:320 - Battle: 
+Player1 Monster: Taubsi	Life: 40.0
+Player2 Monster: Glumand	Life: 34.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:05:56 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 19:05:56 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 19:05:59 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 19:05:59 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 19:06:04 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 19:06:04 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:06:08 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:06:08 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:08:42 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 19:08:42 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 19:08:45 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 19:08:45 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 19:08:53 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 19:08:53 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Hornliu	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:08:55 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:08:55 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Hornliu	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:09:09 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-07 19:09:09 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Schnabel	NORMAL
+Furienschlag	NORMAL
+(0) Back to Battle Menu
+2017-01-07 19:09:10 INFO  TextUI:318 -  ################## Habitak uses Schnabel and made 7 damage ################## 
+
+2017-01-07 19:09:10 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Schnabel	NORMAL
+Furienschlag	NORMAL
+(0) Back to Battle Menu
+2017-01-07 19:09:11 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:09:11 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Hornliu	Life: 33.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:14:19 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 19:14:19 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 19:14:57 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 19:14:57 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 19:14:59 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 19:14:59 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 19:15:04 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 19:15:04 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:15:05 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:15:05 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:17:14 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 19:17:14 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 19:17:18 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 19:17:18 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 19:17:25 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 19:17:25 INFO  TextUI:320 - Battle: 
+Player1 Monster: Vulpix	Life: 38.0
+Player2 Monster: Fukano	Life: 55.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:17:27 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:17:27 INFO  TextUI:320 - Battle: 
+Player1 Monster: Vulpix	Life: 38.0
+Player2 Monster: Fukano	Life: 55.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:17:31 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-07 19:17:31 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Glut	FIRE
+Ruckzuckhieb	NORMAL
+Feuerwirbel	FIRE
+(0) Back to Battle Menu
+2017-01-07 19:17:32 INFO  TextUI:318 -  ##################### Vulpix uses Glut and made 5 damage ##################### 
+
+2017-01-07 19:17:32 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Glut	FIRE
+Ruckzuckhieb	NORMAL
+Feuerwirbel	FIRE
+(0) Back to Battle Menu
+2017-01-07 19:17:37 INFO  TextUI:318 -  ##################### Fukano uses Biss and made 6 damage ##################### 
+
+2017-01-07 19:17:37 INFO  TextUI:320 - Battle: 
+Player1 Monster: Vulpix	Life: 32.0
+Player2 Monster: Fukano	Life: 50.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:17:57 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:17:57 INFO  TextUI:320 - Battle: 
+Player1 Monster: Vulpix	Life: 32.0
+Player2 Monster: Fukano	Life: 50.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:19:39 INFO  TextUI:318 -  ######################### Raplaced Vulpix by Habitak ######################### 
+
+2017-01-07 19:19:39 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Fukano	Life: 50.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:19:45 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:19:45 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Fukano	Life: 50.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:22:38 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 19:22:38 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 19:22:43 INFO  TextUI:318 -  ###################### Player 1 please choose 4Monster: ###################### 
+
+2017-01-07 19:22:43 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 19:22:52 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 19:22:52 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Schiggy	Life: 44.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:22:54 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:22:54 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Schiggy	Life: 44.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:25:07 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 19:25:07 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 19:25:11 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 19:25:11 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 19:25:17 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 19:25:17 INFO  TextUI:320 - Battle: 
+Player1 Monster: Vulpix	Life: 38.0
+Player2 Monster: Taubsi	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:25:35 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:25:35 INFO  TextUI:320 - Battle: 
+Player1 Monster: Vulpix	Life: 38.0
+Player2 Monster: Taubsi	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:25:41 INFO  TextUI:318 -  ######################### Raplaced Vulpix by Habitak ######################### 
+
+2017-01-07 19:25:41 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Taubsi	Life: 40.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:25:44 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:25:44 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Taubsi	Life: 40.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:25:51 INFO  TextUI:318 -  ######################### Raplaced Taubsi by Hornliu ######################### 
+
+2017-01-07 19:25:51 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Hornliu	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:25:57 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:25:57 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Hornliu	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:28:05 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 19:28:05 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 19:28:08 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 19:28:08 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 19:28:15 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 19:28:15 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:28:18 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:28:18 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:28:20 INFO  TextUI:318 -  ######################### Raplaced Fukano by Seeper ######################### 
+
+2017-01-07 19:28:20 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:28:24 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:28:24 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:28:36 INFO  TextUI:318 -  ######################### Raplaced Habitak by Vulpix ######################### 
+
+2017-01-07 19:28:36 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:31:56 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 19:31:56 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 19:32:01 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-07 19:32:01 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 19:32:44 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 19:32:44 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 19:35:19 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-07 19:35:19 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-07 19:35:23 INFO  TextUI:318 -  ###################### Player 1 please choose 4Monster: ###################### 
+
+2017-01-07 19:35:23 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-07 19:35:33 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-07 19:35:33 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:35:40 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-07 19:35:40 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-07 19:35:56 INFO  TextUI:318 -  ######################### Raplaced Habitak by Fukano ######################### 
+
+2017-01-07 19:35:56 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+

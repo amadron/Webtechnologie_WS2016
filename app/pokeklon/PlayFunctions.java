@@ -7,11 +7,14 @@ import play.mvc.WebSocket;
 
 import pokeklon.Pokeklon;
 import pokeklon.controller.impl.MonsterFactory;
+import pokeklon.model.IAttack;
+import pokeklon.model.IItem;
 import pokeklon.model.IMonster;
 import views.html.*;
 import javax.json.*;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class PlayFunctions extends Controller{
@@ -39,7 +42,13 @@ public class PlayFunctions extends Controller{
 	
 	public Result getCurrMonsterList()
 	{
-		return ok(views.html.monsterlist.render(Pokeklon.controller.getCurrentPlayerMonsterList()));
+		List<IMonster> monList = new ArrayList<IMonster>(Pokeklon.controller.getCurrentPlayerMonsterList());
+		int[] numb = new int[monList.size()];
+		for(int i = 0; i < numb.length; i++)
+		{
+			numb[i] = factory.getMonsterNumber(monList.get(i).getName());
+		}
+		return ok(views.html.currmonsterlist.render(monList,numb));
 	}
 	
 	public Result getItemList()
@@ -90,7 +99,8 @@ public class PlayFunctions extends Controller{
 			in.onMessage(con ->
 		    {
 		    	String mes = (String) con;
-		    	if(mes.equals("start game"))
+		    	System.out.println("Controller got Message: " + mes);
+		    	if(mes.equals("startGame"))
 		    	{
 		    		if(Pokeklon.controller == null)
 		    		{
@@ -98,8 +108,77 @@ public class PlayFunctions extends Controller{
 		    			thread.start();
 		    		}
 		    	}
+		    	if(mes.equals("quickGame"))
+		    	{
+		    		Pokeklon.controller.quickGame();
+		    	}
+		    	if(mes.equals("2v2"))
+		    	{
+		    		Pokeklon.controller.newGame(2);
+		    	}
+		    	if(mes.equals("4v4"))
+		    	{
+		    		Pokeklon.controller.newGame(4);
+		    	}
+		    	if(mes.equals("showStart"))
+		    	{
+		    		Pokeklon.controller.getMain();
+		    	}
+		    	if(mes.equals("showBattle"))
+				{
+					Pokeklon.controller.battleMenu();
+				}
+		    	if(mes.equals("showItem"))
+		    	{
+		    		Pokeklon.controller.itemMenu();
+		    	}
+		    	if(mes.equalsIgnoreCase("showAttack"))
+		    	{
+		    		Pokeklon.controller.attackMenu();
+		    	}
+		    	if(mes.equalsIgnoreCase("showChange"))
+		    	{
+		    		Pokeklon.controller.changeMonsterMenu();
+		    	}
+		    	if(mes.contains("attack"))
+		    	{
+		    		String attack = mes.split(":")[1];
+		    		for(IAttack att : Pokeklon.controller.getCurrentAttackList())
+		    		{
+		    			if(att.getName().equals(attack))
+		    			{
+		    				Pokeklon.controller.attack(att);
+		    			}
+		    		}
+		    	}
+		    	if(mes.contains("item"))
+		    	{
+		    		String item = mes.split(":")[1];
+		    		for(IItem it : Pokeklon.controller.getCurrentPlayer().getItemList())
+		    		{
+		    			if(it.getName().equals(item))
+		    			{
+		    				Pokeklon.controller.useItem(it);
+		    			}
+		    		}
+		    	}
+		    	if(mes.contains("changemon"))
+		    	{
+		    		String monster = mes.split(":")[1];
+		    		for(IMonster mon : Pokeklon.controller.getCurrentPlayerMonsterList())
+		    		{
+		    			System.out.println("Monster in list: " +  mon.getName());
+		    			if(mon.getName().equals(monster))
+		    			{
+		    				System.out.println("Chane monster: " + monster);
+		    				Pokeklon.controller.changeMonster(mon);
+		    			}
+		    		}
+		    	}
 		    }
 		    );
+			String updateString = "update:" + Pokeklon.controller.getGameStat();
+			out.write(updateString);
 		});
 	}
 	

@@ -353,8 +353,10 @@
               case 'itemCh':
                   itemScreen();
                   break;
+              case 'changeMon':
+                  currMonScreen();
+                  break;
               case 'end':
-
                   break;
           }
       }
@@ -373,12 +375,27 @@
 
       function startGame()
       {
-          conn.send("start game");
+          conn.send("startGame");
       }
 
       function monsterChooseScreen()
       {
+          getView('http://localhost:9000/monsterlist');
+      }
+
+      function getMonsterChooseScreen()
+      {
+          conn.send("showMonSelect");
+      }
+
+      function currMonScreen()
+      {
           getView('http://localhost:9000/currmonsterlist');
+      }
+
+      function getCurrMonScreen()
+      {
+          conn.send("showChange");
       }
 
       function startScreen()
@@ -386,9 +403,19 @@
           $('#polymer-content').html("<main-menu></main-menu>");
       }
 
+      function getStartScreen()
+      {
+          conn.send("showStart");
+      }
+
       function battleScreen()
       {
           $('#polymer-content').html("<battle-menu></battle-menu>");
+      }
+
+      function getBattleScreen()
+      {
+          conn.send("showBattle");
       }
 
       function itemScreen()
@@ -396,9 +423,45 @@
           getView('http://localhost:9000/itemlist');
       }
 
+      function getItemScreen()
+      {
+          conn.send("showItem");
+      }
+
       function attackScreen()
       {
           getView('http://localhost:9000/attacklist');
+      }
+
+      function getAttackScreen()
+      {
+          conn.send("showAttack");
+      }
+
+      function quickGame()
+      {
+          conn.send("quickGame");
+      }
+
+      function twoVersusTwo()
+      {
+          conn.send("2v2");
+      }
+      function fourVersusFour()
+      {
+          conn.send("4v4");
+      }
+      function attack(name)
+      {
+          conn.send("attack:" + name);
+      }
+      function item(name)
+      {
+          conn.send("item:" + name);
+      }
+      function changemon(name)
+      {
+          conn.send("changemon:" + name);
       }
   </script>
 </head>

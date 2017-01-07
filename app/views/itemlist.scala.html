@@ -1,7 +1,7 @@
 @(items: List[pokeklon.model.IItem])
 <div>
 @for(item <- items) {
-	<paper-button raised>@item.getName()</paper-button>
+	<paper-button raised onclick="item('@item.getName()')">@item.getName()</paper-button>
 }
 </div>
 <paper-button raised onclick="battleScreen()">Abort</paper-button>

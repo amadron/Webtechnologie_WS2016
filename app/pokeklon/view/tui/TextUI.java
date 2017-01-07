@@ -260,7 +260,7 @@ public class TextUI implements IObserver{
 	}
 
 	private void changeMonsterMenu() {
-		if(stat.equals(battle)) {
+		if(stat != null && stat.equals(battle)) {
 			String menu = "Change Monster: \n";
 			menu += "Current Monster ";
 			menu += controller.getCurrentMonster().getName();

@@ -47,13 +47,12 @@
                 <div class="header-text">Please select a game Mode...</div>
             </paper-header-panel>
         </div>
-        <paper-button raised id="btn-quick-match" onclick="quickMatch()">Quick Match | 1 vs 1</paper-button>
+        <paper-button raised id="btn-quick-match" onclick="quickGame()">Quick Match | 1 vs 1</paper-button>
         <p class="spacer"></p>
-        <paper-button raised id="btn-2v2">2 vs 2</paper-button>
+        <paper-button raised id="btn-2v2" onclick="twoVersusTwo()">2 vs 2</paper-button>
         <p class="spacer"></p>
-        <paper-button raised id="btn4v4">4 vs 4</paper-button>
+        <paper-button raised id="btn4v4" onclick="fourVersusFour()">4 vs 4</paper-button>
         <p class="spacer"></p>
-        <paper-button raised id="btn-quit">Abort</paper-button>
     </template>
 
     <script>
