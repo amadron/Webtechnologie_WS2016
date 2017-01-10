@@ -9,7 +9,6 @@ public interface IMonster {
 	 * @return name The name of the monster.
 	 */
 	String getName();
-
 	
 	/**
 	 * Returns the current Life.

@@ -13,7 +13,6 @@ GET     /message                    controllers.AsyncController.message
 GET     /tui_state                  pokeklon.PlayFunctions.getTuiState()
 GET	/tui_socket		    pokeklon.PlayFunctions.tuiSocket()
 GET	/gui_state		    pokeklon.PlayFunctions.getGuiState()
-GET	/gui_socket		    pokeklon.PlayFunctions.guiSocket()
 GET	/socket			    pokeklon.PlayFunctions.getSocket()
 GET     /monsterlist		    pokeklon.PlayFunctions.getMonsterList()
 GET	/itemlist		    pokeklon.PlayFunctions.getItemList()

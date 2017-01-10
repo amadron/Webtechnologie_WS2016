@@ -121,6 +121,7 @@
     <link rel="import" href="assets/polymer/main-menu.html" />	
     <link rel="import" href="assets/polymer/battle-menu.html" />
     <link rel="import" href="assets/polymer/monster-template.html" />	
+    <link rel="import" href="assets/polymer/battle-view.html" />
 
   <!-- Button functions -->
   <script>
@@ -313,6 +314,11 @@
 
   //Menulogic
   <script>
+      var monP1;
+      var monP2;
+      var monP1No;
+      var monP2No;
+      var maxMo;
       var conn = new WebSocket('ws://localhost:9000/socket');
       conn.onopen = function()
       {
@@ -326,10 +332,28 @@
 
       function processMessage(message)
       {
-          var split = message.split(':');
-          if(split[0] == 'update')
+          var json = JSON.parse(message);
+          console.log("json: " + json);
+          if(json['update'] != "")
           {
-              processState(split[1]);
+              processState(json['update']);
+          }
+          if (json['monP1No'] != "")
+          {
+              monP1No = json['monP1No'];
+          }
+          if (json['monP2No'] != "")
+          {
+              monP2No = json['monP2No'];
+          }
+          if(json['monP1'] != "")
+          {
+              monP1 = json['monP1'];
+          }
+          if(json['monP2'] != "")
+          {
+              monP2 = json['monP2'];
+              draw($('#battle-view').width(), $('#battle-view').width());
           }
       }
 
@@ -410,6 +434,8 @@
 
       function battleScreen()
       {
+          if ($('#battle-view').html() == "")
+              $('#battle-view').html("<battle-view></battle-view>");
           $('#polymer-content').html("<battle-menu></battle-menu>");
       }
 
@@ -743,7 +769,10 @@
 
     </div>
     <div class="col-sm-4 window">
-      <p class="bg-warning" id="polymer-content" style="margin-top: 10px;"></p>
+      <p class="bg-warning" id="polymer-view" style="margin-top: 10px; background: #ffffff;">
+          <p id="battle-view"></p>
+          <p id="polymer-content"></p>
+      </p>
     </div>
     <div class="col-sm-4"></div>
   </div>

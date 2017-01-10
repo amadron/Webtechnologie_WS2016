@@ -1,5 +1,0 @@
-New log file opened at Sat Jan 07 19:28:52 CET 2017 by 7660@DESKTOP-80HM3MF
-Sending msg to client play-fork-run-9d416455-fc24-46f8-be14-9d6f7cd11a9d: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\.sbtserver\connections\master.log))
-Sending msg to client play-fork-run-9d416455-fc24-46f8-be14-9d6f7cd11a9d: DetachedLogEvent(LogMessage(debug,sbt client logs are in: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\.sbtserver\connections\play-fork-run-9d416455-fc24-46f8-be14-9d6f7cd11a9d.log))
-Sending msg to client play-fork-run-9d416455-fc24-46f8-be14-9d6f7cd11a9d: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: D:\Documents\Studium\Webtech\Webtechnologie_WS2016\.sbtserver\master.log))
-Reading next message from client.

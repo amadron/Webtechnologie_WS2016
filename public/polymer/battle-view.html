@@ -1,0 +1,105 @@
+﻿<link rel="link" href="../bower_components/polymer/polymer.html" />
+
+<dom-module id="battle-view">
+
+    <template>
+
+        <style>
+
+        </style>
+        <canvas id="battlefield"></canvas>
+    </template>
+
+    <script>
+
+      Polymer({
+          is: 'battle-view'
+      });
+      var width = $(window).width();
+      var height = $(window).height();
+      var monsterName1 = "Monster1";
+      var monsterName2 = "Monster2";
+      var maxHealthMon1 = 100;
+      var maxHealthMon2 = 100;
+      var currHealthMon1 = 90;
+      var currHealthMon2 = 90;
+      var monPicPath = "assets/images/MonsterPics/";
+      var monPicEnding = "_big.png";
+      backgroundImage = new Image();
+
+      var monImage1 = new Image();
+      var monImage2 = new Image();
+
+      function updateMon()
+      {
+          monsterName1 = monP1['name'];
+          maxHealthMon1 = monP1['maxHealth'];
+          currHealthMon1 = monP1['life'];
+
+          monsterName2 = monP2['name'];
+          maxHealthMon2 = monP2['maxHealth'];
+          currHealthMon2 = monP2['life'];
+      }
+
+      function getNumber(no) {
+          no = no + 1;
+          if (no < 10)
+              return "0" + no;
+          else
+              return no;
+
+      }
+
+      function draw(canWidth, canHeight) {
+          console.log("Draw!!!");
+          updateMon();
+          var context = document.getElementById('battlefield').getContext('2d');
+          context.canvas.width = canWidth;
+          context.canvas.height = canHeight;
+          backgroundImage.src = "assets/images/battle_background.png";
+          backgroundImage.onload = function () {
+              context.drawImage(backgroundImage, 0, 0, canWidth, canHeight);
+              var barHeight = canHeight * 0.06;
+              var barWidth = canWidth * 0.3;
+              var barLeftDist = canWidth * 0.1;
+              var barHeightDist = canHeight * 0.08;
+              var rightPos = canWidth - barWidth - barLeftDist;
+
+              context.fillStyle = "blue";
+              context.font = barHeight * 1.2 + "px Arial";
+              context.strokeText(monsterName1, barLeftDist, barHeightDist, barWidth);
+              context.fillText(monsterName1, barLeftDist, barHeightDist, barWidth);
+              context.strokeText(monsterName2, rightPos, barHeightDist, barWidth);
+              context.fillText(monsterName2, rightPos, barHeightDist, barWidth);
+
+              context.fillStyle = "grey";
+              context.fillRect(barLeftDist, barHeightDist * 2, barWidth, barHeight);
+
+              var currHealtBar1 = (barWidth / maxHealthMon1) * currHealthMon1;
+              context.fillStyle = "#007399";
+              context.fillRect(barLeftDist, barHeightDist * 2, currHealtBar1, barHeight);
+
+              context.fillStyle = "grey";
+              context.fillRect(rightPos, barHeightDist * 2, barWidth, barHeight);
+
+              var currHealtBar2 = (barWidth / maxHealthMon2) * currHealthMon2;
+              context.fillStyle = "#007399";
+              context.fillRect(rightPos, barHeightDist * 2, currHealtBar2, barHeight);
+              monImage1.src = monPicPath + getNumber(monP1No) + monPicEnding;
+              monImage1.onload = function () {
+                  var ratio1 = monImage1.heigh / monImage1.width;
+                  context.drawImage(monImage1, barLeftDist, barHeightDist * 3 + barHeight, barWidth, barWidth);
+              }
+
+              monImage2.src = monPicPath + getNumber(monP2No) + monPicEnding;
+              monImage2.onload = function () {
+                  var ratio2 = monImage2.heigh / monImage2.width;
+                  context.drawImage(monImage2, rightPos, barHeightDist * 3 + barHeight, barWidth, barWidth);
+              }
+
+              context.stroke();
+          }
+      }
+    </script>
+
+</dom-module>

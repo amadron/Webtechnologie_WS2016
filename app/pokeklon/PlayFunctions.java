@@ -24,7 +24,7 @@ public class PlayFunctions extends Controller{
 	public static WebSocket.In<String> webSocketIn = null;
 	public static WebSocket.Out<String> webSocketOut = null;
 	
-	MonsterFactory factory = new MonsterFactory();
+	public static MonsterFactory factory = new MonsterFactory();
 	
 	public Result getTuiState()
 	{
@@ -77,16 +77,6 @@ public class PlayFunctions extends Controller{
 		    }
 		    );
 		    out.write(Pokeklon.tui.output.replace("\n", "<br>"));
-		});
-	}
-	
-	public LegacyWebSocket<String> guiSocket()
-	{
-		System.out.println("Open Socket!");
-		return WebSocket.whenReady((in, out) -> {
-			guiSocketOut = out;
-			guiSocketIn = in;
-			out.write(getCurrentMonster());
 		});
 	}
 	
@@ -167,10 +157,8 @@ public class PlayFunctions extends Controller{
 		    		String monster = mes.split(":")[1];
 		    		for(IMonster mon : Pokeklon.controller.getCurrentPlayerMonsterList())
 		    		{
-		    			System.out.println("Monster in list: " +  mon.getName());
 		    			if(mon.getName().equals(monster))
 		    			{
-		    				System.out.println("Chane monster: " + monster);
 		    				Pokeklon.controller.changeMonster(mon);
 		    			}
 		    		}
@@ -180,45 +168,5 @@ public class PlayFunctions extends Controller{
 			String updateString = "update:" + Pokeklon.controller.getGameStat();
 			out.write(updateString);
 		});
-	}
-	
-	public String getCurrentAttacks()
-	{
-		String json = "";
-		return json;
-	}
-	
-	public static String getCurrentMonster()
-	{
-		String json = "";
-		IMonster p1Mon = Pokeklon.controller.getCurrentP1Mon();
-		IMonster p2Mon = Pokeklon.controller.getCurrentP2Mon();
-		JsonObject mon1 = getCurrentMonInfo(p1Mon);
-		JsonObject mon2 = getCurrentMonInfo(p2Mon);
-		JsonArray jObject = Json.createArrayBuilder().add(mon1).add(mon2).build();
-		return jObject.toString();
-	}
-	
-	public static JsonObject getCurrentMonInfo(IMonster mon)
-	{
-		JsonObject ret = Json.createObjectBuilder()
-				.add("name", mon.getName())
-				.add("maxHealth", mon.getMaxLife())
-				.add("health", mon.getLife())
-				.add("image", Pokeklon.controller.getMonsterNumber(mon.getName()))
-				.build();
-		return ret;
-	}
-	
-	public String getItems()
-	{
-		String json = "";
-		return json;
-	}
-	
-	public String getMonster()
-	{
-		String ret = "";
-		return ret;
 	}
 }

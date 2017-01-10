@@ -117,10 +117,6 @@ public class PokeklonFrame extends JFrame implements IObserver {
 			rebuildWindow();
 			new ExitScreen(controller);
 		}
-		if(PlayFunctions.guiSocketOut != null)
-		{
-			PlayFunctions.guiSocketOut.write(PlayFunctions.getCurrentMonster());
-		}
 	}
 
 	private void rebuildWindow() {

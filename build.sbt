@@ -9,7 +9,8 @@ scalaVersion := "2.11.7"
 libraryDependencies ++= Seq(
   javaJdbc,
   cache,
-  javaWs
+  javaWs,
+  "com.google.code.gson" % "gson" % "2.2.4"
 )
 libraryDependencies += "log4j" % "log4j" % "1.2.14"
 

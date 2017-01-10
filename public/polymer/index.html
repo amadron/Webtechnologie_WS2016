@@ -5,24 +5,9 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
     <title>test-element</title>
     <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="monster-template.html">
-    <link rel="import" href="../bower_components/paper-button/paper-button.html" />
-    <link rel="import" href="../bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html" />
+    <link rel="import" href="main-menu.html">
 </head>
 <body>
-    
-    <div id="list" style="padding-top: 130px; padding-bottom: 12%;"></div>
-    
+    <main-menu></main-menu>
 </body>
-<script>
-    var req = new XMLHttpRequest();
-    req.open("GET", "http://localhost:9000/monsterlist");
-    req.addEventListener("load", function(event) {
-        document.getElementById("list").innerHTML = req.responseText;
-    }
-    );
-    req.send();
-    document.getElementById('btn').disabled = false;
-    document.getElementById('btn').raised = true;
-</script>
 </html>
