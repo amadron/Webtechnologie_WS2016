@@ -98,6 +98,21 @@ public class PlayFunctions extends Controller{
 		    			thread.start();
 		    		}
 		    	}
+		    	
+		    	if(mes.contains("confirmMon"))
+		    	{
+		    		String arr = mes.split(":")[1];
+		    		String nos[] = arr.split(",");
+		    		System.out.println("Nos: " + nos[0]);
+		    		int noArr[] = new int[nos.length];
+		    		for(int i = 0;i < nos.length; i++)
+		    		{
+		    			noArr[i] = Integer.getInteger(nos[i]);
+		    			System.out.println("No:" + noArr[i]);
+		    		}
+		    		Pokeklon.controller.addMonster(noArr);
+		    	}
+		    	
 		    	if(mes.equals("quickGame"))
 		    	{
 		    		Pokeklon.controller.quickGame();

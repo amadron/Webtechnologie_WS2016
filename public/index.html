@@ -318,7 +318,10 @@
       var monP2;
       var monP1No;
       var monP2No;
-      var maxMo;
+      var maxMo = 2;
+      var selectedMo;
+      var gameState;
+      var chosenMonster = new Array();
       var conn = new WebSocket('ws://localhost:9000/socket');
       conn.onopen = function()
       {
@@ -338,6 +341,7 @@
           {
               processState(json['update']);
           }
+          maxMo = json['maxMo'];
           if (json['monP1No'] != "")
           {
               monP1No = json['monP1No'];
@@ -359,6 +363,7 @@
 
       function processState(state)
       {
+          gameState = state;
           switch(state)
           {
               case 'menu':
@@ -366,7 +371,8 @@
                   break;
               case 'monP1':
               case 'monP2':
-                  monsterChooseScreen();
+                      monsterChooseScreen();
+                      chosenMonster = new Array();
                   break;
               case 'battle':
                   battleScreen();
@@ -404,6 +410,7 @@
 
       function monsterChooseScreen()
       {
+          selectedMo = 0;
           getView('http://localhost:9000/monsterlist');
       }
 
@@ -489,6 +496,26 @@
       {
           conn.send("changemon:" + name);
       }
+
+      function confirmMonster()
+      {
+          conn.send("confirmMon:" + chosenMonster);
+      }
+
+      function addMonster(number)
+      {
+          chosenMonster.push(number);
+      }
+
+      function removeMonster(number)
+      {
+          chosenMonster = chosenMonster.filter(function(item)
+          {
+              return item !== number;
+          }
+          )
+      }
+
   </script>
 </head>
 

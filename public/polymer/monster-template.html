@@ -121,13 +121,25 @@
       
       templateClick: function (e, detail) {
           if (!this.selected) {
-              this.selected = true;
-              this.$.card.style.background = '#cccc00';
+              if(selectedMo < maxMo)
+              {
+                  this.selected = true;
+                  this.$.card.style.background = '#cccc00';
+                  selectedMo = selectedMo + 1;
+                  addMonster(this.number);
+                  if(selectedMo == maxMo)
+                  {
+                      $('#confirm-monster').show();
+                  }
+              }
           }
           else 
           {
               this.selected = false;
               this.$.card.style.background = this.color;
+              selectedMo = selectedMo - 1;
+              removeMonster(this.number);
+              $('#confirm-monster').hide();
           }
       }
       

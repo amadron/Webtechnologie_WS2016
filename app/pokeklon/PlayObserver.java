@@ -23,6 +23,7 @@ public class PlayObserver implements IObserver{
 		WUIStatus state = new WUIStatus();
 		state.update = Pokeklon.controller.getGameStat();
 		state.tui = Pokeklon.tui.output;
+		state.maxMo = Pokeklon.controller.getNoOfMonster();
 		state.monP1 = Pokeklon.controller.getCurrentP1Mon();
 		if(state.monP1 != null)
 			state.monP1No = Pokeklon.controller.getMonsterNumber(state.monP1.getName());
@@ -30,7 +31,6 @@ public class PlayObserver implements IObserver{
 		if(state.monP2 != null)
 			state.monP2No = Pokeklon.controller.getMonsterNumber(state.monP2.getName());
 		String updateString =  gson.toJson(state);
-		//System.out.println("Updating wui: " + updateString);
 		PlayFunctions.webSocketOut.write(updateString);
 	}
 
