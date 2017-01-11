@@ -56,6 +56,7 @@ public class MonsterFactory implements IMonsterFactory{
 			if(n[i] < 0){
 				continue;
 			}
+			System.out.println("Get no: " + n[i]);
 			List<String> tmp = monsterAll.get(n[i]);
 			monsterUsed.add(new Monster(tmp.get(ZERO),
 					getType(tmp.get(1)),

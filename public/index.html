@@ -329,10 +329,17 @@
       }
       conn.onmessage = function(event) 
       {
-          console.log("Got data: " + event.data);
+          <!--console.log("Got data: " + event.data);-->
           processMessage(event.data);
       }
-
+      conn.onclose = function(event)
+      {
+          console.log("Socket closed!" + event.code);
+      }
+      conn.onerror = function(event)
+      {
+          console.log("Error on socket: " + event.message + " Error: " + event.error);
+      }
       function processMessage(message)
       {
           var json = JSON.parse(message);

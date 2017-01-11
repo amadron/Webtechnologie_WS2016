@@ -32,13 +32,18 @@
 
       function updateMon()
       {
+          if(monP1.name !== undefined)
+          {
           monsterName1 = monP1['name'];
           maxHealthMon1 = monP1['maxHealth'];
           currHealthMon1 = monP1['life'];
-
+          }
+          if(monP2.name !== undefined)
+          {
           monsterName2 = monP2['name'];
           maxHealthMon2 = monP2['maxHealth'];
           currHealthMon2 = monP2['life'];
+          }
       }
 
       function getNumber(no) {
