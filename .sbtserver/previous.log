@@ -1,5 +1,5 @@
-New log file opened at Thu Jan 12 10:02:40 CET 2017 by 6248@DESKTOP-80HM3MF
-jvm 6248@DESKTOP-80HM3MF
+New log file opened at Thu Jan 12 20:54:58 CET 2017 by 7996@DESKTOP-80HM3MF
+jvm 7996@DESKTOP-80HM3MF
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.111-b14
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in D:\Documents\Studium\Webtech\Webtechnologie_WS2016\project, returning: (webtechnologie_ws2016-build)
 Loading project definition from D:\Documents\Studium\Webtech\Webtechnologie_WS2016\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@72db4d0b, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2b2fac80, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -69,13 +69,13 @@ Set current project to pokePlay (in build file:/D:/Documents/Studium/Webtech/Web
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@12e77f7d, check cycles: false
-Total time: 0 s, completed 12.01.2017 10:05:02
+Running task... Cancel: sbt.server.ServerTaskCancellation@7f408d16, check cycles: false
+Total time: 0 s, completed 12.01.2017 20:55:05
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@3ec44843, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@13f2df, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -92,18 +92,18 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 18 s, completed 12.01.2017 10:05:20
+Total time: 2 s, completed 12.01.2017 20:55:06
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@7cc9ddb3, check cycles: false
-Total time: 0 s, completed 12.01.2017 10:05:20
+Running task... Cancel: sbt.server.ServerTaskCancellation@76c12db8, check cycles: false
+Total time: 0 s, completed 12.01.2017 20:55:06
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@519d839e, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@24e892f4, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -120,52 +120,7 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed 12.01.2017 10:05:21
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@5d123a22, check cycles: false
-Total time: 1 s, completed 12.01.2017 10:05:22
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@6c495235, check cycles: false
-Total time: 1 s, completed 12.01.2017 10:05:29
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@24462481, check cycles: false
-Total time: 0 s, completed 12.01.2017 10:05:45
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@3f5425ad, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\application.conf,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\application.conf)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\log4j.properties,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\log4j.properties)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\logback.xml,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\logback.xml)
-	(D:\Documents\Studium\Webtech\Webtechnologie_WS2016\conf\routes,D:\Documents\Studium\Webtech\Webtechnologie_WS2016\target\scala-2.11\classes\routes)
-Total time: 61 s, completed 12.01.2017 10:06:52
+Total time: 1 s, completed 12.01.2017 20:55:07
 > server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
@@ -174,4 +129,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 6248@DESKTOP-80HM3MF logs at Thu Jan 12 10:09:57 CET 2017, goodbye.
+Closing the 7996@DESKTOP-80HM3MF logs at Thu Jan 12 20:55:07 CET 2017, goodbye.

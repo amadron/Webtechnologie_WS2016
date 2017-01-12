@@ -5312,3 +5312,137 @@ Player2 Monster: Raupy	Life: 45.0
 (1) Attack 	 (2) Change Monster 
 (3) Item 	(4) Exit
 
+2017-01-12 20:57:48 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-12 20:57:48 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-12 20:57:53 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-12 20:57:53 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-12 20:57:54 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-12 20:57:54 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 44.0
+Player2 Monster: Fukano	Life: 55.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-12 21:06:09 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-12 21:06:09 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-12 21:06:14 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-12 21:06:14 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-12 21:06:23 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-12 21:06:23 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Glumand	Life: 39.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-12 21:08:07 INFO  TextUI:318 -  ############################### Item selection ############################### 
+
+2017-01-12 21:08:07 INFO  TextUI:320 - Items: 
+HP Trank
+HP Trank
+X-Attack
+X-Defence
+(0) Back to Battle Menu
+
+2017-01-12 21:11:12 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-12 21:11:12 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-12 21:11:14 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-12 21:11:14 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-12 21:11:14 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-12 21:11:14 INFO  TextUI:320 - Battle: 
+Player1 Monster: Ratfatz	Life: 30.0
+Player2 Monster: Seeper	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-12 21:13:43 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-12 21:13:43 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-12 21:13:45 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-12 21:13:45 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-12 21:13:45 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-12 21:13:45 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Taubsi	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-12 21:16:07 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-12 21:16:07 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-12 21:16:12 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-12 21:16:12 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-12 21:16:13 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-12 21:16:13 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 44.0
+Player2 Monster: Taubsi	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+

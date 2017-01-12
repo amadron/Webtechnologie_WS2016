@@ -392,8 +392,13 @@
           if(json['monP2'] != "")
           {
               monP2 = json['monP2'];
-              draw($('#battle-view').width(), $('#battle-view').width());
+              battleRefresh();
           }
+      }
+
+      function battleRefresh()
+      {
+          draw($('#battle-view').width(), $('#battle-view').width());
       }
 
       function sendTui()
@@ -483,7 +488,16 @@
       function battleScreen()
       {
           if ($('#battle-view').html() == "")
+          {
               $('#battle-view').html("<battle-view></battle-view>");
+              $(window).resize(
+                  function()
+                  {
+                      console.log("Resize");
+                      battleRefresh();
+                  }
+              );
+          }
           $('#polymer-content').html("<battle-menu></battle-menu>");
       }
 
@@ -838,7 +852,7 @@
     </div>
     <div class="col-sm-4 window">
       <p class="bg-warning" id="polymer-view" style="margin-top: 10px; background: #ffffff;">
-          <p id="battle-view"></p>
+          <p id="battle-view" style="width: auto"></p>
           <p id="polymer-content"></p>
       </p>
     </div>
