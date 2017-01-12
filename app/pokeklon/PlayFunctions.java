@@ -174,6 +174,12 @@ public class PlayFunctions extends Controller{
 			    			}
 			    		}
 			    	}
+			    	if(mes.contains("tui"))
+			    	{
+			    		String inp = mes.split(":")[1];
+			    		Pokeklon.tui.processInputLine(inp);
+			    	}
+			    	
 			    	if(mes.contains("changemon"))
 			    	{
 			    		String monster = mes.split(":")[1];

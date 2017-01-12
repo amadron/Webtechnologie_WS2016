@@ -93,14 +93,22 @@
       outline:none !important;
     }
   </style>
-  
+  <style>
+    .modal-backdrop {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        display:none;
+    }
+  </style>
+
+  <!-- Latest jQuery version -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
   <!-- Latest Bootstrap version-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-  <!-- Latest jQuery version -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
   <!-- Latest jQuery user interface version -->
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/dot-luv/jquery-ui.css">
@@ -135,6 +143,7 @@
             $("#startButton").hide();
             $("#AngularJS_Button").fadeIn();
             $("#Polymer_Button").fadeIn();
+            $('#Tui_Button').fadeIn();
             startGame();
             //
             //if (user != null) {
@@ -274,6 +283,21 @@
  //Log in function
  //To do: Log out when game is running
   <script>
+    $(function()
+    {
+        $("#tui-popup").dialog(
+        {
+            autoOpen: false,
+            hide: "puff",
+            show: "slide",
+            height: 200
+        });
+    });
+        function showTui()
+        {
+            console.log("Show tui");
+            $("#tui-popup").dialog("open");
+        }
       var user = null;
       var gameRunning = false;
       $(document).ready(function () {
@@ -349,6 +373,10 @@
               processState(json['update']);
           }
           maxMo = json['maxMo'];
+          if (json['tui'] != "")
+          {
+              $("#modal-content").html(json['tui']);
+          }
           if (json['monP1No'] != "")
           {
               monP1No = json['monP1No'];
@@ -366,6 +394,12 @@
               monP2 = json['monP2'];
               draw($('#battle-view').width(), $('#battle-view').width());
           }
+      }
+
+      function sendTui()
+      {
+          console.log("Send tui:" + $('#tui-input').val());
+          conn.send('tui:' + $('#tui-input').val());
       }
 
       function processState(state)
@@ -617,7 +651,6 @@
       <img class="draggable pokeball_small ball_7" style="position: absolute;left: 640px;top: 760px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_blue.svg" alt="pokeball_blue">
       <img class="draggable pokeball_tiny ball_5"  style="position: absolute;left: 400px;top: 420px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_blue.svg" alt="pokeball_blue">
   </div>
-  
 
   <!-- Dialog -->
   <audio  id="player_dialog" src="assets/pokeclonWUI/audio/dialog_sound1.mp3"> </audio>
@@ -782,6 +815,7 @@
     <div class="col-sm-4" style="text-align: center;">
         <button id="AngularJS_Button" style="text-align: center;display:none;" type="button" class="btn btn-success btn-lg glow-button">AngularJS</button>
         <button id="Polymer_Button" style="text-align: center;display:none;" type="button" class="btn btn-success btn-lg glow-button">Polymer</button>
+        <button id="Tui_Button" onclick="showTui()" style="text-align: center;display:none;" type="button" class="btn btn-info btn-lg"  data-toggle="modal" data-target="#myModal" data-backdrop="false">TUI</button>
     </div>
     <div class="col-sm-4"></div>
   </div>
@@ -810,8 +844,43 @@
     </div>
     <div class="col-sm-4"></div>
   </div>
+ <!--
+    <div id="myModal" class="draggable modal fade" role="dialog">
+    <div class="modal-dialog">
 
+        <!-- Modal content--> <!--
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">TUI</h4>
+        </div>
+        <div class="modal-body">
+            <p id="modal-content">Wait for tui data...</p>
+        </div>
+        <div class="modal-footer">
+            <div class="input-group">
+                <input type="text" class="form-control" id="tui-input"/>
+                <button type="button" onclick="sendTui()" class="btn btn-default">Send</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
 
+  </div>
+ -->
+ <div class="dialog" id="tui-popup" title="Tui"> 
+     <div class="modal-body">
+            <p id="modal-content">Wait for tui data...</p>
+        </div>
+     <div class="modal-footer">
+            <div class="input-group">
+                <input type="text" class="form-control" id="tui-input"/>
+                <button type="button" onclick="sendTui()" class="btn btn-default">Send</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
 </body>
 
 </html>
