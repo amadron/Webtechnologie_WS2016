@@ -12479,3 +12479,7 @@ Sending msg to client activator-30133740-4ec1-4fc6-8996-63cfd8e8a4d0: Background
 Sending msg to client activator-30133740-4ec1-4fc6-8996-63cfd8e8a4d0: BackgroundJobLogEvent(2,LogMessage(info,Play fork run already stopped ...))
 Sending msg to client activator-30133740-4ec1-4fc6-8996-63cfd8e8a4d0: BackgroundJobLogEvent(2,LogMessage(info,Forked Play process exited with status: 0))
 Sending msg to client activator-30133740-4ec1-4fc6-8996-63cfd8e8a4d0: BackgroundJobFinished(9,2)
+Client activator-30133740-4ec1-4fc6-8996-63cfd8e8a4d0 closed, java.net.SocketException: Connection reset, shutting down
+Stopping client.
+Client activator-30133740-4ec1-4fc6-8996-63cfd8e8a4d0 thread exiting.
+Dropping message (0,ReceivedResponse()) to dead client activator-30133740-4ec1-4fc6-8996-63cfd8e8a4d0
