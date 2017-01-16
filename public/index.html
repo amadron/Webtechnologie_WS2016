@@ -2,867 +2,1082 @@
 <html>
 
 <head>
-  <!-- Meta things -->
-  <title>Pokeclon</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-  <!-- Favicon -->
-  <link	rel="icon"	type="image/png"	href="assets/pokeclonWUI/images/mainPage/pokeball.png">
-  
-  <!-- CSS -->
-  <style title="pokeball">
-    /* Class declarations */
-    .glow-button:hover {color: rgba(248,248,255, 1); box-shadow: 0px 0px 265px 24px rgba(224,224,224,1);}
-    .pokeball_big { height: 250px; width: 250px; border: none; padding: 0.8em; float:left;transform: scale(1); filter:alpha(opacity=75); -moz-opacity: 0.75; opacity: 0.75;position: relative;padding: 0.5em;}
-    .pokeball_small { width: 150px; height: 150px; padding: 0.5em; border: 0;}
-    .pokeball_tiny {width: 100px; height: 100px; padding: 0.5em; border: 0;}
-    .pokeball_button {height: 300px; width: 300px;}
-    .window_old {border-radius: 10px; border-color: #ffffff;box-shadow: 0 0 10px #ffffff;filter:alpha(opacity=90); -moz-opacity: 0.90; opacity: 0.90;}
-    .window {border-radius: 10px; border-color: rgb(26, 26, 26);border-width: 3px;border-style: solid;filter:alpha(opacity=90); -moz-opacity: 0.90; opacity: 0.90;text-align: center;background:url('assets/pokeclonWUI/images/mainPage/dark_embroidery.png')repeat;}
-    /* Logo */
-    .logo_icon {width: 21px;}
-    .logo_font {font-size: 12px;}
+    <!-- Meta things -->
+    <title>Pokeclon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/pokeclonWUI/images/mainPage/pokeball.png">
 
-    /* Navigation Bar */
-  	.active a{background: #4CAF50 !important;}
-    .navbar {background: rgb(34, 34, 34) !important;}
-
-    .ball_1{} .ball_2{} .ball_3{} .ball_4{} .ball_5{} .ball_6{} .ball_7{} .ball_8{} .ball_9{} .ball_10{} .ball_11{} .ball_12{} .ball_13{} .ball_14{} .ball_15{} .ball_16{} .ball_17{} 
-    .logo_responsive{} 
-     /* Responsiveness width */
-    @media only screen and (max-width: 1919px) {
-      .ball_17 {display: none;}
-    }
-    @media only screen and (max-width: 1885px) {
-      .ball_16 { display: none;}
-    }
-    @media only screen and (max-width: 1620px) {
-      .ball_15 {display: none;} .ball_14 {display: none;}
-    }
-    @media only screen and (max-width: 1520px) {
-      .ball_13 {display: none;} .ball_12 {display: none;} .ball_11 {display: none;} .ball_10 {display: none;}
-    }
-    @media only screen and (max-width: 1200px) {
-      .ball_9 {display: none;}
-    }
-    @media only screen and (max-width: 900px) {
-      .ball_8 {display: none;} .ball_7 {display: none;} .ball_6 {display: none;} .ball_5 {display: none;} .ball_4 {display: none;} .ball_3 {display: none;} .ball_2 {display: none;} .ball_1 {display: none;} 
-      .logo_responsiv{display: none;}
-    }
-    /* Responsiveness height */
-    @media only screen and (max-height: 920px) {
-      .ball_16 {display: none;} .ball_14 {display: none;} .ball_11 {display: none;} .ball_7 {display: none;} .ball_4 {display: none;} .ball_2 {display: none;}
-    }
-    @media only screen and (max-height: 700px) {
-      .ball_17 {display: none;} .ball_15 {display: none;} .ball_13 {display: none;} .ball_12 {display: none;} .ball_10 {display: none;} .ball_9 {display: none;}
-      .ball_8 {display: none;} .ball_6 {display: none;} .ball_5 {display: none;} .ball_3 {display: none;} .ball_1 {display: none;}
-    }
-
-    /* Dialog */
-    .legend {border: 1px !important; border: ghostwhite !important; color: ghostwhite !important;}
-    .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-     /*background-color: #1D4C7A*/
-     background-color: rgb(34, 34, 34) !important
-    }
-    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-        border-top: ghostwhite !important;
+    <!-- CSS -->
+    <style title="pokeball">
+        /* Class declarations */
         
-    }
-    .table>thead>tr>th {
-        border-bottom: 0px solid #ddd !important;
-    }
-    th {
-        /*background-color: blue;*/
-        color: #f6f6f6 !important;
-    } 
-    .ui-dialog-content::-webkit-scrollbar {
-    -webkit-appearance: none !important;
-    width: 8px !important;
-    height: 11px !important;
-    }
-    .ui-dialog-content::-webkit-scrollbar-thumb {
-      border-radius: 0px !important;
-      border: 0px solid white !important; /* should match background, can't be transparent */
-      background-color: #F6F6F6 !important;
-    }
-    .ui-dialog .ui-dialog-titlebar button.ui-button:focus,
-    .ui-dialog .ui-dialog-titlebar button.ui-button.ui-state-focus,
-    .ui-dialog .ui-dialog-titlebar button.ui-button.ui-state-active,
-    .ui-dialog .ui-dialog-titlebar button.ui-button.ui-state-hover  {
-      outline:none !important;
-    }
-  </style>
-  <style>
-    .modal-backdrop {
-        width: auto;
-        height: auto;
-        margin: 0 auto;
-        display:none;
-    }
-  </style>
+        .glow-button:hover {
+            color: rgba(248, 248, 255, 1);
+            box-shadow: 0px 0px 265px 24px rgba(224, 224, 224, 1);
+        }
+        
+        .pokeball_big {
+            height: 250px;
+            width: 250px;
+            border: none;
+            padding: 0.8em;
+            float: left;
+            transform: scale(1);
+            filter: alpha(opacity=75);
+            -moz-opacity: 0.75;
+            opacity: 0.75;
+            position: relative;
+            padding: 0.5em;
+        }
+        
+        .pokeball_small {
+            width: 150px;
+            height: 150px;
+            padding: 0.5em;
+            border: 0;
+        }
+        
+        .pokeball_tiny {
+            width: 100px;
+            height: 100px;
+            padding: 0.5em;
+            border: 0;
+        }
+        
+        .pokeball_button {
+            height: 300px;
+            width: 300px;
+        }
+        
+        .window_old {
+            border-radius: 10px;
+            border-color: #ffffff;
+            box-shadow: 0 0 10px #ffffff;
+            filter: alpha(opacity=90);
+            -moz-opacity: 0.90;
+            opacity: 0.90;
+        }
+        
+        .window {
+            border-radius: 10px;
+            border-color: rgb(26, 26, 26);
+            border-width: 3px;
+            border-style: solid;
+            filter: alpha(opacity=100);
+            -moz-opacity: 1;
+            opacity: 1;
+            text-align: center;
+            background: url('assets/pokeclonWUI/images/mainPage/dark_embroidery.png')repeat;
+        }
+        /* Logo */
+        
+        .logo_icon {
+            width: 21px;
+        }
+        
+        .logo_font {
+            font-size: 12px;
+        }
+        /* Navigation Bar */
+        
+        .active a {
+            background: #4CAF50 !important;
+        }
+        
+        .navbar {
+            background: rgb(34, 34, 34) !important;
+        }
+        
+        .ball_1 {}
+        
+        .ball_2 {}
+        
+        .ball_3 {}
+        
+        .ball_4 {}
+        
+        .ball_5 {}
+        
+        .ball_6 {}
+        
+        .ball_7 {}
+        
+        .ball_8 {}
+        
+        .ball_9 {}
+        
+        .ball_10 {}
+        
+        .ball_11 {}
+        
+        .ball_12 {}
+        
+        .ball_13 {}
+        
+        .ball_14 {}
+        
+        .ball_15 {}
+        
+        .ball_16 {}
+        
+        .ball_17 {}
+        
+        .logo_responsive {}
+        /* Responsiveness width */
+        
+        @media only screen and (max-width: 1919px) {
+            .ball_17 {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 1885px) {
+            .ball_16 {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 1620px) {
+            .ball_15 {
+                display: none;
+            }
+            .ball_14 {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 1520px) {
+            .ball_13 {
+                display: none;
+            }
+            .ball_12 {
+                display: none;
+            }
+            .ball_11 {
+                display: none;
+            }
+            .ball_10 {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 1200px) {
+            .ball_9 {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 900px) {
+            .ball_8 {
+                display: none;
+            }
+            .ball_7 {
+                display: none;
+            }
+            .ball_6 {
+                display: none;
+            }
+            .ball_5 {
+                display: none;
+            }
+            .ball_4 {
+                display: none;
+            }
+            .ball_3 {
+                display: none;
+            }
+            .ball_2 {
+                display: none;
+            }
+            .ball_1 {
+                display: none;
+            }
+            .logo_responsiv {
+                display: none;
+            }
+        }
+        /* Responsiveness height */
+        
+        @media only screen and (max-height: 920px) {
+            .ball_16 {
+                display: none;
+            }
+            .ball_14 {
+                display: none;
+            }
+            .ball_11 {
+                display: none;
+            }
+            .ball_7 {
+                display: none;
+            }
+            .ball_4 {
+                display: none;
+            }
+            .ball_2 {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-height: 700px) {
+            .ball_17 {
+                display: none;
+            }
+            .ball_15 {
+                display: none;
+            }
+            .ball_13 {
+                display: none;
+            }
+            .ball_12 {
+                display: none;
+            }
+            .ball_10 {
+                display: none;
+            }
+            .ball_9 {
+                display: none;
+            }
+            .ball_8 {
+                display: none;
+            }
+            .ball_6 {
+                display: none;
+            }
+            .ball_5 {
+                display: none;
+            }
+            .ball_3 {
+                display: none;
+            }
+            .ball_1 {
+                display: none;
+            }
+        }
+        /* Dialog */
+        
+        .legend {
+            border: 1px !important;
+            border: ghostwhite !important;
+            color: ghostwhite !important;
+        }
+        
+        .table-striped>tbody>tr:nth-child(2n+1)>td,
+        .table-striped>tbody>tr:nth-child(2n+1)>th {
+            /*background-color: #1D4C7A*/
+            background-color: rgb(34, 34, 34) !important
+        }
+        
+        .table>tbody>tr>td,
+        .table>tbody>tr>th,
+        .table>tfoot>tr>td,
+        .table>tfoot>tr>th,
+        .table>thead>tr>td,
+        .table>thead>tr>th {
+            border-top: ghostwhite !important;
+        }
+        
+        .table>thead>tr>th {
+            border-bottom: 0px solid #ddd !important;
+        }
+        
+        th {
+            /*background-color: blue;*/
+            color: #f6f6f6 !important;
+        }
+        
+        .ui-dialog-content::-webkit-scrollbar {
+            -webkit-appearance: none !important;
+            width: 8px !important;
+            height: 11px !important;
+        }
+        
+        .ui-dialog-content::-webkit-scrollbar-thumb {
+            border-radius: 0px !important;
+            border: 0px solid white !important;
+            /* should match background, can't be transparent */
+            background-color: #F6F6F6 !important;
+        }
+        
+        .ui-dialog .ui-dialog-titlebar button.ui-button:focus,
+        .ui-dialog .ui-dialog-titlebar button.ui-button.ui-state-focus,
+        .ui-dialog .ui-dialog-titlebar button.ui-button.ui-state-active,
+        .ui-dialog .ui-dialog-titlebar button.ui-button.ui-state-hover {
+            outline: none !important;
+        }
+    </style>
+    <style>
+        .modal-backdrop {
+            width: auto;
+            height: auto;
+            margin: 0 auto;
+            display: none;
+        }
+    </style>
 
-  <!-- Latest jQuery version -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest jQuery version -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-  <!-- Latest Bootstrap version-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Latest Bootstrap version-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-  <!-- Latest jQuery user interface version -->
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/dot-luv/jquery-ui.css">
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  
-  <!-- NodeJS & AngularJS Scripts -->
-  <script src="assets/pokeclonWUI/node_modules/core-js/client/shim.min.js"></script>
-  <script src="assets/pokeclonWUI/node_modules/zone.js/dist/zone.js"></script>
-  <script src="assets/pokeclonWUI/node_modules/reflect-metadata/Reflect.js"></script>
-  <script src="assets/pokeclonWUI/node_modules/systemjs/dist/system.src.js"></script>
-  <script src="assets/pokeclonWUI/systemjs.config.js"></script>
-  <script>
-      System.import('app').catch(function(err){ console.error(err); });
-  </script>
-  
+    <!-- Latest jQuery user interface version -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/dot-luv/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- NodeJS & AngularJS Scripts -->
+    <script src="assets/pokeclonWUI/node_modules/core-js/client/shim.min.js"></script>
+    <script src="assets/pokeclonWUI/node_modules/zone.js/dist/zone.js"></script>
+    <script src="assets/pokeclonWUI/node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="assets/pokeclonWUI/node_modules/systemjs/dist/system.src.js"></script>
+    <script src="assets/pokeclonWUI/systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function(err) {
+            console.error(err);
+        });
+    </script>
+
     <!--Polymer-->
     <script src="assets/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="assets/polymer/main-menu.html" />	
+    <link rel="import" href="assets/polymer/main-menu.html" />
     <link rel="import" href="assets/polymer/battle-menu.html" />
-    <link rel="import" href="assets/polymer/monster-template.html" />	
+    <link rel="import" href="assets/polymer/monster-template.html" />
     <link rel="import" href="assets/polymer/battle-view.html" />
 
-  <!-- Button functions -->
-  <script>
-    $(document).ready(function(){
-        $('#alert').hide();
-        $('.close').click(function () {
-            $("#alert").fadeTo('fast', 0);
-        });
-        $("#startButton").click(function () {
-            document.getElementById('player_button').play();
-            $("#startButton").hide();
-            $("#AngularJS_Button").fadeIn();
-            $("#Polymer_Button").fadeIn();
-            $('#Tui_Button').fadeIn();
-            startGame();
-            //
-            //if (user != null) {
-                
-            //}
-            //else
-            //{
-            //    $('#alert').fadeTo('fast', 1);
-            //}
-        });
-
-        $("#AngularJS_Button").click(function(){
-            document.getElementById('player_button').play();
-            $(".AngularJS_Window").fadeIn();
-            $(".Polymer_Window").hide();
-            $("#AngularJS_Button").fadeTo("fast", 0.6);
-            $("#Polymer_Button").fadeTo("fast", 1);
-            $(".AngularJS_Logo").fadeIn();
-            $(".Polymer_Logo").hide();
-            $("#AngularJS_Button").removeClass("btn-primary btn-danger btn-success").addClass("btn-danger");
-            $("#Polymer_Button").removeClass("btn-primary btn-danger btn-success").addClass("btn-success");
-        });
-
-        $("#Polymer_Button").click(function(){
-            document.getElementById('player_button').play();
-            $(".AngularJS_Window").hide();
-            $(".Polymer_Window").fadeIn();
-            $("#Polymer_Button").fadeTo("fast", 0.6);
-            $("#AngularJS_Button").fadeTo("fast", 1);
-            $(".AngularJS_Logo").hide();
-            $(".Polymer_Logo").fadeIn();
-            $("#Polymer_Button").removeClass("btn-primary btn-danger btn-success").addClass("btn-danger");
-            $("#AngularJS_Button").removeClass("btn-primary btn-danger btn-success").addClass("btn-success");
-        });
-
-    });
-    </script>
-
-  <!-- Audio (main song) functions -->
-  <script>
-      $(document).ready(function(){
-
-          $("#song1").click(function(){
-              $("#song1").hide();
-              $("#song2").show();
-              document.getElementById('player').play();
-          });
-          $("#song2").click(function(){
-              $("#song2").hide();
-              $("#song1").show();
-              document.getElementById('player').pause();
-          });
-      });
-    </script>
-
-  <!-- Drag function -->
-  <script>
-    $( function() {
-      $( ".draggable" ).draggable();
-    } );
-  </script>
-
-  <script>
-    $( function() {
-      // $( "#dialog" ).dialog().prev(".ui-dialog-titlebar").css("background","red");  $( "#dialog" ).dialog({modal:true, height: 500, width:600, title: 'Title', resizable: true, dialogClass: ''}).html('Some text').on('dialogclose', function(event) {
-      $( "#dialog" ).dialog({modal:true, height: 458, width:450,  dialogClass: ''}).on('dialogclose', function(event) {
-        // $('.ui-dialog button').removeClass('ui-state-focus');
-        document.getElementById('player_dialog').play();
-        if(!$('#AngularJS_Button').is(':visible'), !$('#Polymer_Button').is(':visible')){
-          $(".show_startbutton").show();
-        }
-      });;
-    } );
-  </script>
-
-  <!-- Effect pokeball -->
-  <script>
-    $( function() {
-    $( ".ball_1, .ball_2, .ball_3, .ball_4, .ball_5, .ball_6, .ball_7, .ball_8, .ball_9, .ball_10, .ball_11, .ball_12, .ball_13, .ball_14, .ball_15, .ball_16, .ball_17" ).dblclick(function() {
-      $(this).effect( "bounce", "slow" );
-      document.getElementById('player_pokeball').play();
-    });
-        } );
-  </script>
-
-  <!-- Effect logo -->
+    <!-- Button functions -->
     <script>
-    $( function() {
-    $( ".logo" ).dblclick(function() {
-      $( ".logo" ).effect( "pulsate", "slow" );
-      document.getElementById('player_logo').play();
-    });
-        } );
-    </script>
+        $(document).ready(function() {
+            $('#alert').hide();
+            $('.close').click(function() {
+                $("#alert").fadeTo('fast', 0);
+            });
+            $("#startButton").click(function() {
+                if (user != null) {
+                    connect();
+                    document.getElementById('player_button').play();
+                    $("#startButton").hide();
+                    $("#AngularJS_Button").fadeIn();
+                    $("#Polymer_Button").fadeIn();
+                    $('#Tui_Button').fadeIn();
+                } else {
+                    $('#alert').fadeTo('fast', 1);
+                }
+            });
+            <!--
+            $("#AngularJS_Button").click(function() {
+                document.getElementById('player_button').play();
+                $(".AngularJS_Window").fadeIn();
+                $(".Polymer_Window").hide();
+                $("#AngularJS_Button").fadeTo("fast", 0.6);
+                $("#Polymer_Button").fadeTo("fast", 1);
+                $(".AngularJS_Logo").fadeIn();
+                $(".Polymer_Logo").hide();
+                $("#AngularJS_Button").removeClass("btn-primary btn-danger btn-success").addClass("btn-danger");
+                $("#Polymer_Button").removeClass("btn-primary btn-danger btn-success").addClass("btn-success");
+            });
+            -->
+            $("#Polymer_Button").click(function() {
+                document.getElementById('player_button').play();
+                $(".AngularJS_Window").hide();
+                $(".Polymer_Window").fadeIn();
+                $("#Polymer_Button").fadeTo("fast", 0.6);
+                $("#AngularJS_Button").fadeTo("fast", 1);
+                $(".AngularJS_Logo").hide();
+                $(".Polymer_Logo").fadeIn();
+                $("#Polymer_Button").removeClass("btn-primary btn-danger btn-success").addClass("btn-danger");
+                $("#AngularJS_Button").removeClass("btn-primary btn-danger btn-success").addClass("btn-success");
+            });
 
-  <!-- show Dialog after click "about" in the navbar -->
-    <script>
-      $( function(){
-          $("#show_dialog").click(function(){
-              document.getElementById('player_dialog').play();
-              $( "#dialog" ).dialog({modal:true});
-          });
-      });
-    </script>
-
-	<!-- loader -->
-	<link rel="stylesheet" href="assets/pokeclonWUI/loader/css/main.css">
-  <!--<link rel="stylesheet" href="loader/css/normalize.css">-->
-	<!--<script src="loader/js/vendor/modernizr-2.6.2.min.js"></script>-->
-  <script>
-    $( document ).ready(function() {
-      setTimeout(
-      function() 
-      {
-
-            $( "#loader-wrapper" ).remove();
-            $("#player_loader_before").trigger("pause");
-            $("#player_loader_after").trigger("play");
-      }, 3000);
-
-      
-      //document.getElementById('player_loader_before').stop();
-      //document.getElementById('player_loader_after').play();
-
-
-
-    });
-  </script>
-
-  <script>
-    $( document ).ready(function() {
-    $( "#startButton, #AngularJS_Button, #Polymer_Button" ).mouseover(function() {
-      document.getElementById('player_button').play();
-    });  });
-  </script>
-
- //Log in function
- //To do: Log out when game is running
-  <script>
-    $(function()
-    {
-        $("#tui-popup").dialog(
-        {
-            autoOpen: false,
-            hide: "puff",
-            show: "slide",
-            height: 200
         });
-    });
-        function showTui()
-        {
-            console.log("Show tui");
+    </script>
+
+    <!-- Audio (main song) functions -->
+    <script>
+        $(document).ready(function() {
+
+            $("#song1").click(function() {
+                $("#song1").hide();
+                $("#song2").show();
+                document.getElementById('player').play();
+            });
+            $("#song2").click(function() {
+                $("#song2").hide();
+                $("#song1").show();
+                document.getElementById('player').pause();
+            });
+        });
+    </script>
+
+    <!-- Drag function -->
+    <script>
+        $(function() {
+            $(".draggable").draggable();
+        });
+    </script>
+
+    <script>
+        $(function() {
+            // $( "#dialog" ).dialog().prev(".ui-dialog-titlebar").css("background","red");  $( "#dialog" ).dialog({modal:true, height: 500, width:600, title: 'Title', resizable: true, dialogClass: ''}).html('Some text').on('dialogclose', function(event) {
+            $("#dialog").dialog({
+                modal: true,
+                height: 458,
+                width: 450,
+                dialogClass: ''
+            }).on('dialogclose', function(event) {
+                // $('.ui-dialog button').removeClass('ui-state-focus');
+                document.getElementById('player_dialog').play();
+                if (!$('#AngularJS_Button').is(':visible'), !$('#Polymer_Button').is(':visible')) {
+                    $(".show_startbutton").show();
+                }
+            });;
+        });
+    </script>
+
+    <!-- Effect pokeball -->
+    <script>
+        $(function() {
+            $(".ball_1, .ball_2, .ball_3, .ball_4, .ball_5, .ball_6, .ball_7, .ball_8, .ball_9, .ball_10, .ball_11, .ball_12, .ball_13, .ball_14, .ball_15, .ball_16, .ball_17").dblclick(function() {
+                $(this).effect("bounce", "slow");
+                document.getElementById('player_pokeball').play();
+            });
+        });
+    </script>
+
+    <!-- Effect logo -->
+    <script>
+        $(function() {
+            $(".logo").dblclick(function() {
+                $(".logo").effect("pulsate", "slow");
+                document.getElementById('player_logo').play();
+            });
+        });
+    </script>
+
+    <!-- show Dialog after click "about" in the navbar -->
+    <script>
+        $(function() {
+            $("#show_dialog").click(function() {
+                document.getElementById('player_dialog').play();
+                $("#dialog").dialog({
+                    modal: true
+                });
+            });
+        });
+    </script>
+
+    <!-- loader -->
+    <link rel="stylesheet" href="assets/pokeclonWUI/loader/css/main.css">
+    <!--<link rel="stylesheet" href="loader/css/normalize.css">-->
+    <!--<script src="loader/js/vendor/modernizr-2.6.2.min.js"></script>-->
+    <script>
+        $(document).ready(function() {
+            setTimeout(
+                function() {
+
+                    $("#loader-wrapper").remove();
+                    $("#player_loader_before").trigger("pause");
+                    $("#player_loader_after").trigger("play");
+                }, 3000);
+
+
+            //document.getElementById('player_loader_before').stop();
+            //document.getElementById('player_loader_after').play();
+
+
+
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $("#startButton, #AngularJS_Button, #Polymer_Button").mouseover(function() {
+                document.getElementById('player_button').play();
+            });
+        });
+    </script>
+
+    <!--//Log in function //To do: Log out when game is running-->
+    <script>
+        $(function() {
+            $("#tui-popup").dialog({
+                autoOpen: false,
+                hide: "puff",
+                show: "slide",
+                height: 320,
+                width: 400
+            });
+        });
+
+        function showTui() {
             $("#tui-popup").dialog("open");
         }
-      var user = null;
-      var gameRunning = false;
-      $(document).ready(function () {
-          $("#nav-user").hide();
-      }
-      );
-      function login()
-      {
-          var link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://localhost:9000/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"
-          window.open(link, "Login Window", "width=500, height=300, top=300, left=300");
-      }
-      function loggedin()
-      {
-          $('#nav-user').show();
-          $('#nav-login').hide();
-          $('#user-name').html(user['name']);
-          $('#user-img').attr('src', user['picture']);
-          $('#user-img').width('27px');
-      }
-      function logout()
-      {
-          if(gameRunning)
-          {
+        var user = null;
+        var gameRunning = false;
+        $(document).ready(function() {
+            $("#nav-user").hide();
+        });
 
-          }
-          else
-          {
-              loggingOut();
-          }
-      }
-      function loggingOut()
-      {
-          $('#nav-user').hide();
-          $('#nav-login').show();
-          user = null;
-      }
-  </script>
+        function login() {
+            var link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://localhost:9000/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"
+            window.open(link, "Login Window", "width=500, height=300, top=300, left=300");
+        }
 
-  //Menulogic
-  <script>
-      var monP1;
-      var monP2;
-      var monP1No;
-      var monP2No;
-      var maxMo = 2;
-      var selectedMo;
-      var gameState;
-      var chosenMonster = new Array();
-      var conn = new WebSocket('ws://localhost:9000/socket');
-      conn.onopen = function()
-      {
-          console.log("WebSocketOpened!");
-      }
-      conn.onmessage = function(event) 
-      {
-          <!--console.log("Got data: " + event.data);-->
-          processMessage(event.data);
-      }
-      conn.onclose = function(event)
-      {
-          console.log("Socket closed!" + event.code);
-      }
-      conn.onerror = function(event)
-      {
-          console.log("Error on socket: " + event.message + " Error: " + event.error);
-      }
-      function processMessage(message)
-      {
-          var json = JSON.parse(message);
-          console.log("json: " + json);
-          if(json['update'] != "")
-          {
-              processState(json['update']);
-          }
-          maxMo = json['maxMo'];
-          if (json['tui'] != "")
-          {
-              $("#modal-content").html(json['tui']);
-          }
-          if (json['monP1No'] != "")
-          {
-              monP1No = json['monP1No'];
-          }
-          if (json['monP2No'] != "")
-          {
-              monP2No = json['monP2No'];
-          }
-          if(json['monP1'] != "")
-          {
-              monP1 = json['monP1'];
-          }
-          if(json['monP2'] != "")
-          {
-              monP2 = json['monP2'];
-              battleRefresh();
-          }
-      }
+        function loggedin() {
+            $('#nav-user').show();
+            $('#nav-login').hide();
+            $('#user-name').html(user['name']);
+            $('#user-img').attr('src', user['picture']);
+            $('#user-img').width('27px');
+        }
 
-      function battleRefresh()
-      {
-          draw($('#battle-view').width(), $('#battle-view').width());
-      }
+        function logout() {
+            if (gameRunning) {
 
-      function sendTui()
-      {
-          console.log("Send tui:" + $('#tui-input').val());
-          conn.send('tui:' + $('#tui-input').val());
-      }
+            } else {
+                loggingOut();
+            }
+        }
 
-      function processState(state)
-      {
-          gameState = state;
-          switch(state)
-          {
-              case 'menu':
-                  startScreen();
-                  break;
-              case 'monP1':
-              case 'monP2':
-                      monsterChooseScreen();
-                      chosenMonster = new Array();
-                  break;
-              case 'battle':
-                  battleScreen();
-                  break;
-              case 'attack':
-                  attackScreen();
-                  break;
-              case 'itemCh':
-                  itemScreen();
-                  break;
-              case 'changeMon':
-                  currMonScreen();
-                  break;
-              case 'end':
-                  break;
-          }
-      }
+        function loggingOut() {
+            $('#nav-user').hide();
+            $('#nav-login').show();
+            user = null;
+        }
+    </script>
 
-      var noOfMonsters;
-      function getView(url)
-      {
-          var req = new XMLHttpRequest();
-          req.open('GET', url);
-          req.addEventListener('load', function () {
-              $('#polymer-content').html(req.responseText);
-          }
-          )
-          req.send();
-      }
+    <!--//Menulogic-->
+    <script>
+        var monP1;
+        var monP2;
+        var monP1No;
+        var monP2No;
+        var maxMo = 2;
+        var selectedMo;
+        var gameState;
+        var onTurn;
+        var chosenMonster = new Array();
+        var conn;
+        var tui;
 
-      function startGame()
-      {
-          conn.send("startGame");
-      }
+        var monsterList;
+        var battleMenu;
+        var attackList;
+        var polCont = '#polymer-content';
+        var req;
 
-      function monsterChooseScreen()
-      {
-          selectedMo = 0;
-          getView('http://localhost:9000/monsterlist');
-      }
+        function connect() {
+            conn = new WebSocket('ws://localhost:9000/socket?id=' + user['id']);
 
-      function getMonsterChooseScreen()
-      {
-          conn.send("showMonSelect");
-      }
+            conn.onopen = function() {
+                conn.send('hello!');
+                console.log("WebSocketOpened!");
+                startGame();
+                document.getElementById('player_button').play();
+                $("#startButton").hide();
+                $("#AngularJS_Button").fadeIn();
+                $("#Polymer_Button").fadeIn();
+                $('#Tui_Button').fadeIn();
+            }
 
-      function currMonScreen()
-      {
-          getView('http://localhost:9000/currmonsterlist');
-      }
+            conn.onmessage = function(event) {
+                <!--console.log("Got data: " + event.data);-->
+                processMessage(event.data);
+            }
+            conn.onclose = function(event) {
+                console.log("Socket closed!" + event.code);
+            }
+            conn.onerror = function(event) {
+                console.log("Error on socket: " + event.message + " Error: " + event.error);
+            }
 
-      function getCurrMonScreen()
-      {
-          conn.send("showChange");
-      }
+        }
 
-      function startScreen()
-      {
-          $('#polymer-content').html("<main-menu></main-menu>");
-      }
+        function processMessage(message) {
+            var json = JSON.parse(message);
+            onTurn = json['onTurn'];
+            gameState = json['update'];
+            maxMo = json['maxMo'];
+            tui = json['tui'];
+            $('#modal-content').html(tui);
+            if (json['monP1No'] != "") {
+                monP1No = json['monP1No'];
+            }
+            if (json['monP2No'] != "") {
+                monP2No = json['monP2No'];
+            }
+            if (json['monP1'] != "") {
+                monP1 = json['monP1'];
+            }
+            if (json['monP2'] != "") {
+                monP2 = json['monP2'];
+                battleRefresh();
+            }
+            if (req != null) {
+                <!-- req.abort(); -->
+            }
+            processState();
+        }
 
-      function getStartScreen()
-      {
-          conn.send("showStart");
-      }
+        function battleRefresh() {
+            draw($('#battle-view').width(), $('#battle-view').width());
+        }
 
-      function battleScreen()
-      {
-          if ($('#battle-view').html() == "")
-          {
-              $('#battle-view').html("<battle-view></battle-view>");
-              $(window).resize(
-                  function()
-                  {
-                      console.log("Resize");
-                      battleRefresh();
-                  }
-              );
-          }
-          $('#polymer-content').html("<battle-menu></battle-menu>");
-      }
+        function sendTui() {
+            conn.send('tui:' + $('#tui-input').val());
+        }
 
-      function getBattleScreen()
-      {
-          conn.send("showBattle");
-      }
+        function processState() {
+            console.log("State: " + gameState + " onTurn: " + onTurn);
+            if (onTurn != 'undefined' && (onTurn == "" || onTurn == user['id'])) {
+                console.log("Show UI");
+                switch (gameState) {
+                    case 'menu':
+                        startScreen();
+                        break;
+                    case 'monP1':
+                    case 'monP2':
+                        monsterChooseScreen();
+                        chosenMonster = new Array();
+                        break;
+                    case 'battle':
+                        battleScreen();
+                        break;
+                    case 'attack':
+                        attackScreen();
+                        break;
+                    case 'itemCh':
+                        itemScreen();
+                        break;
+                    case 'changeMon':
+                        currMonScreen();
+                        break;
+                    case 'end':
+                        break;
+                }
+            } else {
+                $(polCont).html("Other Player on turn!");
+            }
+        }
 
-      function itemScreen()
-      {
-          getView('http://localhost:9000/itemlist');
-      }
+        var noOfMonsters;
 
-      function getItemScreen()
-      {
-          conn.send("showItem");
-      }
+        function getView(url) {
+            req = new XMLHttpRequest();
+            req.open('GET', url);
+            req.addEventListener('load', function(event) {
+                $(polCont).html(req.responseText);
+            });
+            req.send();
+        }
 
-      function attackScreen()
-      {
-          getView('http://localhost:9000/attacklist');
-      }
+        function startGame() {
+            conn.send("startGame");
+        }
 
-      function getAttackScreen()
-      {
-          conn.send("showAttack");
-      }
+        function monsterChooseScreen() {
+            selectedMo = 0;
+            getView('http://localhost:9000/monsterlist');
+        }
 
-      function quickGame()
-      {
-          conn.send("quickGame");
-      }
+        function getMonsterChooseScreen() {
+            conn.send("showMonSelect");
+        }
 
-      function twoVersusTwo()
-      {
-          conn.send("2v2");
-      }
-      function fourVersusFour()
-      {
-          conn.send("4v4");
-      }
-      function attack(name)
-      {
-          conn.send("attack:" + name);
-      }
-      function item(name)
-      {
-          conn.send("item:" + name);
-      }
-      function changemon(name)
-      {
-          conn.send("changemon:" + name);
-      }
+        function currMonScreen() {
+            getView('http://localhost:9000/currmonsterlist');
+        }
 
-      function confirmMonster()
-      {
-          conn.send("confirmMon:" + chosenMonster);
-      }
+        function getCurrMonScreen() {
+            conn.send("showChange");
+        }
 
-      function addMonster(number)
-      {
-          chosenMonster.push(number);
-      }
+        function startScreen() {
+            $(polCont).html("<main-menu></main-menu>");
+        }
 
-      function removeMonster(number)
-      {
-          chosenMonster = chosenMonster.filter(function(item)
-          {
-              return item !== number;
-          }
-          )
-      }
+        function getStartScreen() {
+            conn.send("showStart");
+        }
 
-  </script>
+        function battleScreen() {
+            if ($('#battle-view').html() == "") {
+                $('#battle-view').html("<battle-view></battle-view>");
+                $(window).resize(
+                    function() {
+                        battleRefresh();
+                    }
+                );
+            }
+            $(polCont).html("<battle-menu></battle-menu>");
+        }
+
+        function getBattleScreen() {
+            conn.send("showBattle");
+        }
+
+        function itemScreen() {
+            getView('http://localhost:9000/itemlist');
+        }
+
+        function getItemScreen() {
+            conn.send("showItem");
+        }
+
+        function attackScreen() {
+            getView('http://localhost:9000/attacklist');
+        }
+
+        function getAttackScreen() {
+            conn.send("showAttack");
+        }
+
+        function quickGame() {
+            conn.send("quickGame");
+        }
+
+        function twoVersusTwo() {
+            conn.send("2v2");
+        }
+
+        function fourVersusFour() {
+            conn.send("4v4");
+        }
+
+        function attack(name) {
+            conn.send("attack:" + name);
+        }
+
+        function item(name) {
+            conn.send("item:" + name);
+        }
+
+        function changemon(name) {
+            conn.send("changemon:" + name);
+        }
+
+        function confirmMonster() {
+            conn.send("confirmMon:" + chosenMonster);
+        }
+
+        function addMonster(number) {
+            chosenMonster.push(number);
+        }
+
+        function removeMonster(number) {
+            chosenMonster = chosenMonster.filter(function(item) {
+                return item !== number;
+            })
+        }
+    </script>
 </head>
 
 
 
 
 <!-- Small Logo right -->
+
 <body style="background:url('assets/pokeclonWUI/images/mainPage/pokemon-wallpaper-legendary-HD1.jpg')no-repeat;  -webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;">
 
     <!-- loader -->
 
     <audio id="player_loader_before" src="assets/pokeclonWUI/audio/start_sound_1_v2.mp3" autoplay> </audio>
     <audio id="player_loader_after" src="assets/pokeclonWUI/audio/start_sound_2.mp3"> </audio>
-		<div id="loader-wrapper">
-			<div id="loader"></div>
-			<div class="loader-section section-left"></div>
-      <div class="loader-section section-right"></div>
-	  </div>
-
-
-
-  <!-- Navigation -->
-  <audio  id="player_button" src="assets/pokeclonWUI/audio/dialog_sound2.mp3"> </audio>
-  <nav class="navbar navbar-inverse ">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">v1.0.1</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active" style="background-color: #4CAF50;"><a href="#">Home</a></li>
-        <li><a id="show_dialog" style=" outline:none !important;" href="#">System</a></li>
-        <li>
-          <!-- Audio (main song)-->
-          <audio loop id="player" src="assets/pokeclonWUI/audio/pokeclon_song.m4a"> </audio>
-          <img id="song1" style="height: 35px;width: 35px;margin-top: 8px;margin-left:14px;" src="assets/pokeclonWUI/images/mainPage/switch_off.svg" alt="song1">
-        </li>
-        <li>
-        <img id="song2" style="height: 35px;width: 35px;margin-top: 8px;margin-left:14px;display:none;" src="assets/pokeclonWUI/images/mainPage/switch_on.svg" alt="song2">
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-      <li id="nav-login">
-          <button type="button" id="login-btn" class="btn btn-default navbar-btn" onclick="login()">Sign in</button>
-      </li>
-      <li id="nav-user">
-          <p id="user-name" class="nav navbar-text">user</p>
-          <img id="user-img" />
-          <button type="button" id="logout-btn" class="btn btn-default navbar-btn" onclick="logout()">Logout</button>
-      </li>
-      <li>
-        <img class="img-responsive logo" style="height: 35px;width: 114px;margin-top: 8px;margin-right: 11px;margin-left: 11px;" src="assets/pokeclonWUI/images/mainPage/logo.png"
-          alt="logo">
-      </li>
-      </ul>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
     </div>
-  </nav>
-
-  <div class="row"  style="margin-top: 20px;margin-right: 0px;margin-left: 0px;height: 0;width: 0;">
-
-    <!-- logo audio -->
-      <audio id="player_logo" src="assets/pokeclonWUI/audio/pokemon_logo.mp3"> </audio>
-
-    <!-- pokeball audio -->
-      <audio id="player_pokeball" src="assets/pokeclonWUI/audio/pokeball_effect.mp3"> </audio>
-
-    <!-- pokeballs in the middle -->
-      <!-- green balls -->
-      <img class="draggable pokeball_big ball_9"   style="position: absolute;left: 840px;top: 450px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_green.svg" alt="pokeball_green">
-      <img class="draggable pokeball_small ball_8" style="position: absolute;left: 650px;top: 150px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_green.svg" alt="pokeball_green">
-      <img class="draggable pokeball_tiny ball_10"  style="position: absolute;left: 1100px;top: 260px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_green.svg" alt="pokeball_green">
-
-    <!-- pokeballs on the right side-->
-      <!-- red balls -->
-      <img class="draggable pokeball_big ball_14"   style="position: absolute;left: 1340px;top: 600px;"  src="assets/pokeclonWUI/images/mainPage/pokeball.svg" alt="pokeball">
-      <img class="draggable pokeball_small ball_12" style="position: absolute;left: 1240px;top: 390px;"  src="assets/pokeclonWUI/images/mainPage/pokeball.svg" alt="pokeball">
-      <img class="draggable pokeball_small ball_13" style="position: absolute;left: 1300px;top: 62px;"  src="assets/pokeclonWUI/images/mainPage/pokeball.svg" alt="pokeball">
-      <!-- orange balls -->
-      <img class="draggable pokeball_big ball_17"   style="position: absolute;left: 1650px;top: 100px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_orange.svg" alt="pokeball_orange">
-      <img class="draggable pokeball_small ball_11" style="position: absolute;left: 1140px;top: 710px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_orange.svg" alt="pokeball_orange">
-      <img class="draggable pokeball_small ball_16" style="position: absolute;left: 1640px;top: 760px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_orange.svg" alt="pokeball_orange">
-      <img class="draggable pokeball_tiny ball_15"  style="position: absolute;left: 1500px;top: 420px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_orange.svg" alt="pokeball_orange">
 
 
-    <!-- pokeballs on the left side-->
-      <!-- red balls -->
-      <img class="draggable pokeball_big ball_4"   style="position: absolute;left: 340px;top: 600px;"  src="assets/pokeclonWUI/images/mainPage/pokeball.svg" alt="pokeball">
-      <img class="draggable pokeball_small ball_1"  style="position: absolute;left: 110px;top: 440px;"  src="assets/pokeclonWUI/images/mainPage/pokeball.svg" alt="pokeball">
-      <img class="draggable pokeball_small ball_6" style="position: absolute;left: 570px;top: 400px;"  src="assets/pokeclonWUI/images/mainPage/pokeball.svg" alt="pokeball">
-      <!-- blue balls -->
-      <img class="draggable pokeball_big ball_3"   style="position: absolute;left: 240px;top: 150px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_blue.svg" alt="pokeball_blue">       
-      <img class="draggable pokeball_small ball_2" style="position: absolute;left: 140px;top: 710px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_blue.svg" alt="pokeball_blue">
-      <img class="draggable pokeball_small ball_7" style="position: absolute;left: 640px;top: 760px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_blue.svg" alt="pokeball_blue">
-      <img class="draggable pokeball_tiny ball_5"  style="position: absolute;left: 400px;top: 420px;"  src="assets/pokeclonWUI/images/mainPage/pokeball_blue.svg" alt="pokeball_blue">
-  </div>
 
-  <!-- Dialog -->
-  <audio  id="player_dialog" src="assets/pokeclonWUI/audio/dialog_sound1.mp3"> </audio>
- 
-  <div id="dialog" class="logo_font" title="System" >
-    <fieldset>
-    <legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;"> Frameworks & Features</legend>
-    </fieldset>
-<table class="table table-striped table-responsive">
-	<thead>
-		<tr>
-			<th>
-				Name
-			</th>
-			<th>
-				Last updated
-			</th>
-			<th>
-				Version
-			</th>
-		</tr>
-	</thead>
-	<tbody>
-    <tr>
-			<td>
-      <img class="logo_icon"  src="assets/pokeclonWUI/images/logos/bootstrap-original-logo.svg" alt="bootstrap-original-logo"> Bootstrap
-			</td>
-			<td>
-				05.12.2016
-			</td>
-			<td>
-				3.3.7
-			</td>
-		</tr>
-		<tr>
-			<td>
-      <img class="logo_icon"  src="assets/pokeclonWUI/images/logos/jquery.svg" alt="jquery"> jQuery
-			</td>
-			<td>
-				01.12.2016
-			</td>
-			<td>
-				3.1.1
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<img class="logo_icon"   src="assets/pokeclonWUI/images/logos/jqueryui.png" alt="jqueryui"> jQuery UI
-			</td>
-			<td>
-				05.12.2016
-			</td>
-			<td>
-				1.12.1
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<img class="logo_icon"  src="assets/pokeclonWUI/images/logos/threejs-logo.svg" alt="threejs-logo"> three.js
-			</td>
-			<td>
-				15.12.2016
-			</td>
-			<td>
-				r83
-			</td>
-		</tr>
-    <tr>
-			<td>
-				<img class="logo_icon" src="assets/pokeclonWUI/images/logos/nodejs.svg" alt="nodejs"> Node.js
-			</td>
-			<td>
-				16.12.2016
-			</td>
-			<td>
-				7.2.1
-			</td>
-		</tr>
-    <tr>
-			<td>
-				<img class="logo_icon"  src="assets/pokeclonWUI/images/logos/angular.svg" alt="angular"> AngularJS
-			</td>
-			<td>
-				16.12.2016
-			</td>
-			<td>
-				2.3.0
-			</td>
-		</tr>
-    <tr>
-			<td>
-				<img class="logo_icon" src="assets/pokeclonWUI/images/logos/polymer.svg" alt="polymer"> Polymer
-			</td>
-			<td>
-				[CONTENT]
-			</td>
-			<td>
-				[CONTENT]
-			</td>
-		</tr>
-	</tbody>
-</table>
+    <!-- Navigation -->
+    <audio id="player_button" src="assets/pokeclonWUI/audio/dialog_sound2.mp3"> </audio>
+    <nav class="navbar navbar-inverse ">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">v1.0.1</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active" style="background-color: #4CAF50;"><a href="#">Home</a></li>
+                <li><a id="show_dialog" style=" outline:none !important;" href="#">System</a></li>
+                <li>
+                    <!-- Audio (main song)-->
+                    <audio loop id="player" src="assets/pokeclonWUI/audio/pokeclon_song.m4a"> </audio>
+                    <img id="song1" style="height: 35px;width: 35px;margin-top: 8px;margin-left:14px;" src="assets/pokeclonWUI/images/mainPage/switch_off.svg" alt="song1">
+                </li>
+                <li>
+                    <img id="song2" style="height: 35px;width: 35px;margin-top: 8px;margin-left:14px;display:none;" src="assets/pokeclonWUI/images/mainPage/switch_on.svg" alt="song2">
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li id="nav-login">
+                    <button type="button" id="login-btn" class="btn btn-default navbar-btn" onclick="login()">Sign in</button>
+                </li>
+                <li id="nav-user">
+                    <p id="user-name" class="nav navbar-text">user</p>
+                    <img id="user-img" />
+                    <button type="button" id="logout-btn" class="btn btn-default navbar-btn" onclick="logout()">Logout</button>
+                </li>
+                <li>
+                    <img class="img-responsive logo" style="height: 35px;width: 114px;margin-top: 8px;margin-right: 11px;margin-left: 11px;" src="assets/pokeclonWUI/images/mainPage/logo.png" alt="logo">
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-<fieldset><legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Technologies</legend></fieldset>
-<fieldset><legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Compatibility</legend></fieldset>
-<fieldset><legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Validation</legend></fieldset>
-<fieldset><legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">ChangeLog</legend></fieldset>
-<fieldset><legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Bug Report</legend></fieldset>
-<fieldset><legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Features</legend></fieldset>
-<fieldset><legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Developer</legend></fieldset>
-<table class="table">
-	<tbody>
-		<tr>
-			<td>
-				Benedict Roth
-			</td>
-			<td>
-				[CONTENT]
-			</td>
-			<td>
-				[CONTENT]
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Daniel Franze
-			</td>
-			<td>
-				daniel.franze.office@gmail.com
-			</td>
-			<td>
-				[CONTENT]
-			</td>
-		</tr>
-	</tbody>
-</table>
+    <div class="row" style="margin-top: 20px;margin-right: 0px;margin-left: 0px;height: 0;width: 0;">
 
-  </div>
+        <!-- logo audio -->
+        <audio id="player_logo" src="assets/pokeclonWUI/audio/pokemon_logo.mp3"> </audio>
 
-  <!-- Start Button -->
-  <div class="row" style="margin-top: 20px;margin-right: 0px;margin-left: 0px;">
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4" style="text-align: center;">
-      <button id="startButton" type="button" class="btn btn-primary btn-lg show_startbutton glow-button" style="display:none;">Start Game</button>
+        <!-- pokeball audio -->
+        <audio id="player_pokeball" src="assets/pokeclonWUI/audio/pokeball_effect.mp3"> </audio>
+
+        <!-- pokeballs in the middle -->
+        <!-- green balls -->
+        <img class="draggable pokeball_big ball_9" style="position: absolute;left: 840px;top: 450px;" src="assets/pokeclonWUI/images/mainPage/pokeball_green.svg" alt="pokeball_green">
+        <img class="draggable pokeball_small ball_8" style="position: absolute;left: 650px;top: 150px;" src="assets/pokeclonWUI/images/mainPage/pokeball_green.svg" alt="pokeball_green">
+        <img class="draggable pokeball_tiny ball_10" style="position: absolute;left: 1100px;top: 260px;" src="assets/pokeclonWUI/images/mainPage/pokeball_green.svg" alt="pokeball_green">
+
+        <!-- pokeballs on the right side-->
+        <!-- red balls -->
+        <img class="draggable pokeball_big ball_14" style="position: absolute;left: 1340px;top: 600px;" src="assets/pokeclonWUI/images/mainPage/pokeball.svg" alt="pokeball">
+        <img class="draggable pokeball_small ball_12" style="position: absolute;left: 1240px;top: 390px;" src="assets/pokeclonWUI/images/mainPage/pokeball.svg" alt="pokeball">
+        <img class="draggable pokeball_small ball_13" style="position: absolute;left: 1300px;top: 62px;" src="assets/pokeclonWUI/images/mainPage/pokeball.svg" alt="pokeball">
+        <!-- orange balls -->
+        <img class="draggable pokeball_big ball_17" style="position: absolute;left: 1650px;top: 100px;" src="assets/pokeclonWUI/images/mainPage/pokeball_orange.svg" alt="pokeball_orange">
+        <img class="draggable pokeball_small ball_11" style="position: absolute;left: 1140px;top: 710px;" src="assets/pokeclonWUI/images/mainPage/pokeball_orange.svg" alt="pokeball_orange">
+        <img class="draggable pokeball_small ball_16" style="position: absolute;left: 1640px;top: 760px;" src="assets/pokeclonWUI/images/mainPage/pokeball_orange.svg" alt="pokeball_orange">
+        <img class="draggable pokeball_tiny ball_15" style="position: absolute;left: 1500px;top: 420px;" src="assets/pokeclonWUI/images/mainPage/pokeball_orange.svg" alt="pokeball_orange">
+
+
+        <!-- pokeballs on the left side-->
+        <!-- red balls -->
+        <img class="draggable pokeball_big ball_4" style="position: absolute;left: 340px;top: 600px;" src="assets/pokeclonWUI/images/mainPage/pokeball.svg" alt="pokeball">
+        <img class="draggable pokeball_small ball_1" style="position: absolute;left: 110px;top: 440px;" src="assets/pokeclonWUI/images/mainPage/pokeball.svg" alt="pokeball">
+        <img class="draggable pokeball_small ball_6" style="position: absolute;left: 570px;top: 400px;" src="assets/pokeclonWUI/images/mainPage/pokeball.svg" alt="pokeball">
+        <!-- blue balls -->
+        <img class="draggable pokeball_big ball_3" style="position: absolute;left: 240px;top: 150px;" src="assets/pokeclonWUI/images/mainPage/pokeball_blue.svg" alt="pokeball_blue">
+        <img class="draggable pokeball_small ball_2" style="position: absolute;left: 140px;top: 710px;" src="assets/pokeclonWUI/images/mainPage/pokeball_blue.svg" alt="pokeball_blue">
+        <img class="draggable pokeball_small ball_7" style="position: absolute;left: 640px;top: 760px;" src="assets/pokeclonWUI/images/mainPage/pokeball_blue.svg" alt="pokeball_blue">
+        <img class="draggable pokeball_tiny ball_5" style="position: absolute;left: 400px;top: 420px;" src="assets/pokeclonWUI/images/mainPage/pokeball_blue.svg" alt="pokeball_blue">
     </div>
-    <div class="col-sm-4"></div>
-  </div>
-  
+
+    <!-- Dialog -->
+    <audio id="player_dialog" src="assets/pokeclonWUI/audio/dialog_sound1.mp3"> </audio>
+
+    <div id="dialog" class="logo_font" title="System">
+        <fieldset>
+            <legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;"> Frameworks & Features</legend>
+        </fieldset>
+        <table class="table table-striped table-responsive">
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Last updated
+                    </th>
+                    <th>
+                        Version
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img class="logo_icon" src="assets/pokeclonWUI/images/logos/bootstrap-original-logo.svg" alt="bootstrap-original-logo"> Bootstrap
+                    </td>
+                    <td>
+                        05.12.2016
+                    </td>
+                    <td>
+                        3.3.7
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="logo_icon" src="assets/pokeclonWUI/images/logos/jquery.svg" alt="jquery"> jQuery
+                    </td>
+                    <td>
+                        01.12.2016
+                    </td>
+                    <td>
+                        3.1.1
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="logo_icon" src="assets/pokeclonWUI/images/logos/jqueryui.png" alt="jqueryui"> jQuery UI
+                    </td>
+                    <td>
+                        05.12.2016
+                    </td>
+                    <td>
+                        1.12.1
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="logo_icon" src="assets/pokeclonWUI/images/logos/threejs-logo.svg" alt="threejs-logo"> three.js
+                    </td>
+                    <td>
+                        15.12.2016
+                    </td>
+                    <td>
+                        r83
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="logo_icon" src="assets/pokeclonWUI/images/logos/nodejs.svg" alt="nodejs"> Node.js
+                    </td>
+                    <td>
+                        16.12.2016
+                    </td>
+                    <td>
+                        7.2.1
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="logo_icon" src="assets/pokeclonWUI/images/logos/angular.svg" alt="angular"> AngularJS
+                    </td>
+                    <td>
+                        16.12.2016
+                    </td>
+                    <td>
+                        2.3.0
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="logo_icon" src="assets/pokeclonWUI/images/logos/polymer.svg" alt="polymer"> Polymer
+                    </td>
+                    <td>
+                        [CONTENT]
+                    </td>
+                    <td>
+                        [CONTENT]
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <fieldset>
+            <legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Technologies</legend>
+        </fieldset>
+        <fieldset>
+            <legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Compatibility</legend>
+        </fieldset>
+        <fieldset>
+            <legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Validation</legend>
+        </fieldset>
+        <fieldset>
+            <legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">ChangeLog</legend>
+        </fieldset>
+        <fieldset>
+            <legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Bug Report</legend>
+        </fieldset>
+        <fieldset>
+            <legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Features</legend>
+        </fieldset>
+        <fieldset>
+            <legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Developer</legend>
+        </fieldset>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                        Benedict Roth
+                    </td>
+                    <td>
+                        [CONTENT]
+                    </td>
+                    <td>
+                        [CONTENT]
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Daniel Franze
+                    </td>
+                    <td>
+                        daniel.franze.office@gmail.com
+                    </td>
+                    <td>
+                        [CONTENT]
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <!-- Start Button -->
+    <div class="row" style="margin-top: 20px;margin-right: 0px;margin-left: 0px;">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4" style="text-align: center;">
+            <button id="startButton" type="button" class="btn btn-primary btn-lg show_startbutton glow-button" style="display:none;">Start Game</button>
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+
     <div id="alert" class="alert alert-warning">
         <a href="#" class="close" data-dismiss="alert">&times;</a>
         <strong>Warning!</strong> You must log in to play the Game!
     </div>
 
-  <!-- Choose Buttons & Logos -->
-  <div class="row" style="margin-top: 100px;margin-right: 0px;margin-left: 0px;">
-    <div class="col-sm-4">
-      <img class="img-responsive AngularJS_Logo" style="height: 173px;width: 173px;margin-top: -120px;margin-right: 0px;margin-left:11px;display:none;"
-        src="assets/pokeclonWUI/images/mainPage/angular.png" alt="angular">
-      <img class="img-responsive Polymer_Logo" style="height: 173px;width: 250px;margin-top: -120px;margin-right: 0px;margin-left:11px;display:none;"
-        src="assets/pokeclonWUI/images/mainPage/p-logo.png" alt="polymer_logo">
+    <!-- Choose Buttons & Logos -->
+    <div class="row" style="margin-top: 100px;margin-right: 0px;margin-left: 0px;">
+        <div class="col-sm-4">
+            <img class="img-responsive AngularJS_Logo" style="height: 173px;width: 173px;margin-top: -120px;margin-right: 0px;margin-left:11px;display:none;" src="assets/pokeclonWUI/images/mainPage/angular.png" alt="angular">
+            <img class="img-responsive Polymer_Logo" style="height: 173px;width: 250px;margin-top: -120px;margin-right: 0px;margin-left:11px;display:none;" src="assets/pokeclonWUI/images/mainPage/p-logo.png" alt="polymer_logo">
+        </div>
+        <div class="col-sm-4" style="text-align: center;">
+            <!--<button id="AngularJS_Button" style="text-align: center;display:none;" type="button" class="btn btn-success btn-lg glow-button">AngularJS</button>-->
+            <button id="Polymer_Button" style="text-align: center;display:none;" type="button" class="btn btn-success btn-lg glow-button">Polymer</button>
+            <button id="Tui_Button" onclick="showTui()" style="text-align: center;display:none;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" data-backdrop="false">TUI</button>
+        </div>
+        <div class="col-sm-4"></div>
     </div>
-    <div class="col-sm-4" style="text-align: center;">
-        <button id="AngularJS_Button" style="text-align: center;display:none;" type="button" class="btn btn-success btn-lg glow-button">AngularJS</button>
-        <button id="Polymer_Button" style="text-align: center;display:none;" type="button" class="btn btn-success btn-lg glow-button">Polymer</button>
-        <button id="Tui_Button" onclick="showTui()" style="text-align: center;display:none;" type="button" class="btn btn-info btn-lg"  data-toggle="modal" data-target="#myModal" data-backdrop="false">TUI</button>
+    <!-- Angular Window -->
+    <!--
+    <div class="row AngularJS_Window" style="margin-top: 30px;margin-right: 0px;margin-left: 0px;display:none;">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 window">
+            <my-app>
+                <p class="bg-warning" style="margin-top: 10px;">Loading AppComponent content here ...</p>
+            </my-app>
+        </div>
+        <div class="col-sm-4"></div>
     </div>
-    <div class="col-sm-4"></div>
-  </div>
+    -->
+    <!-- Polymer Window -->
+    <div class="row Polymer_Window" style="margin-top: 30px;margin-right: 0px;margin-left: 0px;display:none;">
+        <div class="col-sm-4">
 
-  <!-- Angular Window -->
-  <div class="row AngularJS_Window" style="margin-top: 30px;margin-right: 0px;margin-left: 0px;display:none;">
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4 window">
-      <my-app>
-        <p class="bg-warning" style="margin-top: 10px;">Loading AppComponent content here ...</p>
-      </my-app>
+        </div>
+        <div class="col-sm-4 window">
+            <p class="bg-warning" id="polymer-view" style="margin-top: 10px; background: #ffffff;">
+                <p id="battle-view" style="width: auto"></p>
+                <p id="polymer-content"></p>
+            </p>
+        </div>
+        <div class="col-sm-4"></div>
     </div>
-    <div class="col-sm-4"></div>
-  </div>
-
-  <!-- Polymer Window -->
-  <div class="row Polymer_Window" style="margin-top: 30px;margin-right: 0px;margin-left: 0px;display:none;">
-    <div class="col-sm-4">
-
-    </div>
-    <div class="col-sm-4 window">
-      <p class="bg-warning" id="polymer-view" style="margin-top: 10px; background: #ffffff;">
-          <p id="battle-view" style="width: auto"></p>
-          <p id="polymer-content"></p>
-      </p>
-    </div>
-    <div class="col-sm-4"></div>
-  </div>
- <!--
+    <!--
     <div id="myModal" class="draggable modal fade" role="dialog">
     <div class="modal-dialog">
 
-        <!-- Modal content--> <!--
+        <!-- Modal content-->
+    <!--
         <div class="modal-content">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -883,19 +1098,18 @@
 
   </div>
  -->
- <div class="dialog" id="tui-popup" title="Tui"> 
-     <div class="modal-body">
+    <div class="dialog" id="tui-popup" title="Tui">
+        <div class="modal-body">
             <p id="modal-content">Wait for tui data...</p>
         </div>
-     <div class="modal-footer">
+        <div class="modal-footer">
             <div class="input-group">
-                <input type="text" class="form-control" id="tui-input"/>
+                <input type="text" class="form-control" id="tui-input" />
                 <button type="button" onclick="sendTui()" class="btn btn-default">Send</button>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
-      </div>
+    </div>
 </body>
 
 </html>
-

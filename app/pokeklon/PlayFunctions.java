@@ -1,10 +1,6 @@
 package pokeklon;
 
 import play.mvc.*;
-
-import play.mvc.Result;
-import play.mvc.WebSocket;
-
 import pokeklon.Pokeklon;
 import pokeklon.controller.IPokeklonController;
 import pokeklon.controller.impl.MonsterFactory;
@@ -16,6 +12,8 @@ import pokeklon.view.tui.TextUI;
 import views.html.*;
 import javax.json.*;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 
@@ -29,6 +27,12 @@ public class PlayFunctions extends Controller{
 	
 	public static WebSocket.In<String> guiSocketIn = null;
 	public static WebSocket.Out<String> guiSocketOut = null;
+	public static WebSocket.In<String> webSocketInP1 = null;
+	public static WebSocket.Out<String> webSocketOutP1 = null;
+	public static WebSocket.In<String> webSocketInP2 = null;
+	public static WebSocket.Out<String> webSocketOutP2 = null;
+	public static String p1ID = null;
+	public static String p2ID = null;
 	public static WebSocket.In<String> webSocketIn = null;
 	public static WebSocket.Out<String> webSocketOut = null;
 	
@@ -88,12 +92,43 @@ public class PlayFunctions extends Controller{
 		});
 	}
 	
-	public LegacyWebSocket<String> getSocket()
+	public LegacyWebSocket<String> getSocket(String id)
 	{
 		System.out.println("Open Socket!");
+		System.out.println("ID: " + id);;
+		String inID = id;
+		if(id == null || inID.equals("") || p1ID != null && p1ID != null && !p1ID.equals(inID) && p2ID.equals(inID))
+		{
+			System.out.println("Websocket rejected!");
+			return WebSocket.reject(forbidden());
+		}
 		return WebSocket.whenReady((in, out) -> {
-			webSocketOut = out;
-			webSocketIn = in;
+			if(p1ID != null && p1ID.equals(inID))
+			{
+				System.out.println("Player 1 found!");
+				webSocketOutP1 = out;
+				webSocketInP1 = in;
+			}
+			else if(p2ID != null && p2ID.equals(inID))
+			{
+				System.out.println("Player 2 found!");
+				webSocketOutP2 = out;
+				webSocketInP2 = in;
+			}
+			else if(p1ID == null)
+			{
+				System.out.println("Assign to player1!");
+				p1ID = inID;
+				webSocketOutP1 = out;
+				webSocketInP1 = in;
+			}
+			else if(p2ID == null)
+			{
+				System.out.println("Assign to player2!");
+				p2ID = inID;
+				webSocketOutP2 = out;
+				webSocketInP2 = in;
+			}
 			in.onMessage(con ->
 			    {
 			    	String mes = (String) con;
@@ -198,10 +233,52 @@ public class PlayFunctions extends Controller{
 					System.out.println("Connection closed!");
 				}
 			);
-			
-			String updateString = "update:" + Pokeklon.controller.getGameStat();
-			out.write(updateString);
+			out.write(getWuiState());
 		});
+	}
+	
+	public static String getWuiState()
+	{
+		Gson gson = new GsonBuilder().create();
+		WUIStatus state = new WUIStatus();
+		state.update = Pokeklon.controller.getGameStat();
+		state.tui = Pokeklon.tui.output.replace("\n", "<br>");
+		state.maxMo = Pokeklon.controller.getNoOfMonster();
+		if(Pokeklon.controller.getPlayer1() != null && Pokeklon.controller.getPlayer2() != null)
+		{
+			if(Pokeklon.controller.getCurrentPlayer() == Pokeklon.controller.getPlayer1())
+			{
+				System.out.println("Assign p1 in step 1");
+				state.onTurn = p1ID;
+			}
+			if(Pokeklon.controller.getCurrentPlayer() == Pokeklon.controller.getPlayer2())
+			{
+				System.out.println("Assign p2 in step 1");
+				state.onTurn = p2ID;
+			}
+		}
+		else
+		{
+			state.onTurn = "";
+		}
+		if(state.update.equals("monP1"))
+		{
+			System.out.println("Assign state monP1");
+			state.onTurn = p1ID;
+		}
+		if(state.update.equals("monP2"))
+		{
+			System.out.println("Assign state monP2");
+			state.onTurn = p2ID;
+		}
+		state.monP1 = Pokeklon.controller.getCurrentP1Mon();
+		if(state.monP1 != null)
+			state.monP1No = Pokeklon.controller.getMonsterNumber(state.monP1.getName());
+		state.monP2 = Pokeklon.controller.getCurrentP2Mon();
+		if(state.monP2 != null)
+			state.monP2No = Pokeklon.controller.getMonsterNumber(state.monP2.getName());
+		String updateString =  gson.toJson(state);
+		return updateString;
 	}
 	
 	void startGame()

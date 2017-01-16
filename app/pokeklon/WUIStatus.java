@@ -5,6 +5,7 @@ import pokeklon.model.IMonster;
 public class WUIStatus {
 	public String update;
 	public String tui;
+	public String onTurn;
 	public int maxMo;
 	public int monP1No;
 	public int monP2No;

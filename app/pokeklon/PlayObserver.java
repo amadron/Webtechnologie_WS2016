@@ -18,20 +18,15 @@ public class PlayObserver implements IObserver{
 	}
 	@Override
 	public void update(Event e) {
-		//String updateString = "update:" + Pokeklon.controller.getGameStat();
-		Gson gson = new GsonBuilder().create();
-		WUIStatus state = new WUIStatus();
-		state.update = Pokeklon.controller.getGameStat();
-		state.tui = Pokeklon.tui.output;
-		state.maxMo = Pokeklon.controller.getNoOfMonster();
-		state.monP1 = Pokeklon.controller.getCurrentP1Mon();
-		if(state.monP1 != null)
-			state.monP1No = Pokeklon.controller.getMonsterNumber(state.monP1.getName());
-		state.monP2 = Pokeklon.controller.getCurrentP2Mon();
-		if(state.monP2 != null)
-			state.monP2No = Pokeklon.controller.getMonsterNumber(state.monP2.getName());
-		String updateString =  gson.toJson(state);
-		PlayFunctions.webSocketOut.write(updateString);
+		String updateString =  PlayFunctions.getWuiState();
+		if(PlayFunctions.webSocketOutP1 != null)
+		{
+			PlayFunctions.webSocketOutP1.write(updateString);
+		}
+		if(PlayFunctions.webSocketOutP2 != null)
+		{
+			PlayFunctions.webSocketOutP2.write(updateString);
+		}
 	}
 
 }

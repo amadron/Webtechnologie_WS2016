@@ -70,7 +70,7 @@ public class PokeklonController extends Observable implements IPokeklonControlle
 		noOfMonster = i;
 		currentPlayer = p1;
 		gameStat = "monP1";
-		notifyObservers();
+		//notifyObservers();
 		callMonsterChoice();
 	}
 	
@@ -117,11 +117,11 @@ public class PokeklonController extends Observable implements IPokeklonControlle
 		int[] count = number;
 		if(currentPlayer.equals(p1)){
 			p1.addMonster(count);
-			notifyObservers();
-			callMonsterChoice();
+			//notifyObservers();
 			gameStat = "monP2";
-			notifyObservers();
 			changePlayer();
+			callMonsterChoice();
+			//notifyObservers();
 		} else {
 			p2.addMonster(count);
 			startBattle();

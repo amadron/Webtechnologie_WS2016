@@ -1,22 +1,25 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="polymer/monster-template.html">
 </head>
+
 <body id="body">
 
 </body>
 <script>
     var req = new XMLHttpRequest();
     req.open('GET', 'http://localhost:9000/monsterlist');
-    req.addEventListener('load', function(event)
-    {
+    req.addEventListener('load', function(event) {
         document.body.innerHTML = req.responseText;
         console.log("Loaded!");
-    }
-    )
+    })
     req.send();
 </script>
+
 </html>

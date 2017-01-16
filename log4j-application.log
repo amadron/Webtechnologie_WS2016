@@ -5446,3 +5446,1417 @@ Player2 Monster: Taubsi	Life: 40.0
 (1) Attack 	 (2) Change Monster 
 (3) Item 	(4) Exit
 
+2017-01-13 13:29:28 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-13 13:29:28 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-13 13:29:38 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-13 13:29:38 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-13 13:30:15 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-13 13:30:15 INFO  TextUI:320 - Battle: 
+Player1 Monster: Bisasam	Life: 45.0
+Player2 Monster: Bisasam	Life: 45.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-13 13:30:18 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-13 13:30:18 INFO  TextUI:320 - Battle: 
+Player1 Monster: Bisasam	Life: 45.0
+Player2 Monster: Bisasam	Life: 45.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-13 13:30:20 INFO  TextUI:318 -  ######################## Raplaced Bisasam by Glumand ######################## 
+
+2017-01-13 13:30:20 INFO  TextUI:320 - Battle: 
+Player1 Monster: Glumand	Life: 39.0
+Player2 Monster: Bisasam	Life: 45.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-13 13:31:13 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-13 13:31:13 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Rankenhieb	PLANT
+Bodycheck	NORMAL
+Rasierblatt	PLANT
+(0) Back to Battle Menu
+2017-01-13 13:38:10 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-13 13:38:10 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-13 13:38:19 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-13 13:38:19 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-13 13:38:19 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-13 13:38:19 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 44.0
+Player2 Monster: Bisasam	Life: 45.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-15 22:35:52 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 22:35:52 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 22:39:39 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 22:39:39 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 22:40:17 INFO  TextUI:318 -  ###################### Player 1 please choose 1Monster: ###################### 
+
+2017-01-15 22:40:17 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 22:40:17 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-15 22:40:17 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 44.0
+Player2 Monster: Quapsel	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-15 22:43:15 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 22:43:15 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 22:43:18 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-15 22:43:18 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-15 22:43:31 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-15 22:43:31 INFO  TextUI:320 - Battle: 
+Player1 Monster: Bisasam	Life: 45.0
+Player2 Monster: Bisasam	Life: 45.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-15 22:44:45 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 22:44:45 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 22:45:29 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-15 22:45:29 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-15 22:53:39 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 22:53:39 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 23:13:21 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 23:13:21 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 23:23:24 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-15 23:23:24 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-15 23:23:48 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-15 23:23:48 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Fukano	Life: 55.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-15 23:26:18 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 23:26:18 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 23:26:41 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-15 23:26:41 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-15 23:27:44 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 23:27:44 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 23:27:46 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-15 23:27:46 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-15 23:32:54 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 23:32:54 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 23:33:07 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-15 23:33:07 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-15 23:36:29 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 23:36:29 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 23:36:30 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-15 23:36:30 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-15 23:39:23 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 23:39:23 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 23:39:25 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-15 23:39:25 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-15 23:40:21 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-15 23:40:21 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-15 23:50:40 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 23:50:40 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 23:51:34 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-15 23:51:34 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-15 23:56:13 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-15 23:56:13 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-15 23:56:14 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-15 23:56:14 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 00:05:26 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:05:26 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:05:32 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 00:05:32 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 00:08:14 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:08:14 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:08:16 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 00:08:16 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 00:12:15 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:12:15 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:14:18 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:14:18 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:14:19 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 00:14:19 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 00:19:46 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:19:46 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:19:48 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 00:19:48 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 00:23:43 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:23:43 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:26:32 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:26:32 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:29:20 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:29:20 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:29:27 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 00:29:27 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 00:31:23 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:31:23 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:32:46 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:32:46 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:36:30 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:36:30 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:36:31 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 00:36:32 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 00:51:21 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:51:21 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:52:32 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:52:32 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:52:34 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 00:52:34 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 00:54:02 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 00:54:02 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 00:54:03 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 00:54:03 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 01:05:56 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 01:05:56 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 01:05:59 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 01:05:59 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 01:07:45 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 01:07:45 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 01:07:46 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 01:07:46 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 01:07:55 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-16 01:07:55 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Quapsel	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 01:07:57 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-16 01:07:57 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Quapsel	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 01:07:59 INFO  TextUI:318 -  ######################### Raplaced Seeper by Fukano ######################### 
+
+2017-01-16 01:07:59 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Quapsel	Life: 40.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 13:23:43 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 13:23:43 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 13:23:47 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 13:23:47 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 13:24:19 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-16 13:24:19 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Fukano	Life: 55.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 13:24:22 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-16 13:24:22 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-16 13:24:23 INFO  TextUI:318 -  ################ Seeper uses Blubberstrahl and made 12 damage ################ 
+
+2017-01-16 13:24:23 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-16 13:24:24 INFO  TextUI:318 -  ############################### Attack failed! ############################### 
+
+2017-01-16 13:24:24 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Fukano	Life: 43.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 13:24:25 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-16 13:24:25 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Fukano	Life: 43.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 13:27:26 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 13:27:26 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 13:27:32 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 13:27:32 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 13:30:12 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 13:30:12 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 13:30:15 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 13:30:15 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 13:30:29 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-16 13:30:29 INFO  TextUI:320 - Battle: 
+Player1 Monster: Raupy	Life: 45.0
+Player2 Monster: Fukano	Life: 55.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 13:31:02 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 13:31:02 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 13:31:05 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 13:31:05 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 13:31:09 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-16 13:31:09 INFO  TextUI:320 - Battle: 
+Player1 Monster: Habitak	Life: 40.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 13:33:39 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 13:33:39 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 13:33:45 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 13:33:45 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 13:54:01 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 13:54:01 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 13:55:17 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 13:55:17 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 13:55:19 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 13:55:19 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 14:15:27 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 14:15:27 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 14:15:32 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 14:15:32 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 14:17:07 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 14:17:07 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 14:17:09 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 14:17:09 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 14:20:12 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 14:20:12 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 14:20:14 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 14:20:14 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 14:22:26 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 14:22:26 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 14:22:27 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 14:22:27 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 14:24:18 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 14:24:18 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 14:24:19 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 14:24:19 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 14:24:24 INFO  TextUI:318 -  ###################### Player 2 please choose 2Monster: ###################### 
+
+2017-01-16 14:24:24 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 17:30:17 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 17:30:17 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 17:30:20 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 17:30:20 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 17:30:25 INFO  TextUI:318 -  ###################### Player 2 please choose 2Monster: ###################### 
+
+2017-01-16 17:30:25 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 17:31:59 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-16 17:31:59 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Habitak	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 17:32:09 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-16 17:32:09 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Biss	NORMAL
+Glut	FIRE
+Flammenrad	FIRE
+(0) Back to Battle Menu
+2017-01-16 17:32:10 INFO  TextUI:318 -  ##################### Fukano uses Biss and made 7 damage ##################### 
+
+2017-01-16 17:32:10 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Biss	NORMAL
+Glut	FIRE
+Flammenrad	FIRE
+(0) Back to Battle Menu
+2017-01-16 18:29:32 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 18:29:32 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 18:29:35 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 18:29:35 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 18:29:40 INFO  TextUI:318 -  ###################### Player 2 please choose 2Monster: ###################### 
+
+2017-01-16 18:29:40 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 18:29:45 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-16 18:29:45 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 18:48:38 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-16 18:48:38 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 18:49:34 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 18:49:34 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 18:49:36 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 18:49:36 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 18:49:40 INFO  TextUI:318 -  ###################### Player 2 please choose 2Monster: ###################### 
+
+2017-01-16 18:49:40 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 18:50:32 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 18:50:32 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 18:50:34 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 18:50:34 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 18:50:38 INFO  TextUI:318 -  ###################### Player 2 please choose 2Monster: ###################### 
+
+2017-01-16 18:50:38 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 18:50:43 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-16 18:50:43 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 18:50:44 INFO  TextUI:318 -  ############################### Change Monster ############################### 
+
+2017-01-16 18:50:44 INFO  TextUI:320 - Battle: 
+Player1 Monster: Fukano	Life: 55.0
+Player2 Monster: Vulpix	Life: 38.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-16 19:57:10 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 19:57:10 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 20:08:45 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 20:08:45 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 20:08:46 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 20:08:46 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 20:19:24 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 20:19:24 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 20:19:28 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 20:19:28 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 20:44:19 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 20:44:19 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 20:44:21 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 20:44:21 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 20:44:28 INFO  TextUI:318 -  ###################### Player 2 please choose 2Monster: ###################### 
+
+2017-01-16 20:44:28 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 20:48:08 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 20:48:08 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 20:54:21 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-16 20:54:21 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-16 20:54:22 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-16 20:54:22 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-16 20:54:27 INFO  TextUI:318 -  ###################### Player 2 please choose 2Monster: ###################### 
+
+2017-01-16 20:54:27 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
