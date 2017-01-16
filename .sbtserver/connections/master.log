@@ -59,3 +59,9 @@ Taking next connection to: 50397
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
 Taking next connection to: 50397
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 15352@DESKTOP-80HM3MF logs at Mon Jan 16 21:29:59 CET 2017, goodbye.
