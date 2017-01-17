@@ -97,7 +97,7 @@ public class PlayFunctions extends Controller{
 		System.out.println("Open Socket!");
 		System.out.println("ID: " + id);;
 		String inID = id;
-		if(id == null || inID.equals("") || p1ID != null && p2ID != null && !p1ID.equals(inID) && p2ID.equals(inID))
+		if(id == null || inID.equals("") || p1ID != null && p2ID != null && !p1ID.equals(inID) && !p2ID.equals(inID))
 		{
 			System.out.println("Websocket rejected!");
 			return WebSocket.reject(forbidden());
@@ -248,12 +248,10 @@ public class PlayFunctions extends Controller{
 		{
 			if(Pokeklon.controller.getCurrentPlayer() == Pokeklon.controller.getPlayer1())
 			{
-				System.out.println("Assign p1 in step 1");
 				state.onTurn = p1ID;
 			}
 			if(Pokeklon.controller.getCurrentPlayer() == Pokeklon.controller.getPlayer2())
 			{
-				System.out.println("Assign p2 in step 1");
 				state.onTurn = p2ID;
 			}
 		}
@@ -263,12 +261,10 @@ public class PlayFunctions extends Controller{
 		}
 		if(state.update.equals("monP1"))
 		{
-			System.out.println("Assign state monP1");
 			state.onTurn = p1ID;
 		}
 		if(state.update.equals("monP2"))
 		{
-			System.out.println("Assign state monP2");
 			state.onTurn = p2ID;
 		}
 		state.monP1 = Pokeklon.controller.getCurrentP1Mon();

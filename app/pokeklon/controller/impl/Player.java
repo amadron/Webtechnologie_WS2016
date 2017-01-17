@@ -66,13 +66,6 @@ public class Player implements IPlayer {
 	
 	@Override
 	public void removeItem(IItem item){
-		int i = 0;
-		for (IItem tmp : itemList) {
-			if(tmp.getName().equals(item.getName())){
-				itemList.remove(i);
-				break;
-			}
-			i++;
-		}
+		itemList.remove(item);
 	}
 }

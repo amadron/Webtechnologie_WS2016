@@ -525,7 +525,7 @@
         });
 
         function login() {
-            var link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=https://pokeklon.herokuapp.com/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"
+            var link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://localhost:9000/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"
                 <!--link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://pokeklon.herokuapp.com/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"-->
             window.open(link, "Login Window", "width=500, height=300, top=300, left=300");
         }
@@ -575,7 +575,7 @@
         var req;
 
         function connect() {
-            conn = new WebSocket('ws://pokeklon.herokuapp.com/socket?id=' + user['id']);
+            conn = new WebSocket('ws://localhost:9000/socket?id=' + user['id']);
 
             conn.onopen = function() {
                 conn.send('hello!');
@@ -706,7 +706,7 @@
 
         function monsterChooseScreen() {
             selectedMo = 0;
-            getView('https://pokeklon.herokuapp.com/monsterlist');
+            getView('http://localhost:9000/monsterlist');
         }
 
         function getMonsterChooseScreen() {
@@ -714,7 +714,7 @@
         }
 
         function currMonScreen() {
-            getView('https://pokeklon.herokuapp.com/currmonsterlist');
+            getView('http://localhost:9000/currmonsterlist');
         }
 
         function getCurrMonScreen() {
@@ -746,7 +746,7 @@
         }
 
         function itemScreen() {
-            getView('https://pokeklon.herokuapp.com/itemlist');
+            getView('http://localhost:9000/itemlist');
         }
 
         function getItemScreen() {
@@ -754,7 +754,7 @@
         }
 
         function attackScreen() {
-            getView('https://pokeklon.herokuapp.com/attacklist');
+            getView('http://localhost:9000/attacklist');
         }
 
         function getAttackScreen() {

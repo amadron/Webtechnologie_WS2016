@@ -74,7 +74,7 @@ public class TextUI implements IObserver{
 
 	private void endMenu() {
 		if(stat.equals("end")){
-			System.exit(0);
+			//System.exit(0);
 		}
 	}
 
@@ -325,7 +325,7 @@ public class TextUI implements IObserver{
 	private void checkEnd() {
 		if(gameStat.equals("end")){
 			output = "Battle is over: \n (1) Restart \n (2) Exit \n";
-			restartGame();
+			//restartGame();
 		}
 	}
 

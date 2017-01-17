@@ -43,7 +43,7 @@ public class PokeklonController extends Observable implements IPokeklonControlle
 	private IMonster currentMonster;
 	private IMonster enemyCurrMonster;
 	private IPlayer enemyPlayer;
-	
+	private boolean quick = false;
 	
 	@Inject
 	public PokeklonController() {
@@ -76,6 +76,7 @@ public class PokeklonController extends Observable implements IPokeklonControlle
 	
 	@Override
 	public void quickGame() {
+		quick = true;
 		p1 = new Player();
 		p2 = new Player();
 		noOfMonster = 1;
@@ -120,7 +121,8 @@ public class PokeklonController extends Observable implements IPokeklonControlle
 			//notifyObservers();
 			gameStat = "monP2";
 			changePlayer();
-			callMonsterChoice();
+			if(!quick)
+				callMonsterChoice();
 			//notifyObservers();
 		} else {
 			p2.addMonster(count);
@@ -178,7 +180,6 @@ public class PokeklonController extends Observable implements IPokeklonControlle
 		action.useItem(item, currentMonster);
 		currentPlayer.removeItem(item);
 		statusLine = createStatusLine(item.getName() + " used");
-		notifyObservers();
 		battleMenu();
 	}
 	
@@ -258,12 +259,12 @@ public class PokeklonController extends Observable implements IPokeklonControlle
 		enemyCurrMonster.decreaseLife(damage);
 		String text = getAttackText(attack, damage);
 		statusLine = createStatusLine(text);
-		notifyObservers();
 		boolean contin = testEnemyGameOver();
 		if(!contin) {
 			end();
 		} else {
 		changePlayer();
+		//notifyObservers();
 		battleMenu();
 		}
 	}

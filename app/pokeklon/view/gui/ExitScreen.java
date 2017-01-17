@@ -15,7 +15,7 @@ public class ExitScreen extends JPanel {
 	}
 	
 	private void closeMenu(){
-		String options[] = {"restart", "exit"};
+		String options[] = {"ok","restart","exit"};
 		int n = JOptionPane.showOptionDialog(
 				this,
 				"Congratulations\nPlayer " + controller.getWinner() + " is the winner!",

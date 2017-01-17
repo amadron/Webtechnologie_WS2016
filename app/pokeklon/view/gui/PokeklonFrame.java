@@ -110,13 +110,15 @@ public class PokeklonFrame extends JFrame implements IObserver {
 			current = battle;
 			rebuildWindow();
 		}
+		/*
 		else if(stat == "end")
 		{
 			battle.getFightPane();
 			current = battle;
 			rebuildWindow();
-			new ExitScreen(controller);
+			//new ExitScreen(controller);
 		}
+		*/
 	}
 
 	private void rebuildWindow() {
