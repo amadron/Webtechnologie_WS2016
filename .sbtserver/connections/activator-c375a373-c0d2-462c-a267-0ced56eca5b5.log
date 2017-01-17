@@ -1917,3 +1917,19 @@ Sending msg to client activator-c375a373-c0d2-462c-a267-0ced56eca5b5: Background
 Sending msg to client activator-c375a373-c0d2-462c-a267-0ced56eca5b5: BackgroundJobLogEvent(1,LogMessage(info,Connection closed!))
 Sending msg to client activator-c375a373-c0d2-462c-a267-0ced56eca5b5: BackgroundJobLogEvent(1,LogMessage(info,application - ApplicationTimer demo: Stopping application at 2017-01-17T22:18:46.842Z after 98s.))
 Sending msg to client activator-c375a373-c0d2-462c-a267-0ced56eca5b5: BackgroundJobFinished(5,1)
+Got request: UnlistenToEvents()
+Reading next message from client.
+Sending msg to client activator-c375a373-c0d2-462c-a267-0ced56eca5b5: (23,ReceivedResponse())
+Got request: UnlistenToValue(AttributeKey[scala.collection.Seq[java.lang.String]]("discoveredMainClasses") in Scope(Build: file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/, , Project: ProjectReference(file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/,root), Config: compile))
+Reading next message from client.
+Got request: UnlistenToValue(AttributeKey[scala.Option[java.lang.String]]("mainClass") in Scope(Build: file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/, , Project: ProjectReference(file:/D:/Documents/Studium/Webtech/Webtechnologie_WS2016/,root), Config: compile))
+Reading next message from client.
+Got request: UnlistenToBuildChange()
+Reading next message from client.
+Client activator-c375a373-c0d2-462c-a267-0ced56eca5b5 closed, java.net.SocketException: Software caused connection abort: recv failed, shutting down
+Stopping client.
+Client activator-c375a373-c0d2-462c-a267-0ced56eca5b5 thread exiting.
+Dropping message (24,ReceivedResponse()) to dead client activator-c375a373-c0d2-462c-a267-0ced56eca5b5
+Dropping message (25,ReceivedResponse()) to dead client activator-c375a373-c0d2-462c-a267-0ced56eca5b5
+Dropping message (26,ReceivedResponse()) to dead client activator-c375a373-c0d2-462c-a267-0ced56eca5b5
+Dropping message (0,ReceivedResponse()) to dead client activator-c375a373-c0d2-462c-a267-0ced56eca5b5
