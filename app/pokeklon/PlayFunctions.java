@@ -97,7 +97,7 @@ public class PlayFunctions extends Controller{
 		System.out.println("Open Socket!");
 		System.out.println("ID: " + id);;
 		String inID = id;
-		if(id == null || inID.equals("") || p1ID != null && p1ID != null && !p1ID.equals(inID) && p2ID.equals(inID))
+		if(id == null || inID.equals("") || p1ID != null && p2ID != null && !p1ID.equals(inID) && p2ID.equals(inID))
 		{
 			System.out.println("Websocket rejected!");
 			return WebSocket.reject(forbidden());
