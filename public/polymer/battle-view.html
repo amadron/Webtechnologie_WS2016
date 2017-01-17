@@ -56,6 +56,7 @@
             updateMon();
             if (document.getElementById('battlefield') != null) {
                 var context = document.getElementById('battlefield').getContext('2d');
+                canHeight = canWidth * 0.6;
                 context.canvas.width = canWidth;
                 context.canvas.height = canHeight;
                 backgroundImage.src = "assets/images/battle_background.png";
@@ -87,6 +88,20 @@
                     var currHealtBar2 = (barWidth / maxHealthMon2) * currHealthMon2;
                     context.fillStyle = "#007399";
                     context.fillRect(rightPos, barHeightDist * 2, currHealtBar2, barHeight);
+
+                    var mark;
+                    if (onTurn == p1ID) {
+                        mark = canWidth * 0.25;
+                    } else {
+                        mark = canWidth * 0.75;
+                    }
+                    var markWidth = canWidth * 0.1;
+                    var markHeight = markWidth * 0.4;
+                    var markY = canHeight * 0.75;
+                    context.fillStyle = "#000000";
+                    context.ellipse(mark, markY, markWidth, markHeight, 0, 0, Math.PI * 2);
+                    context.fill();
+
                     monImage1.src = monPicPath + getNumber(monP1No) + monPicEnding;
                     monImage1.onload = function() {
                         var ratio1 = monImage1.heigh / monImage1.width;

@@ -273,6 +273,8 @@ public class PlayFunctions extends Controller{
 		state.monP2 = Pokeklon.controller.getCurrentP2Mon();
 		if(state.monP2 != null)
 			state.monP2No = Pokeklon.controller.getMonsterNumber(state.monP2.getName());
+		state.p1ID = p1ID;
+		state.p2ID = p2ID;
 		String updateString =  gson.toJson(state);
 		return updateString;
 	}

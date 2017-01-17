@@ -13684,3 +13684,952 @@ Flammenrad	FIRE
  (1) Restart 
  (2) Exit 
 
+2017-01-17 21:37:04 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-17 21:37:04 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-17 21:37:13 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-17 21:37:13 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-17 21:37:28 INFO  TextUI:318 -  ###################### Player 2 please choose 2Monster: ###################### 
+
+2017-01-17 21:37:28 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-17 21:37:34 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-17 21:37:34 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Glumand	Life: 39.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:37:49 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:37:49 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-17 21:37:52 INFO  TextUI:318 -  ################# Seeper uses Aquaknarre and made 10 damage ################# 
+
+2017-01-17 21:37:52 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Glumand	Life: 29.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:37:55 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:37:55 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Kratzer	NORMAL
+Glut	FIRE
+Schlitzer	NORMAL
+Feuerbiss	FIRE
+(0) Back to Battle Menu
+2017-01-17 21:37:57 INFO  TextUI:318 -  ############################### Attack failed! ############################### 
+
+2017-01-17 21:37:57 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Glumand	Life: 29.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:37:59 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:37:59 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-17 21:38:00 INFO  TextUI:318 -  ################### Seeper uses Blubber and made 10 damage ################### 
+
+2017-01-17 21:38:00 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Glumand	Life: 19.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:38:02 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:38:02 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Kratzer	NORMAL
+Glut	FIRE
+Schlitzer	NORMAL
+Feuerbiss	FIRE
+(0) Back to Battle Menu
+2017-01-17 21:38:04 INFO  TextUI:318 -  ################### Glumand uses Kratzer and made 3 damage ################### 
+
+2017-01-17 21:38:04 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 27.0
+Player2 Monster: Glumand	Life: 19.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:38:06 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:38:06 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-17 21:38:08 INFO  TextUI:318 -  ################ Seeper uses Blubberstrahl and made 12 damage ################ 
+
+2017-01-17 21:38:08 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 27.0
+Player2 Monster: Glumand	Life: 7.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:38:10 INFO  TextUI:318 -  ############################### Item selection ############################### 
+
+2017-01-17 21:38:10 INFO  TextUI:320 - Items: 
+HP Trank
+HP Trank
+X-Attack
+X-Defence
+(0) Back to Battle Menu
+
+2017-01-17 21:38:13 INFO  TextUI:318 -  ############################### HP Trank used ############################### 
+
+2017-01-17 21:38:13 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 27.0
+Player2 Monster: Glumand	Life: 27.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:38:42 INFO  TextUI:318 -  ############################### Item selection ############################### 
+
+2017-01-17 21:38:42 INFO  TextUI:320 - Items: 
+HP Trank
+X-Attack
+X-Defence
+(0) Back to Battle Menu
+
+2017-01-17 21:38:44 INFO  TextUI:318 -  ############################### X-Attack used ############################### 
+
+2017-01-17 21:38:44 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 27.0
+Player2 Monster: Glumand	Life: 27.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:38:55 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:38:55 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Kratzer	NORMAL
+Glut	FIRE
+Schlitzer	NORMAL
+Feuerbiss	FIRE
+(0) Back to Battle Menu
+2017-01-17 21:39:00 INFO  TextUI:318 -  ################## Glumand uses Feuerbiss and made 3 damage ################## 
+
+2017-01-17 21:39:00 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 24.0
+Player2 Monster: Glumand	Life: 27.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:39:02 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:39:02 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-17 21:39:03 INFO  TextUI:318 -  ################ Seeper uses Blubberstrahl and made 11 damage ################ 
+
+2017-01-17 21:39:03 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 24.0
+Player2 Monster: Glumand	Life: 16.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:39:05 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:39:05 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Kratzer	NORMAL
+Glut	FIRE
+Schlitzer	NORMAL
+Feuerbiss	FIRE
+(0) Back to Battle Menu
+2017-01-17 21:39:07 INFO  TextUI:318 -  ############################### Attack failed! ############################### 
+
+2017-01-17 21:39:07 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 24.0
+Player2 Monster: Glumand	Life: 16.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:39:09 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:39:09 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-17 21:39:10 INFO  TextUI:318 -  ################ Seeper uses Blubberstrahl and made 12 damage ################ 
+
+2017-01-17 21:39:10 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 24.0
+Player2 Monster: Glumand	Life: 4.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:39:12 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:39:12 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Kratzer	NORMAL
+Glut	FIRE
+Schlitzer	NORMAL
+Feuerbiss	FIRE
+(0) Back to Battle Menu
+2017-01-17 21:39:13 INFO  TextUI:318 -  ################### Glumand uses Kratzer and made 3 damage ################### 
+
+2017-01-17 21:39:13 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 21.0
+Player2 Monster: Glumand	Life: 4.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:39:15 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:39:15 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-17 21:39:16 INFO  TextUI:318 -  ################ Seeper uses Blubberstrahl and made 13 damage ################ 
+
+2017-01-17 21:39:16 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-17 21:39:25 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:39:25 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:40:28 INFO  TextUI:318 -  #################### Schiggy uses Biss and made 3 damage #################### 
+
+2017-01-17 21:40:28 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 18.0
+Player2 Monster: Schiggy	Life: 44.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:40:31 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:40:31 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-17 21:40:32 INFO  TextUI:318 -  ################ Seeper uses Blubberstrahl and made 5 damage ################ 
+
+2017-01-17 21:40:32 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 18.0
+Player2 Monster: Schiggy	Life: 39.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:40:34 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:40:34 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:40:36 INFO  TextUI:318 -  ################### Schiggy uses Tackle and made 3 damage ################### 
+
+2017-01-17 21:40:36 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 15.0
+Player2 Monster: Schiggy	Life: 39.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:40:38 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:40:38 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-17 21:40:39 INFO  TextUI:318 -  ################## Seeper uses Aquaknarre and made 4 damage ################## 
+
+2017-01-17 21:40:39 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 15.0
+Player2 Monster: Schiggy	Life: 35.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:40:41 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:40:41 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:40:42 INFO  TextUI:318 -  #################### Schiggy uses Biss and made 4 damage #################### 
+
+2017-01-17 21:40:42 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 11.0
+Player2 Monster: Schiggy	Life: 35.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:40:43 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:40:43 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-17 21:40:46 INFO  TextUI:318 -  ############################### Attack failed! ############################### 
+
+2017-01-17 21:40:46 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 11.0
+Player2 Monster: Schiggy	Life: 35.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:40:47 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:40:47 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:40:49 INFO  TextUI:318 -  #################### Schiggy uses Biss and made 4 damage #################### 
+
+2017-01-17 21:40:49 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 7.0
+Player2 Monster: Schiggy	Life: 35.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:40:50 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:40:50 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-17 21:40:51 INFO  TextUI:318 -  ################ Seeper uses Blubberstrahl and made 5 damage ################ 
+
+2017-01-17 21:40:51 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 7.0
+Player2 Monster: Schiggy	Life: 30.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:40:52 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:40:52 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:40:53 INFO  TextUI:318 -  ############################### Attack failed! ############################### 
+
+2017-01-17 21:40:53 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 7.0
+Player2 Monster: Schiggy	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:40:55 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:40:55 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Blubberstrahl	WATER
+(0) Back to Battle Menu
+2017-01-17 21:40:56 INFO  TextUI:318 -  ############################### Attack failed! ############################### 
+
+2017-01-17 21:40:56 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 7.0
+Player2 Monster: Schiggy	Life: 30.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:40:57 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:40:57 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:40:57 INFO  TextUI:318 -  #################### Schiggy uses Biss and made 3 damage #################### 
+
+2017-01-17 21:40:57 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 4.0
+Player2 Monster: Schiggy	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:41:37 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-17 21:41:37 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-17 21:41:43 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-17 21:41:43 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Taubsi	Life: 40.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:41:46 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:41:46 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-17 21:41:47 INFO  TextUI:318 -  ################## Hornliu uses Käferbiss and made 6 damage ################## 
+
+2017-01-17 21:41:47 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 40.0
+Player2 Monster: Taubsi	Life: 34.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:41:49 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:41:49 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:41:50 INFO  TextUI:318 -  ################# Taubsi uses Ruckzuckhieb and made 6 damage ################# 
+
+2017-01-17 21:41:50 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 34.0
+Player2 Monster: Taubsi	Life: 34.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:41:51 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:41:51 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-17 21:41:52 INFO  TextUI:318 -  ################## Hornliu uses Käferbiss and made 5 damage ################## 
+
+2017-01-17 21:41:52 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 34.0
+Player2 Monster: Taubsi	Life: 29.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:41:53 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:41:53 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:41:55 INFO  TextUI:318 -  ################### Taubsi uses Widstoß and made 6 damage ################### 
+
+2017-01-17 21:41:55 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 28.0
+Player2 Monster: Taubsi	Life: 29.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:41:56 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:41:56 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-17 21:41:57 INFO  TextUI:318 -  ################## Hornliu uses Käferbiss and made 6 damage ################## 
+
+2017-01-17 21:41:57 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 28.0
+Player2 Monster: Taubsi	Life: 23.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:41:58 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:41:58 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:42:00 INFO  TextUI:318 -  ################# Taubsi uses Ruckzuckhieb and made 6 damage ################# 
+
+2017-01-17 21:42:00 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 22.0
+Player2 Monster: Taubsi	Life: 23.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:42:01 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:42:01 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-17 21:42:03 INFO  TextUI:318 -  ################## Hornliu uses Käferbiss and made 6 damage ################## 
+
+2017-01-17 21:42:03 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 22.0
+Player2 Monster: Taubsi	Life: 17.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:42:04 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:42:04 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:42:05 INFO  TextUI:318 -  ################# Taubsi uses Ruckzuckhieb and made 6 damage ################# 
+
+2017-01-17 21:42:05 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 16.0
+Player2 Monster: Taubsi	Life: 17.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:42:06 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:42:06 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-17 21:42:07 INFO  TextUI:318 -  ################## Hornliu uses Käferbiss and made 6 damage ################## 
+
+2017-01-17 21:42:07 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 16.0
+Player2 Monster: Taubsi	Life: 11.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:42:09 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:42:09 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:42:09 INFO  TextUI:318 -  ############################### Attack failed! ############################### 
+
+2017-01-17 21:42:09 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 16.0
+Player2 Monster: Taubsi	Life: 11.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:42:11 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:42:11 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-17 21:42:11 INFO  TextUI:318 -  ################## Hornliu uses Käferbiss and made 5 damage ################## 
+
+2017-01-17 21:42:11 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 16.0
+Player2 Monster: Taubsi	Life: 6.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:42:13 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:42:13 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:42:14 INFO  TextUI:318 -  ################# Taubsi uses Ruckzuckhieb and made 6 damage ################# 
+
+2017-01-17 21:42:14 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 10.0
+Player2 Monster: Taubsi	Life: 6.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:42:15 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:42:15 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-17 21:42:15 INFO  TextUI:318 -  ################## Hornliu uses Käferbiss and made 5 damage ################## 
+
+2017-01-17 21:42:15 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 10.0
+Player2 Monster: Taubsi	Life: 1.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:42:17 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:42:17 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2017-01-17 21:42:18 INFO  TextUI:318 -  ################# Taubsi uses Ruckzuckhieb and made 6 damage ################# 
+
+2017-01-17 21:42:18 INFO  TextUI:320 - Battle: 
+Player1 Monster: Hornliu	Life: 4.0
+Player2 Monster: Taubsi	Life: 1.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 21:42:19 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 21:42:19 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Giftstachel	PLANT
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-17 21:42:19 INFO  TextUI:318 -  ##################### Player 1 Wins - Thx for playing :) ##################### 
+
+2017-01-17 21:42:19 INFO  TextUI:320 - Battle is over: 
+ (1) Restart 
+ (2) Exit 
+
+2017-01-17 21:46:42 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-17 21:46:42 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-17 21:48:00 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-17 21:48:00 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-17 21:48:07 INFO  TextUI:318 -  ###################### Player 2 please choose 2Monster: ###################### 
+
+2017-01-17 21:48:07 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-17 21:56:02 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-17 21:56:02 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-17 21:56:08 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-17 21:56:08 INFO  TextUI:320 - Battle: 
+Player1 Monster: Raupy	Life: 45.0
+Player2 Monster: Schiggy	Life: 44.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 22:17:45 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-17 22:17:45 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-17 22:17:46 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-17 22:17:46 INFO  TextUI:320 - Battle: 
+Player1 Monster: Seeper	Life: 30.0
+Player2 Monster: Raupy	Life: 45.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 22:19:22 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-17 22:19:22 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-17 22:19:23 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-17 22:19:23 INFO  TextUI:320 - Battle: 
+Player1 Monster: Raupy	Life: 45.0
+Player2 Monster: Ratfatz	Life: 30.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 22:39:01 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 22:39:01 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-17 22:39:02 INFO  TextUI:318 -  #################### Raupy uses Tackle and made 3 damage #################### 
+
+2017-01-17 22:39:02 INFO  TextUI:320 - Battle: 
+Player1 Monster: Raupy	Life: 45.0
+Player2 Monster: Ratfatz	Life: 27.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 22:39:48 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 22:39:48 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Ruckzuckhieb	NORMAL
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 22:39:49 INFO  TextUI:318 -  ################### Ratfatz uses Tackle and made 8 damage ################### 
+
+2017-01-17 22:39:49 INFO  TextUI:320 - Battle: 
+Player1 Monster: Raupy	Life: 37.0
+Player2 Monster: Ratfatz	Life: 27.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 22:48:24 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-17 22:48:24 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-17 22:48:26 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-17 22:48:26 INFO  TextUI:320 - Battle: 
+Player1 Monster: Glumand	Life: 39.0
+Player2 Monster: Schiggy	Life: 44.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 22:53:39 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-17 22:53:39 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-17 22:54:53 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-17 22:54:53 INFO  TextUI:320 - Battle: 
+Player1 Monster: Quapsel	Life: 40.0
+Player2 Monster: Bisasam	Life: 45.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:04:33 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:04:33 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Aquaknarre	WATER
+Blubber	WATER
+Duplexhieb	NORMAL
+(0) Back to Battle Menu
+2017-01-17 23:04:34 INFO  TextUI:318 -  ################# Quapsel uses Aquaknarre and made 3 damage ################# 
+
+2017-01-17 23:04:34 INFO  TextUI:320 - Battle: 
+Player1 Monster: Quapsel	Life: 40.0
+Player2 Monster: Bisasam	Life: 42.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:09:17 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-17 23:09:17 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-17 23:09:19 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-17 23:09:19 INFO  TextUI:320 - Battle: 
+Player1 Monster: Taubsi	Life: 40.0
+Player2 Monster: Raupy	Life: 45.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:09:23 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:09:23 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Widstoß	NORMAL
+Ruckzuckhieb	NORMAL
+(0) Back to Battle Menu
+2017-01-17 23:09:24 INFO  TextUI:318 -  #################### Taubsi uses Tackle and made 6 damage #################### 
+
+2017-01-17 23:09:24 INFO  TextUI:320 - Battle: 
+Player1 Monster: Taubsi	Life: 40.0
+Player2 Monster: Raupy	Life: 39.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:10:53 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:10:53 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Käferbiss	PLANT
+(0) Back to Battle Menu
+2017-01-17 23:10:54 INFO  TextUI:318 -  #################### Raupy uses Tackle and made 3 damage #################### 
+
+2017-01-17 23:10:54 INFO  TextUI:320 - Battle: 
+Player1 Monster: Taubsi	Life: 37.0
+Player2 Monster: Raupy	Life: 39.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+

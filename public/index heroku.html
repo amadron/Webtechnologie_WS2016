@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="pokeklon.herokuapp.com/assets/pokeclonWUI/images/mainPage/pokeball.png">
+    <link rel="icon" type="image/png" href="https://pokeklon.herokuapp.com/assets/pokeclonWUI/images/mainPage/pokeball.png">
 
     <!-- CSS -->
     <style title="pokeball">
@@ -525,7 +525,7 @@
         });
 
         function login() {
-            var link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://localhost:9000/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"
+            var link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=https://pokeklon.herokuapp.com/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"
                 <!--link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://pokeklon.herokuapp.com/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"-->
             window.open(link, "Login Window", "width=500, height=300, top=300, left=300");
         }
@@ -575,7 +575,7 @@
         var req;
 
         function connect() {
-            conn = new WebSocket('ws://localhost:9000/socket?id=' + user['id']);
+            conn = new WebSocket('wss://pokeklon.herokuapp.com/socket?id=' + user['id']);
 
             conn.onopen = function() {
                 conn.send('hello!');
@@ -706,7 +706,7 @@
 
         function monsterChooseScreen() {
             selectedMo = 0;
-            getView('http://localhost:9000/monsterlist');
+            getView('https://pokeklon.herokuapp.com/monsterlist');
         }
 
         function getMonsterChooseScreen() {
@@ -714,7 +714,7 @@
         }
 
         function currMonScreen() {
-            getView('http://localhost:9000/currmonsterlist');
+            getView('https://pokeklon.herokuapp.com/currmonsterlist');
         }
 
         function getCurrMonScreen() {
@@ -746,7 +746,7 @@
         }
 
         function itemScreen() {
-            getView('http://localhost:9000/itemlist');
+            getView('https://pokeklon.herokuapp.com/itemlist');
         }
 
         function getItemScreen() {
@@ -754,7 +754,7 @@
         }
 
         function attackScreen() {
-            getView('http://localhost:9000/attacklist');
+            getView('https://pokeklon.herokuapp.com/attacklist');
         }
 
         function getAttackScreen() {

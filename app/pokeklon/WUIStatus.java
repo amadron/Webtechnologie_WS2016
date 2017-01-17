@@ -11,4 +11,6 @@ public class WUIStatus {
 	public int monP2No;
 	public IMonster monP1;
 	public IMonster monP2;
+	public String p1ID;
+	public String p2ID;
 }
