@@ -575,7 +575,7 @@
         var req;
 
         function connect() {
-            conn = new WebSocket('ws://pokeklon.herokuapp.com/socket?id=' + user['id']);
+            conn = new WebSocket('wss://pokeklon.herokuapp.com/socket?id=' + user['id']);
 
             conn.onopen = function() {
                 conn.send('hello!');
