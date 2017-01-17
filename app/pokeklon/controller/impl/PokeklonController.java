@@ -336,7 +336,7 @@ public class PokeklonController extends Observable implements IPokeklonControlle
 			int playerNumber = getPlayerNumber(enemyPlayer);
 			String message = "Player" + playerNumber + "Changed Monster";
 			createStatusLine(message);
-			notifyObservers();
+			//notifyObservers();
 			return true;
 		} else {
 			return false;

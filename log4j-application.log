@@ -14633,3 +14633,233 @@ Player2 Monster: Raupy	Life: 39.0
 (1) Attack 	 (2) Change Monster 
 (3) Item 	(4) Exit
 
+2017-01-17 23:17:28 INFO  TextUI:318 -  #################################### Menu #################################### 
+
+2017-01-17 23:17:28 INFO  TextUI:320 - Main Menu: 
+(1) Quick Game 
+(2) Two Monster fight 
+(3) Four Monster fight 
+(4) Exit
+2017-01-17 23:17:47 INFO  TextUI:318 -  ###################### Player 1 please choose 2Monster: ###################### 
+
+2017-01-17 23:17:47 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-17 23:17:55 INFO  TextUI:318 -  ###################### Player 2 please choose 2Monster: ###################### 
+
+2017-01-17 23:17:55 INFO  TextUI:320 - Monsterlist:
+No: 	Name 	Type 	Attack 	Defence 
+1	Bisasam	Pflanze	45	49	
+2	Glumand	Feuer	39	52	
+3	Schiggy	Wasser	44	48	
+4	Raupy	Pflanze	45	30	
+5	Hornliu	Pflanze	40	35	
+6	Taubsi	Normal	40	45	
+7	Ratfatz	Normal	30	56	
+8	Habitak	Normal	40	60	
+9	Vulpix	Feuer	38	41	
+10	Quapsel	Wasser	40	50	
+11	Fukano	Feuer	55	70	
+12	Seeper	Wasser	30	40	
+
+2017-01-17 23:18:02 INFO  TextUI:318 -  ############################### Battle begins! ############################### 
+
+2017-01-17 23:18:02 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 44.0
+Player2 Monster: Glumand	Life: 39.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:18:05 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:18:05 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 23:18:08 INFO  TextUI:318 -  ############################### Attack failed! ############################### 
+
+2017-01-17 23:18:08 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 44.0
+Player2 Monster: Glumand	Life: 39.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:18:10 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:18:10 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Kratzer	NORMAL
+Glut	FIRE
+Schlitzer	NORMAL
+Feuerbiss	FIRE
+(0) Back to Battle Menu
+2017-01-17 23:18:11 INFO  TextUI:318 -  #################### Glumand uses Glut and made 2 damage #################### 
+
+2017-01-17 23:18:11 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 42.0
+Player2 Monster: Glumand	Life: 39.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:18:13 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:18:13 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 23:18:14 INFO  TextUI:318 -  ################# Schiggy uses Aquaknarre and made 11 damage ################# 
+
+2017-01-17 23:18:14 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 42.0
+Player2 Monster: Glumand	Life: 28.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:18:16 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:18:16 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Kratzer	NORMAL
+Glut	FIRE
+Schlitzer	NORMAL
+Feuerbiss	FIRE
+(0) Back to Battle Menu
+2017-01-17 23:18:17 INFO  TextUI:318 -  #################### Glumand uses Glut and made 2 damage #################### 
+
+2017-01-17 23:18:17 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 40.0
+Player2 Monster: Glumand	Life: 28.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:18:19 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:18:19 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 23:18:26 INFO  TextUI:318 -  ################# Schiggy uses Aquaknarre and made 10 damage ################# 
+
+2017-01-17 23:18:26 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 40.0
+Player2 Monster: Glumand	Life: 18.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:18:27 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:18:27 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Kratzer	NORMAL
+Glut	FIRE
+Schlitzer	NORMAL
+Feuerbiss	FIRE
+(0) Back to Battle Menu
+2017-01-17 23:18:28 INFO  TextUI:318 -  ################### Glumand uses Kratzer and made 3 damage ################### 
+
+2017-01-17 23:18:28 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 37.0
+Player2 Monster: Glumand	Life: 18.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:18:29 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:18:29 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 23:18:30 INFO  TextUI:318 -  ################# Schiggy uses Aquaknarre and made 10 damage ################# 
+
+2017-01-17 23:18:30 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 37.0
+Player2 Monster: Glumand	Life: 8.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:18:32 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:18:32 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Kratzer	NORMAL
+Glut	FIRE
+Schlitzer	NORMAL
+Feuerbiss	FIRE
+(0) Back to Battle Menu
+2017-01-17 23:18:33 INFO  TextUI:318 -  ################### Glumand uses Kratzer and made 3 damage ################### 
+
+2017-01-17 23:18:33 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 34.0
+Player2 Monster: Glumand	Life: 8.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:18:34 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:18:34 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 23:18:36 INFO  TextUI:318 -  ################# Schiggy uses Aquaknarre and made 11 damage ################# 
+
+2017-01-17 23:18:36 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 34.0
+Player2 Monster: Schiggy	Life: 44.0
+>>Player 2  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
+2017-01-17 23:18:39 INFO  TextUI:318 -  ################################### Attack ################################### 
+
+2017-01-17 23:18:39 INFO  TextUI:320 - Attack: 
+Name 	Type 
+Tackle	NORMAL
+Aquaknarre	WATER
+Blubber	WATER
+Biss	NORMAL
+(0) Back to Battle Menu
+2017-01-17 23:18:40 INFO  TextUI:318 -  ################# Schiggy uses Aquaknarre and made 5 damage ################# 
+
+2017-01-17 23:18:40 INFO  TextUI:320 - Battle: 
+Player1 Monster: Schiggy	Life: 29.0
+Player2 Monster: Schiggy	Life: 44.0
+>>Player 1  is on Turn!<<Please choose: 
+(1) Attack 	 (2) Change Monster 
+(3) Item 	(4) Exit
+
