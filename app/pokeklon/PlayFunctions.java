@@ -239,11 +239,13 @@ public class PlayFunctions extends Controller{
 					System.out.println("Connection closed!");
 					if(in == webSocketInP1)
 					{
+						System.out.println("Set p1in to null");
 						webSocketInP1 = null;
 					}
 					if(in == webSocketInP2)
 					{
 						webSocketInP2 = null;
+						System.out.println("Set p1in to null");
 					}
 					if(webSocketInP1 == null && webSocketInP2 == null)
 						System.exit(0);
