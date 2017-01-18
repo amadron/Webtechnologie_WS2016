@@ -95,3 +95,9 @@ Taking next connection to: 49808
 Checking to see if clients are empty...
 We have 2 non-daemon clients, continuing serving connections.
 Taking next connection to: 49808
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 10880@DESKTOP-80HM3MF logs at Wed Jan 18 11:07:37 CET 2017, goodbye.
