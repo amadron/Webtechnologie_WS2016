@@ -31,6 +31,8 @@ public class PlayFunctions extends Controller{
 	public static WebSocket.Out<String> webSocketOutP1 = null;
 	public static WebSocket.In<String> webSocketInP2 = null;
 	public static WebSocket.Out<String> webSocketOutP2 = null;
+	boolean p1Con = false;
+	boolean p2Con = false;
 	public static String p1ID = null;
 	public static String p2ID = null;
 	public static WebSocket.In<String> webSocketIn = null;
@@ -108,12 +110,14 @@ public class PlayFunctions extends Controller{
 				System.out.println("Player 1 found!");
 				webSocketOutP1 = out;
 				webSocketInP1 = in;
+				p1Con = true;
 			}
 			else if(p2ID != null && p2ID.equals(inID))
 			{
 				System.out.println("Player 2 found!");
 				webSocketOutP2 = out;
 				webSocketInP2 = in;
+				p2Con =true;
 			}
 			else if(p1ID == null)
 			{
@@ -121,6 +125,7 @@ public class PlayFunctions extends Controller{
 				p1ID = inID;
 				webSocketOutP1 = out;
 				webSocketInP1 = in;
+				p1Con = true;
 			}
 			else if(p2ID == null)
 			{
@@ -128,6 +133,7 @@ public class PlayFunctions extends Controller{
 				p2ID = inID;
 				webSocketOutP2 = out;
 				webSocketInP2 = in;
+				p2Con = true;
 			}
 			in.onMessage(con ->
 			    {
@@ -231,6 +237,14 @@ public class PlayFunctions extends Controller{
 			in.onClose( () -> 
 				{
 					System.out.println("Connection closed!");
+					if(in == webSocketInP1)
+					{
+						webSocketInP1 = null;
+					}
+					if(in == webSocketInP2)
+					{
+						webSocketInP2 = null;
+					}
 					if(webSocketInP1 == null && webSocketInP2 == null)
 						System.exit(0);
 				}
