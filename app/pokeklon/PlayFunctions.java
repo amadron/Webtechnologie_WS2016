@@ -231,6 +231,8 @@ public class PlayFunctions extends Controller{
 			in.onClose( () -> 
 				{
 					System.out.println("Connection closed!");
+					if(webSocketInP1 == null && webSocketInP2 == null)
+						System.exit(0);
 				}
 			);
 			out.write(getWuiState());
