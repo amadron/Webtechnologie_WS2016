@@ -247,8 +247,8 @@ public class PlayFunctions extends Controller{
 						webSocketInP2 = null;
 						System.out.println("Set p1in to null");
 					}
-					if(webSocketInP1 == null && webSocketInP2 == null)
-						System.exit(0);
+					//if(webSocketInP1 == null && webSocketInP2 == null)
+						//System.exit(0);
 				}
 			);
 			out.write(getWuiState());

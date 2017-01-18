@@ -429,7 +429,7 @@
             // $( "#dialog" ).dialog().prev(".ui-dialog-titlebar").css("background","red");  $( "#dialog" ).dialog({modal:true, height: 500, width:600, title: 'Title', resizable: true, dialogClass: ''}).html('Some text').on('dialogclose', function(event) {
             $("#dialog").dialog({
                 modal: true,
-                height: 480,
+                height: 560,
                 width: 350,
                 dialogClass: ''
             }).on('dialogclose', function(event) {
@@ -512,7 +512,7 @@
                 autoOpen: false,
                 hide: "puff",
                 show: "slide",
-                height: 320,
+                height: 350,
                 width: 350
             });
         });
@@ -531,7 +531,7 @@
             if (production == true) {
                 link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=https://pokeklon.herokuapp.com/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"
             } else {
-                link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://pokeklon.herokuapp.com/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"
+                link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://localhost:9000/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"
             }
             window.open(link, "Login Window", "width=500, height=300, top=300, left=300");
         }
