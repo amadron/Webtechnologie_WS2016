@@ -21,8 +21,8 @@ public class PokeklonThread  extends Thread{
 		
 		Pokeklon.controller = injector.getInstance(IPokeklonController.class);
 			//GUI
-		@SuppressWarnings("unused")
-		PokeklonFrame gui = injector.getInstance(PokeklonFrame.class);
+		//@SuppressWarnings("unused")
+		//PokeklonFrame gui = injector.getInstance(PokeklonFrame.class);
 			//TUI
 		Pokeklon.tui = injector.getInstance(TextUI.class);
 		
