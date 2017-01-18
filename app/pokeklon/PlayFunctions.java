@@ -246,36 +246,38 @@ public class PlayFunctions extends Controller{
 		if(Pokeklon.tui != null && Pokeklon.tui.output != null)
 			state.tui = Pokeklon.tui.output.replace("\n", "<br>");
 		if(Pokeklon.controller != null)
-			state.maxMo = Pokeklon.controller.getNoOfMonster();
-		if(Pokeklon.controller.getPlayer1() != null && Pokeklon.controller.getPlayer2() != null)
 		{
-			if(Pokeklon.controller.getCurrentPlayer() == Pokeklon.controller.getPlayer1())
+			state.maxMo = Pokeklon.controller.getNoOfMonster();
+			if(Pokeklon.controller.getPlayer1() != null && Pokeklon.controller.getPlayer2() != null)
+			{
+				if(Pokeklon.controller.getCurrentPlayer() == Pokeklon.controller.getPlayer1())
+				{
+					state.onTurn = p1ID;
+				}
+				if(Pokeklon.controller.getCurrentPlayer() == Pokeklon.controller.getPlayer2())
+				{
+					state.onTurn = p2ID;
+				}
+			}
+			else
+			{
+				state.onTurn = "";
+			}
+			if(state.update.equals("monP1"))
 			{
 				state.onTurn = p1ID;
 			}
-			if(Pokeklon.controller.getCurrentPlayer() == Pokeklon.controller.getPlayer2())
+			if(state.update.equals("monP2"))
 			{
 				state.onTurn = p2ID;
 			}
+			state.monP1 = Pokeklon.controller.getCurrentP1Mon();
+			if(state.monP1 != null)
+				state.monP1No = Pokeklon.controller.getMonsterNumber(state.monP1.getName());
+			state.monP2 = Pokeklon.controller.getCurrentP2Mon();
+			if(state.monP2 != null)
+				state.monP2No = Pokeklon.controller.getMonsterNumber(state.monP2.getName());
 		}
-		else
-		{
-			state.onTurn = "";
-		}
-		if(state.update.equals("monP1"))
-		{
-			state.onTurn = p1ID;
-		}
-		if(state.update.equals("monP2"))
-		{
-			state.onTurn = p2ID;
-		}
-		state.monP1 = Pokeklon.controller.getCurrentP1Mon();
-		if(state.monP1 != null)
-			state.monP1No = Pokeklon.controller.getMonsterNumber(state.monP1.getName());
-		state.monP2 = Pokeklon.controller.getCurrentP2Mon();
-		if(state.monP2 != null)
-			state.monP2No = Pokeklon.controller.getMonsterNumber(state.monP2.getName());
 		state.p1ID = p1ID;
 		state.p2ID = p2ID;
 		String updateString =  gson.toJson(state);
