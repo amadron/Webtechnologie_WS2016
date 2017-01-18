@@ -241,7 +241,8 @@ public class PlayFunctions extends Controller{
 	{
 		Gson gson = new GsonBuilder().create();
 		WUIStatus state = new WUIStatus();
-		state.update = Pokeklon.controller.getGameStat();
+		if(Pokeklon.controller.getGameStat() != null)
+			state.update = Pokeklon.controller.getGameStat();
 		state.tui = Pokeklon.tui.output.replace("\n", "<br>");
 		state.maxMo = Pokeklon.controller.getNoOfMonster();
 		if(Pokeklon.controller.getPlayer1() != null && Pokeklon.controller.getPlayer2() != null)

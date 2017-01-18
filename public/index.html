@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://pokeklon.herokuapp.com/assets/pokeclonWUI/images/mainPage/pokeball.png">
+    <link rel="icon" type="image/png" href="pokeklon.herokuapp.com/assets/pokeclonWUI/images/mainPage/pokeball.png">
 
     <!-- CSS -->
     <style title="pokeball">
@@ -427,8 +427,8 @@
             // $( "#dialog" ).dialog().prev(".ui-dialog-titlebar").css("background","red");  $( "#dialog" ).dialog({modal:true, height: 500, width:600, title: 'Title', resizable: true, dialogClass: ''}).html('Some text').on('dialogclose', function(event) {
             $("#dialog").dialog({
                 modal: true,
-                height: 475,
-                width: 350,
+                height: 458,
+                width: 450,
                 dialogClass: ''
             }).on('dialogclose', function(event) {
                 // $('.ui-dialog button').removeClass('ui-state-focus');
@@ -510,8 +510,8 @@
                 autoOpen: false,
                 hide: "puff",
                 show: "slide",
-                height: 340,
-                width: 350
+                height: 320,
+                width: 400
             });
         });
 
@@ -525,8 +525,8 @@
         });
 
         function login() {
-            var link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=https://pokeklon.herokuapp.com/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"
-                /*link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://pokeklon.herokuapp.com/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online" */
+            var link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://localhost:9000/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"
+                <!--link = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://pokeklon.herokuapp.com/assets/login/process.html&prompt=consent&response_type=token&client_id=830354502896-7oo157dif8sf50ttehuceturv2gtcq4b.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/plus.me&access_type=online"-->
             window.open(link, "Login Window", "width=500, height=300, top=300, left=300");
         }
 
@@ -567,8 +567,6 @@
         var conn;
         var tui;
         var winner;
-        var p1ID;
-        var p2ID;
 
         var monsterList;
         var battleMenu;
@@ -577,7 +575,7 @@
         var req;
 
         function connect() {
-            conn = new WebSocket('wss://pokeklon.herokuapp.com/socket?id=' + user['id']);
+            conn = new WebSocket('ws://localhost:9000/socket?id=' + user['id']);
 
             conn.onopen = function() {
                 conn.send('hello!');
@@ -624,8 +622,6 @@
             if (json['monP2'] != "") {
                 monP2 = json['monP2'];
             }
-            p1ID = json['p1ID'];
-            p2ID = json['p2ID'];
             winner = json['winner'];
             processState();
         }
@@ -710,7 +706,7 @@
 
         function monsterChooseScreen() {
             selectedMo = 0;
-            getView('https://pokeklon.herokuapp.com/monsterlist');
+            getView('http://localhost:9000/monsterlist');
         }
 
         function getMonsterChooseScreen() {
@@ -718,7 +714,7 @@
         }
 
         function currMonScreen() {
-            getView('https://pokeklon.herokuapp.com/currmonsterlist');
+            getView('http://localhost:9000/currmonsterlist');
         }
 
         function getCurrMonScreen() {
@@ -750,7 +746,7 @@
         }
 
         function itemScreen() {
-            getView('https://pokeklon.herokuapp.com/itemlist');
+            getView('http://localhost:9000/itemlist');
         }
 
         function getItemScreen() {
@@ -758,7 +754,7 @@
         }
 
         function attackScreen() {
-            getView('https://pokeklon.herokuapp.com/attacklist');
+            getView('http://localhost:9000/attacklist');
         }
 
         function getAttackScreen() {
@@ -952,7 +948,6 @@
                         1.12.1
                     </td>
                 </tr>
-                <!--
                 <tr>
                     <td>
                         <img class="logo_icon" src="assets/pokeclonWUI/images/logos/threejs-logo.svg" alt="threejs-logo"> three.js
@@ -964,7 +959,6 @@
                         r83
                     </td>
                 </tr>
-                -->
                 <tr>
                     <td>
                         <img class="logo_icon" src="assets/pokeclonWUI/images/logos/nodejs.svg" alt="nodejs"> Node.js
@@ -992,15 +986,15 @@
                         <img class="logo_icon" src="assets/pokeclonWUI/images/logos/polymer.svg" alt="polymer"> Polymer
                     </td>
                     <td>
-                        20.12.2016
+                        [CONTENT]
                     </td>
                     <td>
-                        1.0
+                        [CONTENT]
                     </td>
                 </tr>
             </tbody>
         </table>
-        <!--
+
         <fieldset>
             <legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Technologies</legend>
         </fieldset>
@@ -1022,7 +1016,6 @@
         <fieldset>
             <legend style="color: #f6f6f6 !important; border-color: #f6f6f6 !important;">Developer</legend>
         </fieldset>
-        -->
         <table class="table">
             <tbody>
                 <tr>
@@ -1030,13 +1023,11 @@
                         Benedict Roth
                     </td>
                     <td>
-                        benedict-roth@live.de
+                        [CONTENT]
                     </td>
-                    <!--
                     <td>
                         [CONTENT]
                     </td>
-                    -->
                 </tr>
                 <tr>
                     <td>
@@ -1045,11 +1036,9 @@
                     <td>
                         daniel.franze.office@gmail.com
                     </td>
-                    <!--
                     <td>
                         [CONTENT]
                     </td>
-                    -->
                 </tr>
             </tbody>
         </table>
