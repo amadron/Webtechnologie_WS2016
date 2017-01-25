@@ -8,3 +8,4 @@
 ### 4. Switcher on the top (audio on/off)
 ### 5. CSS/JavaScript loader with sound effects
 ### 6. Start dialog with interactive overlay
+### 7. Responsive (vertically and horizontally)
