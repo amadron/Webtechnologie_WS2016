@@ -37,8 +37,27 @@ public class PlayFunctions extends Controller{
 	public static String p2ID = null;
 	public static WebSocket.In<String> webSocketIn = null;
 	public static WebSocket.Out<String> webSocketOut = null;
+	public static PokeklonThread thread = null;
 	
 	public static MonsterFactory factory = new MonsterFactory();
+	
+	void cleanUp()
+	{
+		if(Pokeklon.gui != null)
+			Pokeklon.gui.dispose();
+		guiSocketIn = null;
+		guiSocketOut = null;
+		webSocketInP1 = null;
+		webSocketOutP1 = null;
+		webSocketInP2 = null;
+		String p1ID = null;
+		String p2ID = null;
+		webSocketOutP2 = null;
+		webSocketIn = null;
+		webSocketOut =null;
+		thread = null;
+		System.out.println("CleanUp");
+	}
 	
 	public Result getTuiState()
 	{
@@ -110,14 +129,12 @@ public class PlayFunctions extends Controller{
 				System.out.println("Player 1 found!");
 				webSocketOutP1 = out;
 				webSocketInP1 = in;
-				p1Con = true;
 			}
 			else if(p2ID != null && p2ID.equals(inID))
 			{
 				System.out.println("Player 2 found!");
 				webSocketOutP2 = out;
 				webSocketInP2 = in;
-				p2Con =true;
 			}
 			else if(p1ID == null)
 			{
@@ -125,7 +142,6 @@ public class PlayFunctions extends Controller{
 				p1ID = inID;
 				webSocketOutP1 = out;
 				webSocketInP1 = in;
-				p1Con = true;
 			}
 			else if(p2ID == null)
 			{
@@ -133,7 +149,6 @@ public class PlayFunctions extends Controller{
 				p2ID = inID;
 				webSocketOutP2 = out;
 				webSocketInP2 = in;
-				p2Con = true;
 			}
 			in.onMessage(con ->
 			    {
@@ -141,9 +156,9 @@ public class PlayFunctions extends Controller{
 			    	System.out.println("Controller got Message: " + mes);
 			    	if(mes.equals("startGame"))
 			    	{
-			    		if(Pokeklon.controller == null)
+			    		if(thread == null)
 			    		{
-			    			PokeklonThread thread = new PokeklonThread();
+			    			thread = new PokeklonThread();
 			    			thread.start();
 			    			//startGame();
 			    		}
@@ -247,8 +262,15 @@ public class PlayFunctions extends Controller{
 						webSocketInP2 = null;
 						System.out.println("Set p1in to null");
 					}
-					//if(webSocketInP1 == null && webSocketInP2 == null)
+					if(webSocketInP1 == null && webSocketInP2 == null)
+					{
+						if(thread != null)
+						{
+							cleanUp();
+							thread.stop();
+						}
 						//System.exit(0);
+					}
 				}
 			);
 			out.write(getWuiState());

@@ -20,6 +20,7 @@ import pokeklon.controller.IPokeklonController;
 	public static BufferedReader reader;
 	public static IPokeklonController controller;
 	public static TextUI tui;
+	public static PokeklonFrame gui;
 	public static WebSocket.In<String> inSocket = null;
 	public static WebSocket.Out<String> outSocket = null;
 	public static PlayObserver observer = null;

@@ -1,13 +1,13 @@
-New log file opened at Wed Jan 18 13:18:41 CET 2017 by 15236@DESKTOP-80HM3MF
-Taking next connection to: 51012
-New client attempting to connect on port: 51013-51012
-  Address = /172.20.138.233:51012
-This client on port 51013 has uuid dec87723-7ffe-41a0-8f76-fdbe0521a75f configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-dec87723-7ffe-41a0-8f76-fdbe0521a75f
-Taking next connection to: 51012
-New client attempting to connect on port: 51023-51012
-  Address = /172.20.138.233:51012
-Handshake exception on socket: 51023
+New log file opened at Wed Jan 25 14:34:16 CET 2017 by 9228@DESKTOP-80HM3MF
+Taking next connection to: 63976
+New client attempting to connect on port: 63977-63976
+  Address = /172.20.164.241:63976
+This client on port 63977 has uuid b0293139-fbdc-4002-9a63-0e0a9019e1cc configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-b0293139-fbdc-4002-9a63-0e0a9019e1cc
+Taking next connection to: 63976
+New client attempting to connect on port: 63979-63976
+  Address = /172.20.164.241:63976
+Handshake exception on socket: 63979
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -23,15 +23,40 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 51012
-New client attempting to connect on port: 51024-51012
-  Address = /172.20.138.233:51012
-This client on port 51024 has uuid 312564d1-4354-4378-8791-fa37b17f4e7a configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-dec87723-7ffe-41a0-8f76-fdbe0521a75f, play-fork-run-312564d1-4354-4378-8791-fa37b17f4e7a
-Taking next connection to: 51012
+Taking next connection to: 63976
+New client attempting to connect on port: 63980-63976
+  Address = /172.20.164.241:63976
+This client on port 63980 has uuid 1467e569-d372-4a2a-9fcd-c87e70ddfbe4 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-b0293139-fbdc-4002-9a63-0e0a9019e1cc, play-fork-run-1467e569-d372-4a2a-9fcd-c87e70ddfbe4
+Taking next connection to: 63976
+New client attempting to connect on port: 63988-63976
+  Address = /172.20.164.241:63976
+Handshake exception on socket: 63988
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 63976
+New client attempting to connect on port: 63989-63976
+  Address = /172.20.164.241:63976
+This client on port 63989 has uuid 7219dca4-cf28-4bf5-8dcf-b9d629c5ee33 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-b0293139-fbdc-4002-9a63-0e0a9019e1cc, play-fork-run-7219dca4-cf28-4bf5-8dcf-b9d629c5ee33
+Taking next connection to: 63976
 Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51012
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51012
+No non-daemon clients connected after 3 min. Shutting down.
+1 daemon clients are connected.
+Server socket thread exiting.
+1 clients open, will close them...
+All client sockets have been closed.
+Closing the 9228@DESKTOP-80HM3MF logs at Wed Jan 25 14:39:12 CET 2017, goodbye.
