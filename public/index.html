@@ -636,10 +636,12 @@
         }
 
         function battleRefresh() {
-            if ($('#battle-view').html() == "" && (gameState != "" || gameState != undefined)) {
-                $('#battle-view').html('<battle-view></battle-view>');
+            if (gameState == 'battle' || gameState == 'attack' || gameState == 'itemCh' || gameState == 'changeMon') {
+                if ($('#battle-view').html() == "") {
+                    $('#battle-view').html('<battle-view></battle-view>');
+                }
+                draw($('#battle-view').width(), $('#battle-view').width());
             }
-            draw($('#battle-view').width(), $('#battle-view').width());
         }
 
         function sendTui() {
