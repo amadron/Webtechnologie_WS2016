@@ -636,7 +636,7 @@
         }
 
         function battleRefresh() {
-            if ($('#battle-view').html() == "") {
+            if ($('#battle-view').html() == "" && (gameState != "" || gameState != undefined)) {
                 $('#battle-view').html('<battle-view></battle-view>');
             }
             draw($('#battle-view').width(), $('#battle-view').width());
